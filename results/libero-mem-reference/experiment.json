@@ -1,0 +1,225 @@
+{
+  "verification_date": "2026-10-14",
+  "scope": "Recomputed archived rollout records and inspected training/evaluation sources; no new simulator rollouts or retraining.",
+  "training_host": "H38",
+  "inspection_hosts": [
+    "H38",
+    "wangxin",
+    "H36"
+  ],
+  "hardware": "H38 currently reports NVIDIA GeForce RTX 4090 D; FPP launch records GPU 5.",
+  "dataset": {
+    "recorded_environment_revision": "0eee0defa4024e51511b6e15a79f30e9620209de",
+    "rgb_revision": "6df130c05b82e09294fa9534e84a069687b72d33",
+    "raw_revision": "61917674055e8b1cbbfd22c1b54c28d20c1a1584",
+    "manifest_sha256": "7120f3640ee237e707d35089ede0136aabe3fab78e048c1869972b1b179ce9eb",
+    "train_episodes": 861,
+    "validation_episodes": 100,
+    "test_trials": 200,
+    "split_count_evidence": "Matching MLflow params in both training databases; rollout test IDs verified.",
+    "historical_split_recipe": "Reserve the final 20 raw IDs per task for test; choose up to 10 validation IDs from remaining available RGB IDs with NumPy default_rng(42 + task).",
+    "manifest_available_at_audit": true,
+    "limitation": "Recovered through H36; recorded split membership and initial-state hashes verified. This is not a byte-level re-audit of all raw states or a check for broader trajectory similarity.",
+    "text_encoder": "Frozen CLIPTextModelWithProjection clip-vit-base-patch32; tokenizer padding enabled, no truncation; text_embeds [10,512].",
+    "normalization": {
+      "method": "train_only_minmax",
+      "center": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.006000000052154064,
+        0.0
+      ],
+      "scale": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645,
+        1.0,
+        1.0,
+        0.006000000052154064,
+        1.0
+      ],
+      "constant": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "gripper_zero_to_open": true,
+    "history_stride": 5,
+    "control_hz": 20,
+    "history_hz": 4,
+    "synthetic_terminal_observation": true
+  },
+  "fpp": {
+    "checkpoint_id": "fpp-step020000",
+    "run": "full_agentview_temporal_rope_spatial_seed42_b8_continue30k_24h_20260930",
+    "step": 20000,
+    "checkpoint_sha256": "7af0ce9ade234f5a4906444f3904d8334d6799c6a2a2fb20e91504e166b60c1d",
+    "trainable_parameters": 73423367,
+    "model": {
+      "feature_dim": 768,
+      "text_dim": 512,
+      "cameras": 1,
+      "grid_size": 14,
+      "max_steps": 144,
+      "visual_dim": 512,
+      "visual_layers": 6,
+      "visual_heads": 8,
+      "action_dim": 7,
+      "horizon": 16,
+      "decoder_dim": 512,
+      "decoder_layers": 8,
+      "decoder_heads": 8,
+      "ffn_ratio": 4,
+      "checkpoint_visual": true,
+      "dp_down_dims": [
+        256,
+        512,
+        1024
+      ],
+      "temporal_position": "rope_spatial"
+    },
+    "seed": 42,
+    "batch": 8,
+    "accumulation": 1,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "weight_decay": 0.01,
+    "gradient_clip": 1.0,
+    "autocast": "bfloat16",
+    "base_learning_rate": 0.0001,
+    "schedule_budget": 30000,
+    "schedule": {
+      "initial": "500-step linear warmup, then cosine multiplier with floor 0.1 over the 30K schedule.",
+      "continuation_1": {
+        "start_step": 7000,
+        "initial_lr": 8.964252925434579e-05,
+        "final_lr": 1e-06
+      },
+      "continuation_2": {
+        "start_step": 7086,
+        "initial_lr": 8.963947139060008e-05,
+        "final_lr": 1e-06
+      },
+      "continuation_formula": "final_lr + (initial_lr-final_lr)*(1+cos(pi*(step-start_step)/(30000-start_step)))/2",
+      "restore": "model, AdamW state and torch/CUDA/NumPy/Python RNG; dataloader worker/prefetch state is not bit-exact"
+    },
+    "kv_cache": true,
+    "cuda_graph": true,
+    "flow_steps": 10,
+    "selection": "20K was selected after inspection of multiple checkpoints on this test suite; results are exploratory, not an untouched final test."
+  },
+  "dp": {
+    "checkpoint_id": "dp-step030000",
+    "run": "dp_agentview_seed42_b32_30k",
+    "step": 30000,
+    "checkpoint_sha256": "22963252ca675269285c6d0108f15b9b54aa3b147064daa75ddc2175f14467cf",
+    "trainable_parameters": 98679111,
+    "seed": 42,
+    "batch": 32,
+    "accumulation": 1,
+    "observation_steps": 2,
+    "observation_spacing": "Adjacent 20-Hz control frames, not duplicated current frames.",
+    "visual_backbone": "Trainable ImageNet-pretrained ResNet18 with GroupNorm, no crop/augmentation.",
+    "decoder": "ConditionalUnet1D",
+    "down_dims": [
+      256,
+      512,
+      1024
+    ],
+    "kernel_size": 5,
+    "diffusion_embedding_dim": 256,
+    "group_norm_groups": 8,
+    "diffusion_steps": 100,
+    "scheduler": "DDPM squaredcos_cap_v2; epsilon prediction; clip_sample=true; fixed_small variance",
+    "ema_power": 0.75,
+    "evaluated_weights": "EMA",
+    "optimizer": "AdamW",
+    "betas": [
+      0.95,
+      0.999
+    ],
+    "base_learning_rate": 0.0001,
+    "weight_decay": 1e-06,
+    "gradient_clip": 1.0,
+    "schedule": "500-step linear warmup; cosine multiplier with floor 0.1 through 30K.",
+    "cuda_graph": true,
+    "recorded_component_revision": "5ba07ac6661db573af695b419a7947ecb704690f"
+  },
+  "evaluation": {
+    "split": "test",
+    "seed": 42,
+    "episodes_per_task": 20,
+    "camera_mode": "agentview",
+    "renderer": "egl",
+    "image_transform": "vertical_flip",
+    "flow_steps": 10,
+    "dp_steps": 100,
+    "execution_steps": 5,
+    "reset_protocol": "libero_mem_deterministic_xml_reset_v1"
+  },
+  "success_rule": "official_final_done AND completed_subgoals == total_subgoals AND NOT overshot; run full horizon, no early exit at intermediate done.",
+  "horizon": "max(task minimum [200,290,320,370,450,655,480,675,390,390], stripped raw demonstration length + 20). Paired identically; not supplied as policy conditioning.",
+  "reset": "New env per rollout; reset, XML rebuild and simulator reset, restore init state, clear subgoal/overshot state, 20 open/no-motion settling steps.",
+  "replay_exceptions": {
+    "recorded_successes": 28,
+    "recorded_trials": 30,
+    "audit_sha256": "a447be5467c5c83186415ecc24b1c899457466c11dc13c69b36432a3115b1492",
+    "accepted_failures": [
+      {
+        "task": 3,
+        "episode": "demo_3",
+        "reason": "30.58 mm offset exceeds unchanged 30 mm On threshold; overshoot"
+      },
+      {
+        "task": 8,
+        "episode": "demo_1",
+        "reason": "Final transport fails in open-loop physics; recorded-state replay succeeds"
+      }
+    ],
+    "excluded_test_episodes": [],
+    "changed_success_criteria": false,
+    "verification": "Recovered replay-audit file SHA256 matches original configs; 28/30 outcomes checked without rerunning."
+  },
+  "source_verification": {
+    "training_source_sha256": {
+      "prefix_model.py": "4a43d20ef7d5c3c2b16cfb74a8dfc3b44a7d53652d2263eefacaff1f84fc3acc",
+      "incremental.py": "274ca63b7b952adc6a3676d83635c91fd56658bc380753d2a9be5e5a18de756b",
+      "train.py": "bf19eaa601d208a32e1c7aafc8fa5a71b0a061deaae9a06fbacc08f76fe33ae8",
+      "data.py": "290305d163e72cb0fdad66e2892f57a49b86c443922f97e78b2311fa672cee80",
+      "continuation.py": "2105d49e4fb27e3187cc548585eeb4f6e0cd1fc789b7cf6062d7effd2df94575",
+      "training_audit.py": "5a17e21fe3a575e9f738fae8b8a8660107b19ad76973dad219db2d0af8ae1a0e",
+      "smoke_models.py": "e05d7315ef85c7d009499e1476eefeb9e614ab40c4f72082992e1eb0fb498543",
+      "test_prefix_model.py": "d26319e67ee105d8bf3d5a4e9dfde6a2e0be7898ef68e66d37ebdf4baa3c5965",
+      "patch_causal_dit.py": "7c2b1d4404d1051d1355bcf952abe72d09cff2995a673e3a71c4a357bb6058b8"
+    },
+    "evaluation_source_sha256": {
+      "evaluate.py": "6c9f68e45bc237b1c606c54a3b21fddcce665b265bea59d47f1a6b8465da9aee",
+      "incremental.py": "0d8e733f0f6b0be5aa61dce6ae6b23dd7a2eb845dc7336fb851076cf0bbfc904",
+      "inference_graph.py": "19f3674e8b94546819f366aec2de2298f802c92c7232e9b1f3a1a625d9b52196",
+      "dp_model.py": "8da4907736a50face0f6afb01f142f6e6adb0d91222d6d9acab97ee0a49975d4",
+      "prefix_model.py": "4a43d20ef7d5c3c2b16cfb74a8dfc3b44a7d53652d2263eefacaff1f84fc3acc",
+      "sim_check.py": "97e835ff083f8e09d3bad154fb3f1457e9d51da7eda538deb0d9e805c84594f9",
+      "sim_protocol.py": "27dbc8f7cee022fea2dd1ad145f6ae6ebdcac85747e70e223043ff5b7a639a0f",
+      "replay_gate.py": "c86e65fa98ef19779d79d2b5b56e12031b4d6506230af493e3a1ff2dd8f40f3b",
+      "evaluation_audit.py": "48aa3873c5fe3026d09f26075b438e537010359ce55d3ccdda02e0c829e6aa41"
+    },
+    "result": "All nine archived training source hashes and all nine current evaluation source hashes match their launch records.",
+    "vendor_revision_caveat": "Vendor directories are snapshots inside CoreLab, not independent Git checkouts; parent CoreLab HEAD is not the environment revision."
+  },
+  "release_differences": {
+    "reference": "Historical EOE + temporal RoPE and fixed 2D spatial sinusoidal features; manifest-pinned splits, symmetric min/max normalization, scheduled LR.",
+    "package": "GitHub package defaults to RoPE-only and now omits EOE; --append-eoe retains an explicit control. Its preparation defaults to final-20 validation, [0,1] normalization, stride10; constant LR/default AdamW betas.",
+    "limitation": "The current package is not an exact reproduction of these evaluated checkpoints; no post-EOE-removal SR has been measured."
+  }
+}

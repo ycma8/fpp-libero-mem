@@ -1,0 +1,15 @@
+{
+  "system_sha256sum_crosscheck": "passed",
+  "checked_entries": 7,
+  "file_indices_zero_based": [
+    0,
+    1,
+    2,
+    481,
+    962,
+    1443,
+    1923
+  ],
+  "all_file_sizes_match": true,
+  "checksums_sha256": "5feeef5f78ddbdc9ed0f768dfa5436e9b3389f9ddeb91eac963f2dc7a2797164"
+}

@@ -1,0 +1,186 @@
+{
+  "fpp": {
+    "trials": 200,
+    "successes": 101,
+    "success_rate": 0.505,
+    "completed_subgoals": 414,
+    "total_subgoals": 620,
+    "subgoal_pooled": 0.667741935483871,
+    "subgoal_task_mean": 0.6854642857142857,
+    "overshot": 17,
+    "tasks": [
+      {
+        "task": 1,
+        "trials": 20,
+        "successes": 19,
+        "completed_subgoals": 19,
+        "total_subgoals": 20,
+        "overshot": 0
+      },
+      {
+        "task": 2,
+        "trials": 20,
+        "successes": 2,
+        "completed_subgoals": 15,
+        "total_subgoals": 20,
+        "overshot": 13
+      },
+      {
+        "task": 3,
+        "trials": 20,
+        "successes": 12,
+        "completed_subgoals": 46,
+        "total_subgoals": 60,
+        "overshot": 0
+      },
+      {
+        "task": 4,
+        "trials": 20,
+        "successes": 7,
+        "completed_subgoals": 32,
+        "total_subgoals": 60,
+        "overshot": 2
+      },
+      {
+        "task": 5,
+        "trials": 20,
+        "successes": 12,
+        "completed_subgoals": 76,
+        "total_subgoals": 100,
+        "overshot": 1
+      },
+      {
+        "task": 6,
+        "trials": 20,
+        "successes": 14,
+        "completed_subgoals": 113,
+        "total_subgoals": 140,
+        "overshot": 0
+      },
+      {
+        "task": 7,
+        "trials": 20,
+        "successes": 3,
+        "completed_subgoals": 18,
+        "total_subgoals": 60,
+        "overshot": 0
+      },
+      {
+        "task": 8,
+        "trials": 20,
+        "successes": 4,
+        "completed_subgoals": 31,
+        "total_subgoals": 80,
+        "overshot": 1
+      },
+      {
+        "task": 9,
+        "trials": 20,
+        "successes": 18,
+        "completed_subgoals": 36,
+        "total_subgoals": 40,
+        "overshot": 0
+      },
+      {
+        "task": 10,
+        "trials": 20,
+        "successes": 10,
+        "completed_subgoals": 28,
+        "total_subgoals": 40,
+        "overshot": 0
+      }
+    ]
+  },
+  "dp": {
+    "trials": 200,
+    "successes": 5,
+    "success_rate": 0.025,
+    "completed_subgoals": 110,
+    "total_subgoals": 620,
+    "subgoal_pooled": 0.1774193548387097,
+    "subgoal_task_mean": 0.17992857142857144,
+    "overshot": 17,
+    "tasks": [
+      {
+        "task": 1,
+        "trials": 20,
+        "successes": 2,
+        "completed_subgoals": 5,
+        "total_subgoals": 20,
+        "overshot": 3
+      },
+      {
+        "task": 2,
+        "trials": 20,
+        "successes": 0,
+        "completed_subgoals": 5,
+        "total_subgoals": 20,
+        "overshot": 5
+      },
+      {
+        "task": 3,
+        "trials": 20,
+        "successes": 0,
+        "completed_subgoals": 18,
+        "total_subgoals": 60,
+        "overshot": 3
+      },
+      {
+        "task": 4,
+        "trials": 20,
+        "successes": 0,
+        "completed_subgoals": 9,
+        "total_subgoals": 60,
+        "overshot": 3
+      },
+      {
+        "task": 5,
+        "trials": 20,
+        "successes": 0,
+        "completed_subgoals": 21,
+        "total_subgoals": 100,
+        "overshot": 0
+      },
+      {
+        "task": 6,
+        "trials": 20,
+        "successes": 0,
+        "completed_subgoals": 37,
+        "total_subgoals": 140,
+        "overshot": 3
+      },
+      {
+        "task": 7,
+        "trials": 20,
+        "successes": 0,
+        "completed_subgoals": 0,
+        "total_subgoals": 60,
+        "overshot": 0
+      },
+      {
+        "task": 8,
+        "trials": 20,
+        "successes": 0,
+        "completed_subgoals": 0,
+        "total_subgoals": 80,
+        "overshot": 0
+      },
+      {
+        "task": 9,
+        "trials": 20,
+        "successes": 2,
+        "completed_subgoals": 8,
+        "total_subgoals": 40,
+        "overshot": 0
+      },
+      {
+        "task": 10,
+        "trials": 20,
+        "successes": 1,
+        "completed_subgoals": 7,
+        "total_subgoals": 40,
+        "overshot": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<rect width="1200" height="630" fill="#faf9f6"/>
+<g font-family="DejaVu Sans,sans-serif" fill="#222">
+<text x="70" y="122" font-size="64" font-weight="700">FPP</text>
+<text x="70" y="176" font-size="34">Full-History Patch Policy</text>
+<text x="70" y="229" font-size="24" fill="#666">Causal visual memory for action generation</text>
+<g stroke="#ccc" fill="white" stroke-width="2">
+<rect x="70" y="300" width="220" height="130" rx="12"/>
+<rect x="350" y="300" width="220" height="130" rx="12"/>
+<rect x="630" y="300" width="220" height="130" rx="12" stroke="#ba7354"/>
+<rect x="910" y="300" width="220" height="130" rx="12"/>
+</g>
+<g fill="#222" font-size="22" text-anchor="middle">
+<text x="180" y="354">Image</text><text x="180" y="386">history</text>
+<text x="460" y="354">Frozen patch</text><text x="460" y="386">features</text>
+<text x="740" y="354">Causal patch</text><text x="740" y="386">memory</text>
+<text x="1020" y="354">Action flow</text><text x="1020" y="386">Transformer</text>
+</g>
+<g fill="none" stroke="#555" stroke-width="3">
+<path d="M302 365h34m-10-7 10 7-10 7M582 365h34m-10-7 10 7-10 7M862 365h34m-10-7 10 7-10 7"/>
+</g>
+<text x="70" y="542" font-size="22" fill="#666">Yuchi Ma</text>
+</g>
+</svg>

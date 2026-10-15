@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/libero-mem/naive-e-slotssm",
+  "recovered_commit": "a41e2726ad6b1392c25d3caefc41da8b0013790f",
+  "table4_run_mapping_available": false,
+  "files": {
+    "README.md": "cffa4b0f296d03c5b53e7fdedc8adbbd197a96b08f5ecba34d270921f76dc067",
+    "vla-scripts/finetune-3_slotssm_to_action.py": "a14b7470f219401757665a75dee5a6dd7b1afc29b8881d4966ff3e2071ed0bec",
+    "experiments/robot/libero/run_libero_eval.py": "91f4ddd0a8390ef91bdfab9ac5bb35625ef971902a790ed480b76fd60789c3b9"
+  }
+}

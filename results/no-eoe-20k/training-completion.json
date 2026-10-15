@@ -1,0 +1,13 @@
+{
+  "training_complete": true,
+  "scope": "training_only",
+  "checkpoint_updates": 20000,
+  "checkpoint_sha256": "6278b2c58081b0a481039b1b2bc76bd6c70b35335e0ab1c28bb591f0e61345c5",
+  "data_manifest_sha256": "e22b1cab789c37a2b2aab0c5477ad332dd9e9272707bbdbbfd3bb8109b0203c4",
+  "learnable_parameters": 73423367,
+  "training_loop_hours": 2.9319162008744346,
+  "optimizer_update_min": 20000,
+  "optimizer_update_max": 20000,
+  "source_training": "fbdd3c6",
+  "note": "Training record only; no benchmark success metric is inferred from training loss."
+}

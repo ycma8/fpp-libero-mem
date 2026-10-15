@@ -1,0 +1,51 @@
+name: Publish blog
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: article/package-lock.json
+      - uses: actions/configure-pages@v5
+      - name: Build blog
+        working-directory: article
+        env:
+          ASTRO_TELEMETRY_DISABLED: '1'
+          SITE_URL: https://ycma8.github.io
+          BASE_PATH: /fpp-libero-mem
+        run: |
+          npm ci
+          npm run build
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: article/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy blog
+        id: deployment
+        uses: actions/deploy-pages@v4

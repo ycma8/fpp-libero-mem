@@ -1,0 +1,17 @@
+{
+  "recorded_pin": "0eee0defa4024e51511b6e15a79f30e9620209de",
+  "files": [
+    {
+      "file": "libero/libero/envs/problems/libero_kitchen_tabletop_manipulation.py",
+      "url": "https://raw.githubusercontent.com/libero-mem/libero-mem/0eee0defa4024e51511b6e15a79f30e9620209de/libero/libero/envs/problems/libero_kitchen_tabletop_manipulation.py",
+      "sha256": "55c40b80775adb6d6d84b0af2f37376dab68ab5f0182f4eb2201e5c6145c2c90",
+      "matches_frozen_snapshot": true
+    },
+    {
+      "file": "libero/libero/envs/object_states/base_object_states.py",
+      "url": "https://raw.githubusercontent.com/libero-mem/libero-mem/0eee0defa4024e51511b6e15a79f30e9620209de/libero/libero/envs/object_states/base_object_states.py",
+      "sha256": "ca6f53123336b6487bdb4feb02534ddb3a0627a4b847fe89da4460520ef01366",
+      "matches_frozen_snapshot": true
+    }
+  ]
+}

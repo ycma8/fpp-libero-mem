@@ -1,0 +1,214 @@
+---
+title: "Why Not Give Robot Policies the Full Observation History?"
+subtitle: "FPP: Full-History Patch Policy"
+url: "https://ycma8.github.io/fpp-libero-mem/"
+repository: "https://github.com/ycma8/fpp-libero-mem"
+description: "Causal visual patch memory for history-conditioned action generation"
+authors:
+  - name: "Yuchi Ma"
+affiliations: []
+template: "article"
+showPdf: false
+seoThumbImage: "/preview.png"
+tableOfContentsAutoCollapse: true
+licence: >
+  Article layout adapted from Thibaud Frere's <a href="https://huggingface.co/spaces/tfrere/research-article-template">research-article-template</a> under CC BY 4.0. See the repository for code and figure provenance.
+tags:
+  - research-article-template
+  - robot-learning
+---
+
+import HtmlEmbed from "../components/HtmlEmbed.astro";
+import experiment from "./assets/data/experiment-status.json";
+
+## Overview
+
+The same camera image can occur at different stages of a manipulation task.
+To select an action, a policy may need to recall an earlier object location,
+count completed interactions, or distinguish an approach from a return motion.
+FPP represents this history as a sequence of spatial visual patches and trains
+an action generator conditioned on that sequence.
+
+On LIBERO-Mem, FPP achieves **50.5% whole-task success** and
+**68.55% task-mean subgoal completion** over 200 trials. The
+[simulation implementation](https://github.com/ycma8/fpp-libero-mem), training
+configuration and per-trial results are available in the repository.
+
+## Method
+
+### Dense visual history
+
+A frozen [DINOv3](https://arxiv.org/abs/2508.10104) encoder produces spatial patch
+features for each observation.
+FPP projects these features into a temporal Transformer without first pooling
+each image into a single token. Camera embeddings identify the input stream.
+A task instruction is encoded by a frozen text encoder and projected into a
+read-only prefix token.
+
+Let $x_{t,p}$ denote patch $p$ at observation time $t$. A visual query can attend
+to the prefix and to patches at times $s \leq t$. Patches from the same observation
+interact densely; patches from a future observation are masked. Temporal
+[rotary position embeddings](https://arxiv.org/abs/2104.09864) use observation
+indices, shared by all patches at the same
+time. Fixed two-dimensional sinusoidal patch positions and learned camera
+embeddings are added to the frozen backbone's spatial features.
+
+<HtmlEmbed src="memory-mask.html" title="Causal patch memory" caption="Select a query observation. Every cell represents an entire spatial patch block. The prefix reads only itself; a visual block reads the prefix, its own block, and earlier blocks." wide />
+
+The encoder returns a contextualized patch block $M_t$ for the current observation.
+Its patch tokens can incorporate earlier observations. This preserves a spatially
+resolved action interface, but does not guarantee that every historical detail
+survives processing or that the policy uses all available history.
+
+### Flow-matching actions
+
+The action Transformer predicts a chunk of future controls. Its self-attention
+operates over action tokens; cross-attention reads the task prefix and the
+**current contextualized patch block**, rather than concatenating every historical
+block directly into the action head.
+
+Training uses [conditional flow matching](https://arxiv.org/abs/2210.02747).
+For a demonstrated action chunk $A$ and Gaussian noise $\epsilon$, training samples
+a flow time $\tau$ and forms
+
+$$
+X_\tau=(1-\tau)\epsilon+\tau A,\qquad
+\mathcal L=\mathbb E\left[\|v_\theta(X_\tau,\tau,M_t)-(A-\epsilon)\|_2^2\right].
+$$
+
+Flow time conditions the action blocks through adaptive normalization. At inference,
+numerical integration starts from noise and produces a continuous action chunk.
+The policy executes a prefix of that chunk before observing and predicting again.
+
+### Streaming inference
+
+The visual encoder caches keys and values across observations. A newly appended
+block reads the cached history and adds its own entries. The action head reuses
+its memory projections within the flow-integration steps for one prediction.
+These caches have different lifetimes: visual memory persists within a rollout;
+decoder memory is refreshed for each newly observed image. Both reset between trials.
+
+Training processes full demonstration histories with activation checkpointing.
+The persistent inference cache is used within a rollout and reset between trials.
+
+## Experiment
+
+### Benchmark and split
+
+[LIBERO-Mem](https://libero-mem.github.io/) contains ten manipulation tasks with
+history-dependent requirements. The dataset split contains 861 training
+demonstrations, 100 validation demonstrations, and 200 held-out initial states
+(20 per task). Train and test episode IDs and initial-state hashes are checked
+for overlap. The split is explicit in the repository; test images and action
+labels are excluded from gradient updates.
+
+Training uses frozen visual features from the training split. Validation data are
+excluded from gradient updates. Held-out episodes provide initial states and
+evaluation horizons. Results use one training seed and a checkpoint at 20,000
+updates, selected after examining several test evaluations.
+
+### Implementation
+
+The policy uses one agent-view camera, resized to 224 × 224, and frozen DINOv3
+features. A six-layer temporal encoder and an eight-block action Transformer use
+width 512. The action chunk contains 16 native, seven-dimensional OSC_POSE controls.
+Observations are sampled every five simulator steps: 4 Hz at a 20 Hz control rate.
+Visual capacity is 144 observations. Sampled histories fit within this capacity;
+the model does not silently evict early observations.
+
+The run uses seed 42, AdamW with betas (0.9, 0.95), and a batch of eight
+demonstration histories on one RTX 4090 D. The base learning rate is $10^{-4}$,
+with 500 warmup steps and a 30K cosine schedule; continuations at 7000 and 7086
+restart the decay from the saved learning rate. Actions use training-only
+midpoint/half-range normalization. Exact configuration, source/data hashes,
+continuation details and scalar metrics are available in the
+[training record](https://github.com/ycma8/fpp-libero-mem/tree/main/results/libero-mem-reference).
+The policy has 73.4 million trainable parameters, excluding frozen encoders.
+
+Training appends one valid final observation paired with the last action repeated
+over a chunk (EOE). This supplies terminal supervision, not a stop token or a
+hard termination rule; ordinary action-boundary and batch padding remain separate.
+
+### Evaluation and metrics
+
+Each trial uses a recorded held-out initial state, deterministic XML/state reset,
+and a short settling period. Evaluation continues to the prescribed horizon even
+if the environment reports an intermediate subgoal as done. Ordered subgoal
+progress is advanced once per control step. Whole-task success requires all
+subgoals, a valid final predicate, and no overshoot.
+
+We distinguish three quantities:
+
+- **Whole-task success:** successful trials divided by all trials.
+- **Mean subgoal completion:** each task's completed-subgoal fraction, averaged
+  equally over the ten tasks.
+- **Pooled subgoal completion:** all completed subgoals divided by all available
+  subgoals, which gives more weight to tasks with more subgoals.
+
+FPP succeeds in **101/200 trials (50.5%)**. Task-mean subgoal completion is
+**68.55%**; pooled completion is **414/620 (66.77%)**. There are 17 overshot trials.
+The two-frame DP comparator succeeds in **5/200 trials (2.5%)**, with **17.99%**
+task-mean subgoal completion. Both policies' raw records are released. They
+have different pretraining, exposure and compute; the comparison does not isolate
+the effect of memory alone. DP has short-term motion cues from adjacent frames.
+
+<HtmlEmbed src="d3-task-results.html" title="LIBERO-Mem results" config={experiment} caption="Twenty held-out trials per task. Switch the metric to inspect whole-task success or subgoal completion; each row shows its raw count and denominator." />
+
+### Published reference
+
+Table 4 of the [LIBERO-Mem paper](https://arxiv.org/pdf/2511.11478) reports **average
+subgoal completion**, not whole-task success:
+
+| Method | Source | Mean subgoal completion |
+| --- | --- | ---: |
+| π0, 1 input frame | Table 4 | 5.0% |
+| SlotVLA, 1 input frame | Table 4 | 0.0% |
+| SlotVLA, 8 input frames | Table 4 | 5.0% |
+| Naive E-SlotSSM | Table 4 | 14.8% |
+| **FPP** | **This work** | **68.55%** |
+
+Published values follow their respective training and evaluation protocols;
+FPP follows the protocol described above. Differences in pretraining, data and
+compute should be considered when comparing these values.
+The [protocol audit](https://github.com/ycma8/fpp-libero-mem/blob/main/results/no-eoe-20k/comparison-protocol.md)
+documents the available experimental details.
+
+## Scope and limitations
+
+FPP is trained from robot action supervision, with a causal sensor-history
+interface. Longer temporal windows, additional sensors, higher spatial resolution,
+and richer task prefixes are possible scaling axes. They have different compute
+costs and are not validated merely by providing the corresponding token interface.
+In particular, this experiment does not establish scaling laws or performance on
+new sensors, human-video prefixes, or fully occluded precision assembly.
+The evaluation uses one training seed; it does not measure variation across
+independent training runs.
+
+Memory can help disambiguate an observation without replacing geometric feedback.
+A policy may still ignore useful history, accumulate control error, or fail when
+the current view provides insufficient information. Attention visualizations can
+describe associations, but do not by themselves establish a causal explanation
+of an action. Such claims require controlled history interventions and task-specific
+evaluation.
+
+This release is restricted to LIBERO-Mem simulation. It does not include robot
+controllers, private real-robot demonstrations, or company deployment code.
+
+## Reproducibility record
+
+The [GitHub repository](https://github.com/ycma8/fpp-libero-mem) contains the preparation,
+training, incremental inference, evaluation, and result-verification code. The
+[reference experiment directory](https://github.com/ycma8/fpp-libero-mem/tree/main/results/libero-mem-reference)
+contains the original recipe, source/checkpoint hashes and all 400 FPP/DP trial
+records. Additional experiments are retained separately in the repository.
+
+The exact ten frozen task-conditioning vectors are supplied as a
+[checked artifact](https://github.com/ycma8/fpp-libero-mem/blob/main/results/no-eoe-20k/frozen-text.json).
+These vectors define the numeric task condition used by the policy.
+
+Dataset membership, source hashes and cache provenance are documented alongside
+the experiment records.
+
+The article uses [research-article-template](https://huggingface.co/spaces/tfrere/research-article-template)
+at revision `c75fc29c361755f66c46ae6e83d958b10c4d5feb`. Its source is kept alongside
+the model code so that text, figures, and experiment records can be revised together.

@@ -1,0 +1,42 @@
+{
+  "model": {
+    "feature_dim": 768,
+    "text_dim": 512,
+    "cameras": 1,
+    "grid_size": 14,
+    "max_steps": 144,
+    "visual_dim": 512,
+    "visual_layers": 6,
+    "visual_heads": 8,
+    "action_dim": 7,
+    "horizon": 16,
+    "decoder_dim": 512,
+    "decoder_layers": 8,
+    "decoder_heads": 8,
+    "ffn_ratio": 4,
+    "checkpoint_visual": true,
+    "temporal_position": "rope",
+    "training_steps": 20000,
+    "append_eoe": false
+  },
+  "training": {
+    "global_batch": 8,
+    "per_rank_batch": 4,
+    "world_size": 2,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "adamw_betas": [
+      0.9,
+      0.999
+    ],
+    "gradient_clip": 1.0,
+    "learning_rate_schedule": "constant",
+    "optimizer_updates": 20000,
+    "source_revision": "fbdd3c6",
+    "action_microbatch": 128,
+    "loss_reduction": "mean over all valid observation/action targets across ranks",
+    "rank_seed_rule": "same model initialization, then base_seed + rank"
+  },
+  "seed": 42,
+  "data_manifest_sha256": "e22b1cab789c37a2b2aab0c5477ad332dd9e9272707bbdbbfd3bb8109b0203c4"
+}

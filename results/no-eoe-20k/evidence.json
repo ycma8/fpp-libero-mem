@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "verified": true,
+  "checkpoint_updates": 20000,
+  "source_training": "fbdd3c6",
+  "checkpoint_sha256": "6278b2c58081b0a481039b1b2bc76bd6c70b35335e0ab1c28bb591f0e61345c5",
+  "data_manifest_sha256": "e22b1cab789c37a2b2aab0c5477ad332dd9e9272707bbdbbfd3bb8109b0203c4",
+  "raw_trials_sha256": "f25067cd74f5e871b0ba8e9c43473b5da142354619f8340f92c83225698aeaa8",
+  "public_trials_sha256": "5f5d399ccc52c27fc90f78538af1b3421546284416227fa0b341da87f02fb137",
+  "path_redaction": "Only BDDL paths and non-public run paths are removed; metric fields are retained.",
+  "learnable_parameters": 73423367,
+  "inference_checkpoint_sha256": "2f0be7817047c4b3ecbf787895cdf7563311e807404b3a842201485752a4929b",
+  "inference_checkpoint_filename": "fpp-no-eoe-20k-policy.pt"
+}

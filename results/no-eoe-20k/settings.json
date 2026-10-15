@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "image_transform": "flipud",
+  "camera_size": 256,
+  "flow_steps": 10,
+  "settle_steps": 20,
+  "simulator_revision": "recorded-pin:0eee0defa4024e51511b6e15a79f30e9620209de;actual-python-tree:39b575258ab54222ec6e47d1cd5e581cddf9caf7ad02635ea2d163286ae7744a",
+  "history_stride": 10,
+  "protocol": "deterministic-xml-reset-full-horizon-v3",
+  "full_trial_count": 200,
+  "requested_trial_count": 200,
+  "seed_rule": "base_seed + 1000 * task + episode_number",
+  "checkpoint_sha256": "6278b2c58081b0a481039b1b2bc76bd6c70b35335e0ab1c28bb591f0e61345c5",
+  "data_manifest_sha256": "e22b1cab789c37a2b2aab0c5477ad332dd9e9272707bbdbbfd3bb8109b0203c4",
+  "evaluator_sha256": "882cf21286b9a6ba1656b6313042a3c7cfd074677c4b0b1e2faf7c27cdad0119",
+  "evaluation_library_sha256": "848252f2b7b0221ac260422b29b016cd6357615d2d655dfe0f2772adf0a92641",
+  "runtime": {
+    "python": "3.10.12",
+    "torch": "2.7.1+cu128",
+    "cuda": "12.8",
+    "numpy": "1.26.4",
+    "h5py": "3.16.0",
+    "timm": "1.0.28",
+    "device": "NVIDIA GeForce RTX 4090 D",
+    "matmul_tf32": false
+  }
+}

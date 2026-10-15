@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "launch_state": "training_started",
+  "training_source_revision": "fbdd3c647a4208c22fd7210176fdae5d1073a4e8",
+  "evaluation_source_revision": "f16299911c5ac844979539f4bf1cbd7ee5240a66",
+  "target_optimizer_updates": 20000,
+  "checkpoint_selection": "preselected final update, not selected by test success",
+  "append_eoe": false,
+  "seed": 42,
+  "global_batch": 8,
+  "training_gpus": "2 x NVIDIA H100 PCIe",
+  "dp_training_requested": false,
+  "data_manifest_sha256": "e22b1cab789c37a2b2aab0c5477ad332dd9e9272707bbdbbfd3bb8109b0203c4",
+  "simulator_snapshot_sha256": "8e83447354849675ff13b7cd73901cc6e31f97483a314e54e2c7f1b6f7a77b14",
+  "simulator_python_tree_sha256": "39b575258ab54222ec6e47d1cd5e581cddf9caf7ad02635ea2d163286ae7744a",
+  "simulator_recorded_upstream_pin": "0eee0defa4024e51511b6e15a79f30e9620209de",
+  "simulator_has_independent_git": false,
+  "checks_passed": [
+    "18 release tests including two-process gradient equivalence",
+    "two-update real DDP smoke",
+    "961-episode SSD cache integrity guard",
+    "frozen simulator archive integrity and 584 Python source checksums",
+    "EGL reset and RGB render smoke",
+    "one full-horizon trial with two-update smoke weights",
+    "article build from clean tracked sources with locked dependencies",
+    "desktop, mobile, light and dark article inspection"
+  ],
+  "planned_evaluation_trials": 200,
+  "fresh_whole_task_success": null,
+  "fresh_mean_subgoal_completion": null,
+  "fresh_pooled_subgoal_completion": null,
+  "note": "This is a launch record, not a live status feed or a completed experiment. Smoke outcomes are not method results."
+}

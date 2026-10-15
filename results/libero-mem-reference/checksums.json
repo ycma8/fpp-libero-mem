@@ -1,0 +1,28 @@
+{
+  "exported_files": {
+    "dp.rollouts.jsonl": "aae373c1d2f37750a5db346e201d60b363f27ec460445d07cf5977b84c5c2b22",
+    "dp.training-metrics.json": "43e0113a423838d8be481339faffaf2eec8fbf7dd6b77ed6b001e1155f39f26f",
+    "experiment.json": "c1314efd12458e84de26ae082a206432723cb73d40e02b2f589acbcbf49ad438",
+    "fpp.rollouts.jsonl": "f1ce8b3fc4778b467cb9b651b40c557f7ee466561eb8661f376d6bba81ba2402",
+    "fpp.training-metrics.json": "5d2f7793c1a740f67d5d47811a1d22f59ed939719da55b4dbd7fe5790bdd398b",
+    "replay-audit.json": "a447be5467c5c83186415ecc24b1c899457466c11dc13c69b36432a3115b1492",
+    "split-manifest.json": "066d0cad073da1e1637b830b2a8255262b8c13edceb938b2d8a9bcc43334670c",
+    "summary.json": "52f558b4254654b0626163acc89890fb5759990df5c89e7a11c9a0e0ea61c70c"
+  },
+  "original_artifacts": {
+    "Experiments/libero_mem_comparison_20260918/rope_spatial_full_20k_eval_20261001/full_00/rollouts.jsonl": "8211c77a6b1e7c51ada37163d51014bfd0f06f01b0a4121bb44f322988b8edb5",
+    "Checkpoints/libero_mem_prefix_vs_dp_20260928/eval_dp_agentview_b32_30k_v3/dp_0/rollouts.jsonl": "266cbcc825aeca3e9d6700170cd432f2399845995f3b76840cf1909455dcd096",
+    "Checkpoints/libero_mem_prefix_vs_dp_20260928/eval_dp_agentview_b32_30k_v3/dp_1/rollouts.jsonl": "c78fc864da59a2d2d59379cc7dfa9fe1893ff9e5dc2d7b5e55cce463236303be",
+    "Checkpoints/libero_mem_prefix_vs_dp_20260928/eval_dp_agentview_b32_30k_v3/dp_2/rollouts.jsonl": "cda97ff8573014e272ffb549a1530c23700732c7ce08a12975bbd453642cc1a4",
+    "Checkpoints/libero_mem_prefix_vs_dp_20260928/eval_dp_agentview_b32_30k_v3/dp_3/rollouts.jsonl": "89a8a8510852693381e8ce8980be94b3e27c40e2ef69c304b51261395805bf8d",
+    "Checkpoints/libero_mem_prefix_vs_dp_20260928/full_agentview_temporal_rope_spatial_seed42_b8_continue30k_24h_20260930/config.json": "dc19508fb5e8fd541ff4343a1c4727775dbf917a87e9a721bfee5b6a0d0600cc",
+    "Checkpoints/libero_mem_prefix_vs_dp_20260928/full_agentview_temporal_rope_spatial_seed42_b8_continue30k_24h_20260930/architecture.json": "a7983ac13b0aad866806e3f930fc6db41cf977808ee9f8549dcd62e8681ec0d8",
+    "Checkpoints/libero_mem_prefix_vs_dp_20260928/full_agentview_temporal_rope_spatial_seed42_b8_continue30k_24h_20260930/metrics.jsonl": "da951c66170f26269f2619cf9b9dde01de57d5a743be4e80033fb0c1892aca77",
+    "Checkpoints/libero_mem_prefix_vs_dp_20260928/dp_agentview_seed42_b32_30k/config.json": "740892703209139ca2268ebcfffa15095c4d561d8c37a3a82191f9f82e3c8fe2",
+    "Checkpoints/libero_mem_prefix_vs_dp_20260928/dp_agentview_seed42_b32_30k/architecture.json": "dc9b017bfee34eb5e92aa1081c5020ecac61b921835b85c7eb25384e476cd701",
+    "Checkpoints/libero_mem_prefix_vs_dp_20260928/dp_agentview_seed42_b32_30k/metrics.jsonl": "a0e85f3e0918056104793fc8b2decb01f627eb6501906d82ab9198ec8fed9ce8",
+    "prepared/manifest.json": "7120f3640ee237e707d35089ede0136aabe3fab78e048c1869972b1b179ce9eb",
+    "prepared/replay_audit_v2.json": "a447be5467c5c83186415ecc24b1c899457466c11dc13c69b36432a3115b1492"
+  },
+  "note": "Original artifact names are relative to the private experiment archive. Published rollouts preserve metric fields, replacing checkpoint paths with logical IDs and omitting timings. Hashes provide consistency checks, not independent authentication."
+}

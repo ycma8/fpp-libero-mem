@@ -1,0 +1,48 @@
+---
+interface Frame {
+  src: string;
+  step: number;
+  alt: string;
+}
+interface Props {
+  frames: Frame[];
+  caption: string;
+}
+const { frames, caption } = Astro.props as Props;
+if (
+  frames.length !== 6 ||
+  new Set(frames.map((frame) => frame.src)).size !== 6 ||
+  frames.some((frame, index) =>
+    !frame.src || !frame.alt || !Number.isInteger(frame.step) || frame.step < 0 ||
+    (index > 0 && frame.step <= frames[index - 1].step)
+  )
+) {
+  throw new Error("A trajectory figure requires six distinct, ordered snapshots.");
+}
+---
+
+<figure class="trajectory-figure">
+  <div class="snapshot-grid">
+    {frames.map((frame) => (
+      <a class="snapshot" href={frame.src} target="_blank" rel="noopener noreferrer"
+         aria-label={`Open snapshot at control step ${frame.step}`}>
+        <img src={frame.src} alt={frame.alt} width="256" height="256"
+             loading="lazy" decoding="async" />
+        <span>Control step {frame.step}</span>
+      </a>
+    ))}
+  </div>
+  <figcaption>{caption}</figcaption>
+</figure>
+
+<style>
+  .trajectory-figure { margin: 1.5rem 0; }
+  .snapshot-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .snapshot { display: block; min-width: 0; color: var(--muted-color); text-decoration: none; }
+  .snapshot img { display: block; width: 100%; height: auto; aspect-ratio: 1; border-radius: 6px; border: 1px solid var(--border-color); }
+  .snapshot span { display: block; margin-top: 5px; font-size: 0.75rem; line-height: 1.5; }
+  .snapshot:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 3px; border-radius: 6px; }
+  .trajectory-figure figcaption { margin-top: 10px; color: var(--muted-color); font-size: 0.9rem; }
+  @media (max-width: 600px) { .snapshot-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media print { .snapshot-grid { gap: 6px; } .trajectory-figure { break-inside: avoid; } }
+</style>

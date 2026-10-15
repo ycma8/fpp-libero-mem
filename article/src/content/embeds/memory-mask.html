@@ -1,0 +1,27 @@
+<div class="fpp-mask">
+  <div class="fpp-mask__control"><label>Query observation <select aria-label="Query observation"><option value="1">t₀</option><option value="2">t₁</option><option value="3" selected>t₂</option><option value="4">t₃</option></select></label><span class="fpp-mask__summary" aria-live="polite"></span></div>
+  <svg viewBox="0 0 700 310" role="img" aria-label="Block-causal attention matrix"></svg>
+  <div class="fpp-mask__legend"><strong>Legend</strong><span><i class="prefix"></i>Task prefix</span><span><i class="past"></i>Accessible history</span><span><i class="current"></i>Current observation</span><span><i class="masked"></i>Masked</span></div>
+</div>
+<style>
+.fpp-mask{padding:16px;color:var(--text-color,#222);font:15px var(--default-font-family,system-ui,sans-serif)}.fpp-mask svg{display:block;width:100%;height:auto;max-height:390px}.fpp-mask__control{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:12px}.fpp-mask select{font:inherit;border:1px solid var(--border-color,#ddd);border-radius:5px;background:var(--page-bg,#fff);color:inherit;padding:4px 10px;margin-left:8px}.fpp-mask__summary{font-size:13px;color:var(--muted-color,#666)}.fpp-mask__legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-top:12px;align-items:center}.fpp-mask__legend span{display:flex;align-items:center;gap:6px}.fpp-mask__legend i{width:14px;height:14px;display:inline-block;border:1px solid var(--border-color,#ddd)}.fpp-mask .prefix{background:#a790c8}.fpp-mask .past{background:#8eb7c8}.fpp-mask .current{background:#399e9c}.fpp-mask .masked{background:#eeeeef}@media print{.fpp-mask select{border:none}.fpp-mask__control{font-size:12px}}
+</style>
+<script>
+(()=>{
+const root=document.querySelector('.fpp-mask');if(!root||root.dataset.mounted)return;root.dataset.mounted='true';
+const svg=root.querySelector('svg'),select=root.querySelector('select'),summary=root.querySelector('.fpp-mask__summary');
+const ns='http://www.w3.org/2000/svg',labels=['ℓ','t₀','t₁','t₂','t₃'];
+function element(tag,attrs,text){const el=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));if(text!==undefined)el.textContent=text;svg.appendChild(el);return el;}
+function draw(){svg.replaceChildren();const q=Number(select.value),text=getComputedStyle(root).color,narrow=root.clientWidth<580;svg.setAttribute('viewBox',narrow?'0 0 320 310':'0 0 700 310');
+element('text',{x:170,y:22,fill:text,'font-size':14,'text-anchor':'middle'},'Key / value blocks');
+labels.forEach((v,i)=>{element('text',{x:100+i*43,y:47,fill:text,'font-size':15,'text-anchor':'middle'},v);element('text',{x:62,y:82+i*43,fill:text,'font-size':15,'text-anchor':'end'},v);});
+for(let row=0;row<5;row++)for(let col=0;col<5;col++){const allowed=(row===0?col===0:col<=row);let fill=allowed?(col===0?'#a790c8':row===q&&col===q?'#399e9c':'#8eb7c8'):'#eeeeef';element('rect',{x:80+col*43,y:59+row*43,width:41,height:41,rx:2,fill,opacity:row===q?1:.46});}
+element('rect',{x:77,y:56+q*43,width:219,height:47,rx:4,fill:'none',stroke:'currentColor','stroke-width':1.5});
+element('text',{x:25,y:164,fill:text,'font-size':14,transform:'rotate(-90 25 164)','text-anchor':'middle'},'Query blocks');
+const lines=['Current patch block reads:', '• task prefix', '• earlier image patch blocks', '• patches from its own image', '', 'Future blocks remain masked.'];
+if(!narrow)lines.forEach((line,i)=>element('text',{x:332,y:94+i*25,fill:text,'font-size':15},line));
+summary.textContent=`${labels[q]} reads the prefix and ${q} observation block${q>1?'s':''}.`;
+}
+select.addEventListener('change',draw);new ResizeObserver(draw).observe(root);new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});draw();
+})();
+</script>

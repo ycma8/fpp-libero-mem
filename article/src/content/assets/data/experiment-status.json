@@ -1,0 +1,120 @@
+{
+  "complete": true,
+  "method": "FPP",
+  "checkpoint_updates": 20000,
+  "append_eoe": true,
+  "source": "results/libero-mem-reference/summary.json",
+  "source_kind": "audited original rollout records; not a fresh evaluation",
+  "metrics": {
+    "trials": 200,
+    "successes": 101,
+    "whole_task_success": 0.505,
+    "subgoals_completed": 414,
+    "subgoals_total": 620,
+    "mean_subgoal_completion": 0.6854642857142857,
+    "pooled_subgoal_completion": 0.667741935483871,
+    "overshot": 17
+  },
+  "tasks": [
+    {
+      "task": 1,
+      "trials": 20,
+      "successes": 19,
+      "success_rate": 0.95,
+      "subgoals_completed": 19,
+      "subgoals_total": 20,
+      "subgoal_completion": 0.95,
+      "overshot": 0
+    },
+    {
+      "task": 2,
+      "trials": 20,
+      "successes": 2,
+      "success_rate": 0.1,
+      "subgoals_completed": 15,
+      "subgoals_total": 20,
+      "subgoal_completion": 0.75,
+      "overshot": 13
+    },
+    {
+      "task": 3,
+      "trials": 20,
+      "successes": 12,
+      "success_rate": 0.6,
+      "subgoals_completed": 46,
+      "subgoals_total": 60,
+      "subgoal_completion": 0.7666666666666667,
+      "overshot": 0
+    },
+    {
+      "task": 4,
+      "trials": 20,
+      "successes": 7,
+      "success_rate": 0.35,
+      "subgoals_completed": 32,
+      "subgoals_total": 60,
+      "subgoal_completion": 0.5333333333333333,
+      "overshot": 2
+    },
+    {
+      "task": 5,
+      "trials": 20,
+      "successes": 12,
+      "success_rate": 0.6,
+      "subgoals_completed": 76,
+      "subgoals_total": 100,
+      "subgoal_completion": 0.76,
+      "overshot": 1
+    },
+    {
+      "task": 6,
+      "trials": 20,
+      "successes": 14,
+      "success_rate": 0.7,
+      "subgoals_completed": 113,
+      "subgoals_total": 140,
+      "subgoal_completion": 0.8071428571428572,
+      "overshot": 0
+    },
+    {
+      "task": 7,
+      "trials": 20,
+      "successes": 3,
+      "success_rate": 0.15,
+      "subgoals_completed": 18,
+      "subgoals_total": 60,
+      "subgoal_completion": 0.3,
+      "overshot": 0
+    },
+    {
+      "task": 8,
+      "trials": 20,
+      "successes": 4,
+      "success_rate": 0.2,
+      "subgoals_completed": 31,
+      "subgoals_total": 80,
+      "subgoal_completion": 0.3875,
+      "overshot": 1
+    },
+    {
+      "task": 9,
+      "trials": 20,
+      "successes": 18,
+      "success_rate": 0.9,
+      "subgoals_completed": 36,
+      "subgoals_total": 40,
+      "subgoal_completion": 0.9,
+      "overshot": 0
+    },
+    {
+      "task": 10,
+      "trials": 20,
+      "successes": 10,
+      "success_rate": 0.5,
+      "subgoals_completed": 28,
+      "subgoals_total": 40,
+      "subgoal_completion": 0.7,
+      "overshot": 0
+    }
+  ]
+}

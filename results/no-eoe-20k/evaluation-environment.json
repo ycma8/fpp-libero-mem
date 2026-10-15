@@ -1,0 +1,32 @@
+{
+  "python": "3.10.12",
+  "distributions": {
+    "mujoco": "3.2.2",
+    "robosuite": null,
+    "robomimic": null,
+    "gym": "0.26.2",
+    "glfw": "2.7.0",
+    "PyOpenGL": "3.1.7",
+    "numpy": "1.26.4",
+    "h5py": "3.16.0",
+    "Pillow": "12.3.0"
+  },
+  "vendored_sources": {
+    "robosuite": {
+      "file": "thirdparty/robosuite/robosuite/__init__.py",
+      "declared_version": "1.4.1"
+    },
+    "robomimic": {
+      "file": "thirdparty/robomimic/robomimic/__init__.py",
+      "declared_version": "0.3.1"
+    }
+  },
+  "schema": 1,
+  "scope": "Simulator-venv distribution metadata plus the actual vendored source version literals; no simulator or GPU context was started",
+  "image_content_id": "sha256:99940122df50ad66fb6016731db5128daf18c9dc50ca88b732cf64381e0cf4cf",
+  "render_backend": "egl",
+  "simulator_recorded_upstream": "0eee0defa4024e51511b6e15a79f30e9620209de",
+  "simulator_python_tree_sha256": "39b575258ab54222ec6e47d1cd5e581cddf9caf7ad02635ea2d163286ae7744a",
+  "device": "NVIDIA GeForce RTX 4090 D",
+  "driver_version": "570.124.06"
+}

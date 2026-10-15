@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "repository": "timm/vit_base_patch16_dinov3.lvd1689m",
+  "revision": "c6a5fb7d12bbd3cf3b0079253141c3332aaed7da",
+  "filename": "model.safetensors",
+  "download_url": "https://huggingface.co/timm/vit_base_patch16_dinov3.lvd1689m/resolve/c6a5fb7d12bbd3cf3b0079253141c3332aaed7da/model.safetensors",
+  "bytes": 342579728,
+  "sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332",
+  "local_file_verified": true,
+  "scope": "Official weight SHA-256 matches the exact file used for online evaluation and declared in the prepared-data manifest."
+}

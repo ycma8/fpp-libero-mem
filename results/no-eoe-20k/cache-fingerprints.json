@@ -1,0 +1,7709 @@
+{
+  "schema": 1,
+  "scope": "Every prepared file used by the current no-EOE training run; raw NPY and manifest bytes",
+  "episodes": 961,
+  "files": 1924,
+  "total_bytes": 96770444251,
+  "data_manifest_sha256": "e22b1cab789c37a2b2aab0c5477ad332dd9e9272707bbdbbfd3bb8109b0203c4",
+  "checksums_sha256": "5feeef5f78ddbdc9ed0f768dfa5436e9b3389f9ddeb91eac963f2dc7a2797164",
+  "files_unchanged_during_hashing": true,
+  "full_raw_rgb_reextraction_verified": false,
+  "files_metadata": [
+    {
+      "path": "prepared/manifest.json",
+      "bytes": 274607
+    },
+    {
+      "path": "prepared/text.npy",
+      "bytes": 20608
+    },
+    {
+      "path": "prepared/episodes/task01_demo_1/features.npy",
+      "bytes": 48771200
+    },
+    {
+      "path": "prepared/episodes/task01_demo_1/actions.npy",
+      "bytes": 4664
+    },
+    {
+      "path": "prepared/episodes/task01_demo_2/features.npy",
+      "bytes": 42449024
+    },
+    {
+      "path": "prepared/episodes/task01_demo_2/actions.npy",
+      "bytes": 4076
+    },
+    {
+      "path": "prepared/episodes/task01_demo_3/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task01_demo_3/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task01_demo_4/features.npy",
+      "bytes": 43653248
+    },
+    {
+      "path": "prepared/episodes/task01_demo_4/actions.npy",
+      "bytes": 4188
+    },
+    {
+      "path": "prepared/episodes/task01_demo_5/features.npy",
+      "bytes": 42750080
+    },
+    {
+      "path": "prepared/episodes/task01_demo_5/actions.npy",
+      "bytes": 4104
+    },
+    {
+      "path": "prepared/episodes/task01_demo_6/features.npy",
+      "bytes": 42147968
+    },
+    {
+      "path": "prepared/episodes/task01_demo_6/actions.npy",
+      "bytes": 4048
+    },
+    {
+      "path": "prepared/episodes/task01_demo_7/features.npy",
+      "bytes": 41545856
+    },
+    {
+      "path": "prepared/episodes/task01_demo_7/actions.npy",
+      "bytes": 3992
+    },
+    {
+      "path": "prepared/episodes/task01_demo_8/features.npy",
+      "bytes": 40040576
+    },
+    {
+      "path": "prepared/episodes/task01_demo_8/actions.npy",
+      "bytes": 3852
+    },
+    {
+      "path": "prepared/episodes/task01_demo_9/features.npy",
+      "bytes": 42147968
+    },
+    {
+      "path": "prepared/episodes/task01_demo_9/actions.npy",
+      "bytes": 4048
+    },
+    {
+      "path": "prepared/episodes/task01_demo_10/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task01_demo_10/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task01_demo_11/features.npy",
+      "bytes": 42147968
+    },
+    {
+      "path": "prepared/episodes/task01_demo_11/actions.npy",
+      "bytes": 4048
+    },
+    {
+      "path": "prepared/episodes/task01_demo_12/features.npy",
+      "bytes": 45158528
+    },
+    {
+      "path": "prepared/episodes/task01_demo_12/actions.npy",
+      "bytes": 4328
+    },
+    {
+      "path": "prepared/episodes/task01_demo_13/features.npy",
+      "bytes": 44857472
+    },
+    {
+      "path": "prepared/episodes/task01_demo_13/actions.npy",
+      "bytes": 4300
+    },
+    {
+      "path": "prepared/episodes/task01_demo_14/features.npy",
+      "bytes": 46061696
+    },
+    {
+      "path": "prepared/episodes/task01_demo_14/actions.npy",
+      "bytes": 4412
+    },
+    {
+      "path": "prepared/episodes/task01_demo_15/features.npy",
+      "bytes": 41545856
+    },
+    {
+      "path": "prepared/episodes/task01_demo_15/actions.npy",
+      "bytes": 3992
+    },
+    {
+      "path": "prepared/episodes/task01_demo_16/features.npy",
+      "bytes": 43051136
+    },
+    {
+      "path": "prepared/episodes/task01_demo_16/actions.npy",
+      "bytes": 4132
+    },
+    {
+      "path": "prepared/episodes/task01_demo_17/features.npy",
+      "bytes": 43653248
+    },
+    {
+      "path": "prepared/episodes/task01_demo_17/actions.npy",
+      "bytes": 4188
+    },
+    {
+      "path": "prepared/episodes/task01_demo_18/features.npy",
+      "bytes": 44255360
+    },
+    {
+      "path": "prepared/episodes/task01_demo_18/actions.npy",
+      "bytes": 4244
+    },
+    {
+      "path": "prepared/episodes/task01_demo_19/features.npy",
+      "bytes": 47868032
+    },
+    {
+      "path": "prepared/episodes/task01_demo_19/actions.npy",
+      "bytes": 4580
+    },
+    {
+      "path": "prepared/episodes/task01_demo_20/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task01_demo_20/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task01_demo_21/features.npy",
+      "bytes": 52684928
+    },
+    {
+      "path": "prepared/episodes/task01_demo_21/actions.npy",
+      "bytes": 5028
+    },
+    {
+      "path": "prepared/episodes/task01_demo_22/features.npy",
+      "bytes": 50276480
+    },
+    {
+      "path": "prepared/episodes/task01_demo_22/actions.npy",
+      "bytes": 4804
+    },
+    {
+      "path": "prepared/episodes/task01_demo_23/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task01_demo_23/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task01_demo_24/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task01_demo_24/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task01_demo_25/features.npy",
+      "bytes": 45459584
+    },
+    {
+      "path": "prepared/episodes/task01_demo_25/actions.npy",
+      "bytes": 4356
+    },
+    {
+      "path": "prepared/episodes/task01_demo_26/features.npy",
+      "bytes": 46061696
+    },
+    {
+      "path": "prepared/episodes/task01_demo_26/actions.npy",
+      "bytes": 4412
+    },
+    {
+      "path": "prepared/episodes/task01_demo_27/features.npy",
+      "bytes": 41244800
+    },
+    {
+      "path": "prepared/episodes/task01_demo_27/actions.npy",
+      "bytes": 3964
+    },
+    {
+      "path": "prepared/episodes/task01_demo_28/features.npy",
+      "bytes": 42147968
+    },
+    {
+      "path": "prepared/episodes/task01_demo_28/actions.npy",
+      "bytes": 4048
+    },
+    {
+      "path": "prepared/episodes/task01_demo_29/features.npy",
+      "bytes": 44857472
+    },
+    {
+      "path": "prepared/episodes/task01_demo_29/actions.npy",
+      "bytes": 4300
+    },
+    {
+      "path": "prepared/episodes/task01_demo_30/features.npy",
+      "bytes": 44857472
+    },
+    {
+      "path": "prepared/episodes/task01_demo_30/actions.npy",
+      "bytes": 4300
+    },
+    {
+      "path": "prepared/episodes/task01_demo_31/features.npy",
+      "bytes": 44255360
+    },
+    {
+      "path": "prepared/episodes/task01_demo_31/actions.npy",
+      "bytes": 4244
+    },
+    {
+      "path": "prepared/episodes/task01_demo_32/features.npy",
+      "bytes": 41846912
+    },
+    {
+      "path": "prepared/episodes/task01_demo_32/actions.npy",
+      "bytes": 4020
+    },
+    {
+      "path": "prepared/episodes/task01_demo_33/features.npy",
+      "bytes": 42750080
+    },
+    {
+      "path": "prepared/episodes/task01_demo_33/actions.npy",
+      "bytes": 4104
+    },
+    {
+      "path": "prepared/episodes/task01_demo_34/features.npy",
+      "bytes": 50878592
+    },
+    {
+      "path": "prepared/episodes/task01_demo_34/actions.npy",
+      "bytes": 4860
+    },
+    {
+      "path": "prepared/episodes/task01_demo_35/features.npy",
+      "bytes": 44857472
+    },
+    {
+      "path": "prepared/episodes/task01_demo_35/actions.npy",
+      "bytes": 4300
+    },
+    {
+      "path": "prepared/episodes/task01_demo_36/features.npy",
+      "bytes": 43954304
+    },
+    {
+      "path": "prepared/episodes/task01_demo_36/actions.npy",
+      "bytes": 4216
+    },
+    {
+      "path": "prepared/episodes/task01_demo_37/features.npy",
+      "bytes": 48771200
+    },
+    {
+      "path": "prepared/episodes/task01_demo_37/actions.npy",
+      "bytes": 4664
+    },
+    {
+      "path": "prepared/episodes/task01_demo_38/features.npy",
+      "bytes": 50276480
+    },
+    {
+      "path": "prepared/episodes/task01_demo_38/actions.npy",
+      "bytes": 4804
+    },
+    {
+      "path": "prepared/episodes/task01_demo_39/features.npy",
+      "bytes": 46964864
+    },
+    {
+      "path": "prepared/episodes/task01_demo_39/actions.npy",
+      "bytes": 4496
+    },
+    {
+      "path": "prepared/episodes/task01_demo_40/features.npy",
+      "bytes": 40642688
+    },
+    {
+      "path": "prepared/episodes/task01_demo_40/actions.npy",
+      "bytes": 3908
+    },
+    {
+      "path": "prepared/episodes/task01_demo_41/features.npy",
+      "bytes": 44255360
+    },
+    {
+      "path": "prepared/episodes/task01_demo_41/actions.npy",
+      "bytes": 4244
+    },
+    {
+      "path": "prepared/episodes/task01_demo_42/features.npy",
+      "bytes": 40642688
+    },
+    {
+      "path": "prepared/episodes/task01_demo_42/actions.npy",
+      "bytes": 3908
+    },
+    {
+      "path": "prepared/episodes/task01_demo_43/features.npy",
+      "bytes": 41545856
+    },
+    {
+      "path": "prepared/episodes/task01_demo_43/actions.npy",
+      "bytes": 3992
+    },
+    {
+      "path": "prepared/episodes/task01_demo_44/features.npy",
+      "bytes": 46663808
+    },
+    {
+      "path": "prepared/episodes/task01_demo_44/actions.npy",
+      "bytes": 4468
+    },
+    {
+      "path": "prepared/episodes/task01_demo_45/features.npy",
+      "bytes": 43051136
+    },
+    {
+      "path": "prepared/episodes/task01_demo_45/actions.npy",
+      "bytes": 4132
+    },
+    {
+      "path": "prepared/episodes/task01_demo_46/features.npy",
+      "bytes": 38535296
+    },
+    {
+      "path": "prepared/episodes/task01_demo_46/actions.npy",
+      "bytes": 3712
+    },
+    {
+      "path": "prepared/episodes/task01_demo_47/features.npy",
+      "bytes": 44857472
+    },
+    {
+      "path": "prepared/episodes/task01_demo_47/actions.npy",
+      "bytes": 4300
+    },
+    {
+      "path": "prepared/episodes/task01_demo_48/features.npy",
+      "bytes": 41244800
+    },
+    {
+      "path": "prepared/episodes/task01_demo_48/actions.npy",
+      "bytes": 3964
+    },
+    {
+      "path": "prepared/episodes/task01_demo_49/features.npy",
+      "bytes": 41244800
+    },
+    {
+      "path": "prepared/episodes/task01_demo_49/actions.npy",
+      "bytes": 3964
+    },
+    {
+      "path": "prepared/episodes/task01_demo_50/features.npy",
+      "bytes": 43653248
+    },
+    {
+      "path": "prepared/episodes/task01_demo_50/actions.npy",
+      "bytes": 4188
+    },
+    {
+      "path": "prepared/episodes/task01_demo_51/features.npy",
+      "bytes": 44857472
+    },
+    {
+      "path": "prepared/episodes/task01_demo_51/actions.npy",
+      "bytes": 4300
+    },
+    {
+      "path": "prepared/episodes/task01_demo_52/features.npy",
+      "bytes": 43653248
+    },
+    {
+      "path": "prepared/episodes/task01_demo_52/actions.npy",
+      "bytes": 4188
+    },
+    {
+      "path": "prepared/episodes/task01_demo_53/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task01_demo_53/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task01_demo_54/features.npy",
+      "bytes": 42449024
+    },
+    {
+      "path": "prepared/episodes/task01_demo_54/actions.npy",
+      "bytes": 4076
+    },
+    {
+      "path": "prepared/episodes/task01_demo_55/features.npy",
+      "bytes": 43352192
+    },
+    {
+      "path": "prepared/episodes/task01_demo_55/actions.npy",
+      "bytes": 4160
+    },
+    {
+      "path": "prepared/episodes/task01_demo_56/features.npy",
+      "bytes": 42147968
+    },
+    {
+      "path": "prepared/episodes/task01_demo_56/actions.npy",
+      "bytes": 4048
+    },
+    {
+      "path": "prepared/episodes/task01_demo_57/features.npy",
+      "bytes": 46964864
+    },
+    {
+      "path": "prepared/episodes/task01_demo_57/actions.npy",
+      "bytes": 4496
+    },
+    {
+      "path": "prepared/episodes/task01_demo_58/features.npy",
+      "bytes": 43051136
+    },
+    {
+      "path": "prepared/episodes/task01_demo_58/actions.npy",
+      "bytes": 4132
+    },
+    {
+      "path": "prepared/episodes/task01_demo_59/features.npy",
+      "bytes": 45158528
+    },
+    {
+      "path": "prepared/episodes/task01_demo_59/actions.npy",
+      "bytes": 4328
+    },
+    {
+      "path": "prepared/episodes/task01_demo_60/features.npy",
+      "bytes": 40642688
+    },
+    {
+      "path": "prepared/episodes/task01_demo_60/actions.npy",
+      "bytes": 3908
+    },
+    {
+      "path": "prepared/episodes/task01_demo_61/features.npy",
+      "bytes": 44255360
+    },
+    {
+      "path": "prepared/episodes/task01_demo_61/actions.npy",
+      "bytes": 4244
+    },
+    {
+      "path": "prepared/episodes/task01_demo_62/features.npy",
+      "bytes": 48771200
+    },
+    {
+      "path": "prepared/episodes/task01_demo_62/actions.npy",
+      "bytes": 4664
+    },
+    {
+      "path": "prepared/episodes/task01_demo_63/features.npy",
+      "bytes": 41545856
+    },
+    {
+      "path": "prepared/episodes/task01_demo_63/actions.npy",
+      "bytes": 3992
+    },
+    {
+      "path": "prepared/episodes/task01_demo_64/features.npy",
+      "bytes": 43352192
+    },
+    {
+      "path": "prepared/episodes/task01_demo_64/actions.npy",
+      "bytes": 4160
+    },
+    {
+      "path": "prepared/episodes/task01_demo_65/features.npy",
+      "bytes": 41545856
+    },
+    {
+      "path": "prepared/episodes/task01_demo_65/actions.npy",
+      "bytes": 3992
+    },
+    {
+      "path": "prepared/episodes/task01_demo_66/features.npy",
+      "bytes": 47265920
+    },
+    {
+      "path": "prepared/episodes/task01_demo_66/actions.npy",
+      "bytes": 4524
+    },
+    {
+      "path": "prepared/episodes/task01_demo_67/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task01_demo_67/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task01_demo_68/features.npy",
+      "bytes": 43653248
+    },
+    {
+      "path": "prepared/episodes/task01_demo_68/actions.npy",
+      "bytes": 4188
+    },
+    {
+      "path": "prepared/episodes/task01_demo_69/features.npy",
+      "bytes": 42449024
+    },
+    {
+      "path": "prepared/episodes/task01_demo_69/actions.npy",
+      "bytes": 4076
+    },
+    {
+      "path": "prepared/episodes/task01_demo_70/features.npy",
+      "bytes": 45760640
+    },
+    {
+      "path": "prepared/episodes/task01_demo_70/actions.npy",
+      "bytes": 4384
+    },
+    {
+      "path": "prepared/episodes/task01_demo_71/features.npy",
+      "bytes": 39438464
+    },
+    {
+      "path": "prepared/episodes/task01_demo_71/actions.npy",
+      "bytes": 3796
+    },
+    {
+      "path": "prepared/episodes/task01_demo_72/features.npy",
+      "bytes": 43653248
+    },
+    {
+      "path": "prepared/episodes/task01_demo_72/actions.npy",
+      "bytes": 4188
+    },
+    {
+      "path": "prepared/episodes/task01_demo_73/features.npy",
+      "bytes": 41545856
+    },
+    {
+      "path": "prepared/episodes/task01_demo_73/actions.npy",
+      "bytes": 3992
+    },
+    {
+      "path": "prepared/episodes/task01_demo_74/features.npy",
+      "bytes": 42449024
+    },
+    {
+      "path": "prepared/episodes/task01_demo_74/actions.npy",
+      "bytes": 4076
+    },
+    {
+      "path": "prepared/episodes/task01_demo_75/features.npy",
+      "bytes": 41244800
+    },
+    {
+      "path": "prepared/episodes/task01_demo_75/actions.npy",
+      "bytes": 3964
+    },
+    {
+      "path": "prepared/episodes/task01_demo_76/features.npy",
+      "bytes": 44255360
+    },
+    {
+      "path": "prepared/episodes/task01_demo_76/actions.npy",
+      "bytes": 4244
+    },
+    {
+      "path": "prepared/episodes/task01_demo_77/features.npy",
+      "bytes": 40943744
+    },
+    {
+      "path": "prepared/episodes/task01_demo_77/actions.npy",
+      "bytes": 3936
+    },
+    {
+      "path": "prepared/episodes/task01_demo_78/features.npy",
+      "bytes": 41244800
+    },
+    {
+      "path": "prepared/episodes/task01_demo_78/actions.npy",
+      "bytes": 3964
+    },
+    {
+      "path": "prepared/episodes/task01_demo_79/features.npy",
+      "bytes": 43653248
+    },
+    {
+      "path": "prepared/episodes/task01_demo_79/actions.npy",
+      "bytes": 4188
+    },
+    {
+      "path": "prepared/episodes/task01_demo_80/features.npy",
+      "bytes": 41846912
+    },
+    {
+      "path": "prepared/episodes/task01_demo_80/actions.npy",
+      "bytes": 4020
+    },
+    {
+      "path": "prepared/episodes/task01_demo_81/features.npy",
+      "bytes": 43352192
+    },
+    {
+      "path": "prepared/episodes/task01_demo_81/actions.npy",
+      "bytes": 4160
+    },
+    {
+      "path": "prepared/episodes/task01_demo_82/features.npy",
+      "bytes": 45459584
+    },
+    {
+      "path": "prepared/episodes/task01_demo_82/actions.npy",
+      "bytes": 4356
+    },
+    {
+      "path": "prepared/episodes/task01_demo_83/features.npy",
+      "bytes": 42449024
+    },
+    {
+      "path": "prepared/episodes/task01_demo_83/actions.npy",
+      "bytes": 4076
+    },
+    {
+      "path": "prepared/episodes/task01_demo_84/features.npy",
+      "bytes": 50878592
+    },
+    {
+      "path": "prepared/episodes/task01_demo_84/actions.npy",
+      "bytes": 4860
+    },
+    {
+      "path": "prepared/episodes/task01_demo_85/features.npy",
+      "bytes": 50577536
+    },
+    {
+      "path": "prepared/episodes/task01_demo_85/actions.npy",
+      "bytes": 4832
+    },
+    {
+      "path": "prepared/episodes/task01_demo_86/features.npy",
+      "bytes": 48470144
+    },
+    {
+      "path": "prepared/episodes/task01_demo_86/actions.npy",
+      "bytes": 4636
+    },
+    {
+      "path": "prepared/episodes/task01_demo_87/features.npy",
+      "bytes": 41545856
+    },
+    {
+      "path": "prepared/episodes/task01_demo_87/actions.npy",
+      "bytes": 3992
+    },
+    {
+      "path": "prepared/episodes/task01_demo_88/features.npy",
+      "bytes": 42147968
+    },
+    {
+      "path": "prepared/episodes/task01_demo_88/actions.npy",
+      "bytes": 4048
+    },
+    {
+      "path": "prepared/episodes/task01_demo_89/features.npy",
+      "bytes": 48169088
+    },
+    {
+      "path": "prepared/episodes/task01_demo_89/actions.npy",
+      "bytes": 4608
+    },
+    {
+      "path": "prepared/episodes/task01_demo_90/features.npy",
+      "bytes": 43051136
+    },
+    {
+      "path": "prepared/episodes/task01_demo_90/actions.npy",
+      "bytes": 4132
+    },
+    {
+      "path": "prepared/episodes/task01_demo_91/features.npy",
+      "bytes": 42449024
+    },
+    {
+      "path": "prepared/episodes/task01_demo_91/actions.npy",
+      "bytes": 4076
+    },
+    {
+      "path": "prepared/episodes/task01_demo_92/features.npy",
+      "bytes": 49674368
+    },
+    {
+      "path": "prepared/episodes/task01_demo_92/actions.npy",
+      "bytes": 4748
+    },
+    {
+      "path": "prepared/episodes/task01_demo_93/features.npy",
+      "bytes": 44255360
+    },
+    {
+      "path": "prepared/episodes/task01_demo_93/actions.npy",
+      "bytes": 4244
+    },
+    {
+      "path": "prepared/episodes/task01_demo_94/features.npy",
+      "bytes": 46362752
+    },
+    {
+      "path": "prepared/episodes/task01_demo_94/actions.npy",
+      "bytes": 4440
+    },
+    {
+      "path": "prepared/episodes/task01_demo_95/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task01_demo_95/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task01_demo_96/features.npy",
+      "bytes": 41244800
+    },
+    {
+      "path": "prepared/episodes/task01_demo_96/actions.npy",
+      "bytes": 3964
+    },
+    {
+      "path": "prepared/episodes/task01_demo_97/features.npy",
+      "bytes": 49072256
+    },
+    {
+      "path": "prepared/episodes/task01_demo_97/actions.npy",
+      "bytes": 4692
+    },
+    {
+      "path": "prepared/episodes/task01_demo_98/features.npy",
+      "bytes": 46663808
+    },
+    {
+      "path": "prepared/episodes/task01_demo_98/actions.npy",
+      "bytes": 4468
+    },
+    {
+      "path": "prepared/episodes/task01_demo_99/features.npy",
+      "bytes": 57501824
+    },
+    {
+      "path": "prepared/episodes/task01_demo_99/actions.npy",
+      "bytes": 5476
+    },
+    {
+      "path": "prepared/episodes/task01_demo_100/features.npy",
+      "bytes": 47868032
+    },
+    {
+      "path": "prepared/episodes/task01_demo_100/actions.npy",
+      "bytes": 4580
+    },
+    {
+      "path": "prepared/episodes/task02_demo_1/features.npy",
+      "bytes": 47868032
+    },
+    {
+      "path": "prepared/episodes/task02_demo_1/actions.npy",
+      "bytes": 4580
+    },
+    {
+      "path": "prepared/episodes/task02_demo_2/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task02_demo_2/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task02_demo_3/features.npy",
+      "bytes": 41545856
+    },
+    {
+      "path": "prepared/episodes/task02_demo_3/actions.npy",
+      "bytes": 3992
+    },
+    {
+      "path": "prepared/episodes/task02_demo_4/features.npy",
+      "bytes": 46663808
+    },
+    {
+      "path": "prepared/episodes/task02_demo_4/actions.npy",
+      "bytes": 4468
+    },
+    {
+      "path": "prepared/episodes/task02_demo_5/features.npy",
+      "bytes": 46061696
+    },
+    {
+      "path": "prepared/episodes/task02_demo_5/actions.npy",
+      "bytes": 4412
+    },
+    {
+      "path": "prepared/episodes/task02_demo_6/features.npy",
+      "bytes": 44857472
+    },
+    {
+      "path": "prepared/episodes/task02_demo_6/actions.npy",
+      "bytes": 4300
+    },
+    {
+      "path": "prepared/episodes/task02_demo_7/features.npy",
+      "bytes": 40642688
+    },
+    {
+      "path": "prepared/episodes/task02_demo_7/actions.npy",
+      "bytes": 3908
+    },
+    {
+      "path": "prepared/episodes/task02_demo_8/features.npy",
+      "bytes": 51179648
+    },
+    {
+      "path": "prepared/episodes/task02_demo_8/actions.npy",
+      "bytes": 4888
+    },
+    {
+      "path": "prepared/episodes/task02_demo_9/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task02_demo_9/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task02_demo_10/features.npy",
+      "bytes": 44255360
+    },
+    {
+      "path": "prepared/episodes/task02_demo_10/actions.npy",
+      "bytes": 4244
+    },
+    {
+      "path": "prepared/episodes/task02_demo_11/features.npy",
+      "bytes": 46061696
+    },
+    {
+      "path": "prepared/episodes/task02_demo_11/actions.npy",
+      "bytes": 4412
+    },
+    {
+      "path": "prepared/episodes/task02_demo_12/features.npy",
+      "bytes": 49674368
+    },
+    {
+      "path": "prepared/episodes/task02_demo_12/actions.npy",
+      "bytes": 4748
+    },
+    {
+      "path": "prepared/episodes/task02_demo_13/features.npy",
+      "bytes": 46964864
+    },
+    {
+      "path": "prepared/episodes/task02_demo_13/actions.npy",
+      "bytes": 4496
+    },
+    {
+      "path": "prepared/episodes/task02_demo_14/features.npy",
+      "bytes": 40341632
+    },
+    {
+      "path": "prepared/episodes/task02_demo_14/actions.npy",
+      "bytes": 3880
+    },
+    {
+      "path": "prepared/episodes/task02_demo_15/features.npy",
+      "bytes": 54792320
+    },
+    {
+      "path": "prepared/episodes/task02_demo_15/actions.npy",
+      "bytes": 5224
+    },
+    {
+      "path": "prepared/episodes/task02_demo_16/features.npy",
+      "bytes": 36728960
+    },
+    {
+      "path": "prepared/episodes/task02_demo_16/actions.npy",
+      "bytes": 3544
+    },
+    {
+      "path": "prepared/episodes/task02_demo_17/features.npy",
+      "bytes": 39438464
+    },
+    {
+      "path": "prepared/episodes/task02_demo_17/actions.npy",
+      "bytes": 3796
+    },
+    {
+      "path": "prepared/episodes/task02_demo_18/features.npy",
+      "bytes": 37933184
+    },
+    {
+      "path": "prepared/episodes/task02_demo_18/actions.npy",
+      "bytes": 3656
+    },
+    {
+      "path": "prepared/episodes/task02_demo_19/features.npy",
+      "bytes": 43954304
+    },
+    {
+      "path": "prepared/episodes/task02_demo_19/actions.npy",
+      "bytes": 4216
+    },
+    {
+      "path": "prepared/episodes/task02_demo_20/features.npy",
+      "bytes": 46061696
+    },
+    {
+      "path": "prepared/episodes/task02_demo_20/actions.npy",
+      "bytes": 4412
+    },
+    {
+      "path": "prepared/episodes/task02_demo_21/features.npy",
+      "bytes": 47265920
+    },
+    {
+      "path": "prepared/episodes/task02_demo_21/actions.npy",
+      "bytes": 4524
+    },
+    {
+      "path": "prepared/episodes/task02_demo_22/features.npy",
+      "bytes": 43051136
+    },
+    {
+      "path": "prepared/episodes/task02_demo_22/actions.npy",
+      "bytes": 4132
+    },
+    {
+      "path": "prepared/episodes/task02_demo_23/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task02_demo_23/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task02_demo_24/features.npy",
+      "bytes": 42750080
+    },
+    {
+      "path": "prepared/episodes/task02_demo_24/actions.npy",
+      "bytes": 4104
+    },
+    {
+      "path": "prepared/episodes/task02_demo_25/features.npy",
+      "bytes": 46362752
+    },
+    {
+      "path": "prepared/episodes/task02_demo_25/actions.npy",
+      "bytes": 4440
+    },
+    {
+      "path": "prepared/episodes/task02_demo_26/features.npy",
+      "bytes": 48771200
+    },
+    {
+      "path": "prepared/episodes/task02_demo_26/actions.npy",
+      "bytes": 4664
+    },
+    {
+      "path": "prepared/episodes/task02_demo_27/features.npy",
+      "bytes": 40341632
+    },
+    {
+      "path": "prepared/episodes/task02_demo_27/actions.npy",
+      "bytes": 3880
+    },
+    {
+      "path": "prepared/episodes/task02_demo_28/features.npy",
+      "bytes": 46663808
+    },
+    {
+      "path": "prepared/episodes/task02_demo_28/actions.npy",
+      "bytes": 4468
+    },
+    {
+      "path": "prepared/episodes/task02_demo_29/features.npy",
+      "bytes": 38535296
+    },
+    {
+      "path": "prepared/episodes/task02_demo_29/actions.npy",
+      "bytes": 3712
+    },
+    {
+      "path": "prepared/episodes/task02_demo_30/features.npy",
+      "bytes": 48771200
+    },
+    {
+      "path": "prepared/episodes/task02_demo_30/actions.npy",
+      "bytes": 4664
+    },
+    {
+      "path": "prepared/episodes/task02_demo_31/features.npy",
+      "bytes": 52082816
+    },
+    {
+      "path": "prepared/episodes/task02_demo_31/actions.npy",
+      "bytes": 4972
+    },
+    {
+      "path": "prepared/episodes/task02_demo_32/features.npy",
+      "bytes": 46061696
+    },
+    {
+      "path": "prepared/episodes/task02_demo_32/actions.npy",
+      "bytes": 4412
+    },
+    {
+      "path": "prepared/episodes/task02_demo_33/features.npy",
+      "bytes": 58706048
+    },
+    {
+      "path": "prepared/episodes/task02_demo_33/actions.npy",
+      "bytes": 5588
+    },
+    {
+      "path": "prepared/episodes/task02_demo_34/features.npy",
+      "bytes": 41244800
+    },
+    {
+      "path": "prepared/episodes/task02_demo_34/actions.npy",
+      "bytes": 3964
+    },
+    {
+      "path": "prepared/episodes/task02_demo_35/features.npy",
+      "bytes": 41846912
+    },
+    {
+      "path": "prepared/episodes/task02_demo_35/actions.npy",
+      "bytes": 4020
+    },
+    {
+      "path": "prepared/episodes/task02_demo_36/features.npy",
+      "bytes": 40040576
+    },
+    {
+      "path": "prepared/episodes/task02_demo_36/actions.npy",
+      "bytes": 3852
+    },
+    {
+      "path": "prepared/episodes/task02_demo_37/features.npy",
+      "bytes": 52684928
+    },
+    {
+      "path": "prepared/episodes/task02_demo_37/actions.npy",
+      "bytes": 5028
+    },
+    {
+      "path": "prepared/episodes/task02_demo_38/features.npy",
+      "bytes": 37632128
+    },
+    {
+      "path": "prepared/episodes/task02_demo_38/actions.npy",
+      "bytes": 3628
+    },
+    {
+      "path": "prepared/episodes/task02_demo_39/features.npy",
+      "bytes": 36126848
+    },
+    {
+      "path": "prepared/episodes/task02_demo_39/actions.npy",
+      "bytes": 3488
+    },
+    {
+      "path": "prepared/episodes/task02_demo_40/features.npy",
+      "bytes": 37331072
+    },
+    {
+      "path": "prepared/episodes/task02_demo_40/actions.npy",
+      "bytes": 3600
+    },
+    {
+      "path": "prepared/episodes/task02_demo_41/features.npy",
+      "bytes": 48771200
+    },
+    {
+      "path": "prepared/episodes/task02_demo_41/actions.npy",
+      "bytes": 4664
+    },
+    {
+      "path": "prepared/episodes/task02_demo_42/features.npy",
+      "bytes": 39438464
+    },
+    {
+      "path": "prepared/episodes/task02_demo_42/actions.npy",
+      "bytes": 3796
+    },
+    {
+      "path": "prepared/episodes/task02_demo_43/features.npy",
+      "bytes": 70748288
+    },
+    {
+      "path": "prepared/episodes/task02_demo_43/actions.npy",
+      "bytes": 6708
+    },
+    {
+      "path": "prepared/episodes/task02_demo_44/features.npy",
+      "bytes": 37632128
+    },
+    {
+      "path": "prepared/episodes/task02_demo_44/actions.npy",
+      "bytes": 3628
+    },
+    {
+      "path": "prepared/episodes/task02_demo_45/features.npy",
+      "bytes": 89112704
+    },
+    {
+      "path": "prepared/episodes/task02_demo_45/actions.npy",
+      "bytes": 8416
+    },
+    {
+      "path": "prepared/episodes/task02_demo_46/features.npy",
+      "bytes": 60512384
+    },
+    {
+      "path": "prepared/episodes/task02_demo_46/actions.npy",
+      "bytes": 5756
+    },
+    {
+      "path": "prepared/episodes/task02_demo_47/features.npy",
+      "bytes": 40040576
+    },
+    {
+      "path": "prepared/episodes/task02_demo_47/actions.npy",
+      "bytes": 3852
+    },
+    {
+      "path": "prepared/episodes/task02_demo_48/features.npy",
+      "bytes": 57501824
+    },
+    {
+      "path": "prepared/episodes/task02_demo_48/actions.npy",
+      "bytes": 5476
+    },
+    {
+      "path": "prepared/episodes/task02_demo_49/features.npy",
+      "bytes": 61415552
+    },
+    {
+      "path": "prepared/episodes/task02_demo_49/actions.npy",
+      "bytes": 5840
+    },
+    {
+      "path": "prepared/episodes/task02_demo_50/features.npy",
+      "bytes": 58103936
+    },
+    {
+      "path": "prepared/episodes/task02_demo_50/actions.npy",
+      "bytes": 5532
+    },
+    {
+      "path": "prepared/episodes/task02_demo_51/features.npy",
+      "bytes": 44556416
+    },
+    {
+      "path": "prepared/episodes/task02_demo_51/actions.npy",
+      "bytes": 4272
+    },
+    {
+      "path": "prepared/episodes/task02_demo_52/features.npy",
+      "bytes": 57802880
+    },
+    {
+      "path": "prepared/episodes/task02_demo_52/actions.npy",
+      "bytes": 5504
+    },
+    {
+      "path": "prepared/episodes/task02_demo_53/features.npy",
+      "bytes": 45760640
+    },
+    {
+      "path": "prepared/episodes/task02_demo_53/actions.npy",
+      "bytes": 4384
+    },
+    {
+      "path": "prepared/episodes/task02_demo_54/features.npy",
+      "bytes": 59910272
+    },
+    {
+      "path": "prepared/episodes/task02_demo_54/actions.npy",
+      "bytes": 5700
+    },
+    {
+      "path": "prepared/episodes/task02_demo_55/features.npy",
+      "bytes": 39438464
+    },
+    {
+      "path": "prepared/episodes/task02_demo_55/actions.npy",
+      "bytes": 3796
+    },
+    {
+      "path": "prepared/episodes/task02_demo_56/features.npy",
+      "bytes": 48169088
+    },
+    {
+      "path": "prepared/episodes/task02_demo_56/actions.npy",
+      "bytes": 4608
+    },
+    {
+      "path": "prepared/episodes/task02_demo_57/features.npy",
+      "bytes": 41846912
+    },
+    {
+      "path": "prepared/episodes/task02_demo_57/actions.npy",
+      "bytes": 4020
+    },
+    {
+      "path": "prepared/episodes/task02_demo_58/features.npy",
+      "bytes": 47566976
+    },
+    {
+      "path": "prepared/episodes/task02_demo_58/actions.npy",
+      "bytes": 4552
+    },
+    {
+      "path": "prepared/episodes/task02_demo_60/features.npy",
+      "bytes": 42750080
+    },
+    {
+      "path": "prepared/episodes/task02_demo_60/actions.npy",
+      "bytes": 4104
+    },
+    {
+      "path": "prepared/episodes/task02_demo_61/features.npy",
+      "bytes": 41244800
+    },
+    {
+      "path": "prepared/episodes/task02_demo_61/actions.npy",
+      "bytes": 3964
+    },
+    {
+      "path": "prepared/episodes/task02_demo_62/features.npy",
+      "bytes": 42147968
+    },
+    {
+      "path": "prepared/episodes/task02_demo_62/actions.npy",
+      "bytes": 4048
+    },
+    {
+      "path": "prepared/episodes/task02_demo_63/features.npy",
+      "bytes": 41244800
+    },
+    {
+      "path": "prepared/episodes/task02_demo_63/actions.npy",
+      "bytes": 3964
+    },
+    {
+      "path": "prepared/episodes/task02_demo_64/features.npy",
+      "bytes": 47265920
+    },
+    {
+      "path": "prepared/episodes/task02_demo_64/actions.npy",
+      "bytes": 4524
+    },
+    {
+      "path": "prepared/episodes/task02_demo_65/features.npy",
+      "bytes": 57802880
+    },
+    {
+      "path": "prepared/episodes/task02_demo_65/actions.npy",
+      "bytes": 5504
+    },
+    {
+      "path": "prepared/episodes/task02_demo_66/features.npy",
+      "bytes": 57802880
+    },
+    {
+      "path": "prepared/episodes/task02_demo_66/actions.npy",
+      "bytes": 5504
+    },
+    {
+      "path": "prepared/episodes/task02_demo_67/features.npy",
+      "bytes": 65630336
+    },
+    {
+      "path": "prepared/episodes/task02_demo_67/actions.npy",
+      "bytes": 6232
+    },
+    {
+      "path": "prepared/episodes/task02_demo_68/features.npy",
+      "bytes": 61114496
+    },
+    {
+      "path": "prepared/episodes/task02_demo_68/actions.npy",
+      "bytes": 5812
+    },
+    {
+      "path": "prepared/episodes/task02_demo_69/features.npy",
+      "bytes": 48771200
+    },
+    {
+      "path": "prepared/episodes/task02_demo_69/actions.npy",
+      "bytes": 4664
+    },
+    {
+      "path": "prepared/episodes/task02_demo_70/features.npy",
+      "bytes": 59308160
+    },
+    {
+      "path": "prepared/episodes/task02_demo_70/actions.npy",
+      "bytes": 5644
+    },
+    {
+      "path": "prepared/episodes/task02_demo_71/features.npy",
+      "bytes": 59910272
+    },
+    {
+      "path": "prepared/episodes/task02_demo_71/actions.npy",
+      "bytes": 5700
+    },
+    {
+      "path": "prepared/episodes/task02_demo_72/features.npy",
+      "bytes": 40040576
+    },
+    {
+      "path": "prepared/episodes/task02_demo_72/actions.npy",
+      "bytes": 3852
+    },
+    {
+      "path": "prepared/episodes/task02_demo_73/features.npy",
+      "bytes": 37933184
+    },
+    {
+      "path": "prepared/episodes/task02_demo_73/actions.npy",
+      "bytes": 3656
+    },
+    {
+      "path": "prepared/episodes/task02_demo_74/features.npy",
+      "bytes": 40642688
+    },
+    {
+      "path": "prepared/episodes/task02_demo_74/actions.npy",
+      "bytes": 3908
+    },
+    {
+      "path": "prepared/episodes/task02_demo_75/features.npy",
+      "bytes": 57200768
+    },
+    {
+      "path": "prepared/episodes/task02_demo_75/actions.npy",
+      "bytes": 5448
+    },
+    {
+      "path": "prepared/episodes/task02_demo_76/features.npy",
+      "bytes": 43954304
+    },
+    {
+      "path": "prepared/episodes/task02_demo_76/actions.npy",
+      "bytes": 4216
+    },
+    {
+      "path": "prepared/episodes/task02_demo_77/features.npy",
+      "bytes": 44857472
+    },
+    {
+      "path": "prepared/episodes/task02_demo_77/actions.npy",
+      "bytes": 4300
+    },
+    {
+      "path": "prepared/episodes/task02_demo_78/features.npy",
+      "bytes": 48771200
+    },
+    {
+      "path": "prepared/episodes/task02_demo_78/actions.npy",
+      "bytes": 4664
+    },
+    {
+      "path": "prepared/episodes/task02_demo_79/features.npy",
+      "bytes": 61114496
+    },
+    {
+      "path": "prepared/episodes/task02_demo_79/actions.npy",
+      "bytes": 5812
+    },
+    {
+      "path": "prepared/episodes/task02_demo_80/features.npy",
+      "bytes": 46663808
+    },
+    {
+      "path": "prepared/episodes/task02_demo_80/actions.npy",
+      "bytes": 4468
+    },
+    {
+      "path": "prepared/episodes/task02_demo_81/features.npy",
+      "bytes": 44255360
+    },
+    {
+      "path": "prepared/episodes/task02_demo_81/actions.npy",
+      "bytes": 4244
+    },
+    {
+      "path": "prepared/episodes/task02_demo_82/features.npy",
+      "bytes": 41244800
+    },
+    {
+      "path": "prepared/episodes/task02_demo_82/actions.npy",
+      "bytes": 3964
+    },
+    {
+      "path": "prepared/episodes/task02_demo_83/features.npy",
+      "bytes": 57200768
+    },
+    {
+      "path": "prepared/episodes/task02_demo_83/actions.npy",
+      "bytes": 5448
+    },
+    {
+      "path": "prepared/episodes/task02_demo_84/features.npy",
+      "bytes": 39739520
+    },
+    {
+      "path": "prepared/episodes/task02_demo_84/actions.npy",
+      "bytes": 3824
+    },
+    {
+      "path": "prepared/episodes/task02_demo_85/features.npy",
+      "bytes": 41545856
+    },
+    {
+      "path": "prepared/episodes/task02_demo_85/actions.npy",
+      "bytes": 3992
+    },
+    {
+      "path": "prepared/episodes/task02_demo_86/features.npy",
+      "bytes": 38535296
+    },
+    {
+      "path": "prepared/episodes/task02_demo_86/actions.npy",
+      "bytes": 3712
+    },
+    {
+      "path": "prepared/episodes/task02_demo_87/features.npy",
+      "bytes": 55695488
+    },
+    {
+      "path": "prepared/episodes/task02_demo_87/actions.npy",
+      "bytes": 5308
+    },
+    {
+      "path": "prepared/episodes/task02_demo_88/features.npy",
+      "bytes": 38535296
+    },
+    {
+      "path": "prepared/episodes/task02_demo_88/actions.npy",
+      "bytes": 3712
+    },
+    {
+      "path": "prepared/episodes/task02_demo_89/features.npy",
+      "bytes": 57200768
+    },
+    {
+      "path": "prepared/episodes/task02_demo_89/actions.npy",
+      "bytes": 5448
+    },
+    {
+      "path": "prepared/episodes/task02_demo_90/features.npy",
+      "bytes": 46061696
+    },
+    {
+      "path": "prepared/episodes/task02_demo_90/actions.npy",
+      "bytes": 4412
+    },
+    {
+      "path": "prepared/episodes/task02_demo_91/features.npy",
+      "bytes": 55093376
+    },
+    {
+      "path": "prepared/episodes/task02_demo_91/actions.npy",
+      "bytes": 5252
+    },
+    {
+      "path": "prepared/episodes/task02_demo_92/features.npy",
+      "bytes": 39438464
+    },
+    {
+      "path": "prepared/episodes/task02_demo_92/actions.npy",
+      "bytes": 3796
+    },
+    {
+      "path": "prepared/episodes/task02_demo_93/features.npy",
+      "bytes": 48169088
+    },
+    {
+      "path": "prepared/episodes/task02_demo_93/actions.npy",
+      "bytes": 4608
+    },
+    {
+      "path": "prepared/episodes/task02_demo_94/features.npy",
+      "bytes": 42147968
+    },
+    {
+      "path": "prepared/episodes/task02_demo_94/actions.npy",
+      "bytes": 4048
+    },
+    {
+      "path": "prepared/episodes/task02_demo_96/features.npy",
+      "bytes": 40943744
+    },
+    {
+      "path": "prepared/episodes/task02_demo_96/actions.npy",
+      "bytes": 3936
+    },
+    {
+      "path": "prepared/episodes/task02_demo_97/features.npy",
+      "bytes": 39438464
+    },
+    {
+      "path": "prepared/episodes/task02_demo_97/actions.npy",
+      "bytes": 3796
+    },
+    {
+      "path": "prepared/episodes/task02_demo_98/features.npy",
+      "bytes": 49373312
+    },
+    {
+      "path": "prepared/episodes/task02_demo_98/actions.npy",
+      "bytes": 4720
+    },
+    {
+      "path": "prepared/episodes/task02_demo_99/features.npy",
+      "bytes": 52684928
+    },
+    {
+      "path": "prepared/episodes/task02_demo_99/actions.npy",
+      "bytes": 5028
+    },
+    {
+      "path": "prepared/episodes/task02_demo_100/features.npy",
+      "bytes": 39438464
+    },
+    {
+      "path": "prepared/episodes/task02_demo_100/actions.npy",
+      "bytes": 3796
+    },
+    {
+      "path": "prepared/episodes/task03_demo_1/features.npy",
+      "bytes": 83091584
+    },
+    {
+      "path": "prepared/episodes/task03_demo_1/actions.npy",
+      "bytes": 7856
+    },
+    {
+      "path": "prepared/episodes/task03_demo_2/features.npy",
+      "bytes": 86102144
+    },
+    {
+      "path": "prepared/episodes/task03_demo_2/actions.npy",
+      "bytes": 8136
+    },
+    {
+      "path": "prepared/episodes/task03_demo_3/features.npy",
+      "bytes": 82188416
+    },
+    {
+      "path": "prepared/episodes/task03_demo_3/actions.npy",
+      "bytes": 7772
+    },
+    {
+      "path": "prepared/episodes/task03_demo_4/features.npy",
+      "bytes": 80081024
+    },
+    {
+      "path": "prepared/episodes/task03_demo_4/actions.npy",
+      "bytes": 7576
+    },
+    {
+      "path": "prepared/episodes/task03_demo_5/features.npy",
+      "bytes": 81887360
+    },
+    {
+      "path": "prepared/episodes/task03_demo_5/actions.npy",
+      "bytes": 7744
+    },
+    {
+      "path": "prepared/episodes/task03_demo_6/features.npy",
+      "bytes": 89714816
+    },
+    {
+      "path": "prepared/episodes/task03_demo_6/actions.npy",
+      "bytes": 8472
+    },
+    {
+      "path": "prepared/episodes/task03_demo_7/features.npy",
+      "bytes": 85500032
+    },
+    {
+      "path": "prepared/episodes/task03_demo_7/actions.npy",
+      "bytes": 8080
+    },
+    {
+      "path": "prepared/episodes/task03_demo_8/features.npy",
+      "bytes": 80081024
+    },
+    {
+      "path": "prepared/episodes/task03_demo_8/actions.npy",
+      "bytes": 7576
+    },
+    {
+      "path": "prepared/episodes/task03_demo_9/features.npy",
+      "bytes": 89714816
+    },
+    {
+      "path": "prepared/episodes/task03_demo_9/actions.npy",
+      "bytes": 8472
+    },
+    {
+      "path": "prepared/episodes/task03_demo_10/features.npy",
+      "bytes": 87005312
+    },
+    {
+      "path": "prepared/episodes/task03_demo_10/actions.npy",
+      "bytes": 8220
+    },
+    {
+      "path": "prepared/episodes/task03_demo_11/features.npy",
+      "bytes": 88811648
+    },
+    {
+      "path": "prepared/episodes/task03_demo_11/actions.npy",
+      "bytes": 8388
+    },
+    {
+      "path": "prepared/episodes/task03_demo_12/features.npy",
+      "bytes": 92123264
+    },
+    {
+      "path": "prepared/episodes/task03_demo_12/actions.npy",
+      "bytes": 8696
+    },
+    {
+      "path": "prepared/episodes/task03_demo_13/features.npy",
+      "bytes": 89413760
+    },
+    {
+      "path": "prepared/episodes/task03_demo_13/actions.npy",
+      "bytes": 8444
+    },
+    {
+      "path": "prepared/episodes/task03_demo_14/features.npy",
+      "bytes": 88811648
+    },
+    {
+      "path": "prepared/episodes/task03_demo_14/actions.npy",
+      "bytes": 8388
+    },
+    {
+      "path": "prepared/episodes/task03_demo_15/features.npy",
+      "bytes": 89413760
+    },
+    {
+      "path": "prepared/episodes/task03_demo_15/actions.npy",
+      "bytes": 8444
+    },
+    {
+      "path": "prepared/episodes/task03_demo_16/features.npy",
+      "bytes": 89413760
+    },
+    {
+      "path": "prepared/episodes/task03_demo_16/actions.npy",
+      "bytes": 8444
+    },
+    {
+      "path": "prepared/episodes/task03_demo_17/features.npy",
+      "bytes": 88510592
+    },
+    {
+      "path": "prepared/episodes/task03_demo_17/actions.npy",
+      "bytes": 8360
+    },
+    {
+      "path": "prepared/episodes/task03_demo_18/features.npy",
+      "bytes": 86403200
+    },
+    {
+      "path": "prepared/episodes/task03_demo_18/actions.npy",
+      "bytes": 8164
+    },
+    {
+      "path": "prepared/episodes/task03_demo_19/features.npy",
+      "bytes": 87607424
+    },
+    {
+      "path": "prepared/episodes/task03_demo_19/actions.npy",
+      "bytes": 8276
+    },
+    {
+      "path": "prepared/episodes/task03_demo_20/features.npy",
+      "bytes": 90919040
+    },
+    {
+      "path": "prepared/episodes/task03_demo_20/actions.npy",
+      "bytes": 8584
+    },
+    {
+      "path": "prepared/episodes/task03_demo_21/features.npy",
+      "bytes": 90617984
+    },
+    {
+      "path": "prepared/episodes/task03_demo_21/actions.npy",
+      "bytes": 8556
+    },
+    {
+      "path": "prepared/episodes/task03_demo_22/features.npy",
+      "bytes": 92123264
+    },
+    {
+      "path": "prepared/episodes/task03_demo_22/actions.npy",
+      "bytes": 8696
+    },
+    {
+      "path": "prepared/episodes/task03_demo_23/features.npy",
+      "bytes": 90316928
+    },
+    {
+      "path": "prepared/episodes/task03_demo_23/actions.npy",
+      "bytes": 8528
+    },
+    {
+      "path": "prepared/episodes/task03_demo_24/features.npy",
+      "bytes": 90316928
+    },
+    {
+      "path": "prepared/episodes/task03_demo_24/actions.npy",
+      "bytes": 8528
+    },
+    {
+      "path": "prepared/episodes/task03_demo_25/features.npy",
+      "bytes": 85198976
+    },
+    {
+      "path": "prepared/episodes/task03_demo_25/actions.npy",
+      "bytes": 8052
+    },
+    {
+      "path": "prepared/episodes/task03_demo_26/features.npy",
+      "bytes": 87607424
+    },
+    {
+      "path": "prepared/episodes/task03_demo_26/actions.npy",
+      "bytes": 8276
+    },
+    {
+      "path": "prepared/episodes/task03_demo_27/features.npy",
+      "bytes": 92725376
+    },
+    {
+      "path": "prepared/episodes/task03_demo_27/actions.npy",
+      "bytes": 8752
+    },
+    {
+      "path": "prepared/episodes/task03_demo_28/features.npy",
+      "bytes": 99649664
+    },
+    {
+      "path": "prepared/episodes/task03_demo_28/actions.npy",
+      "bytes": 9396
+    },
+    {
+      "path": "prepared/episodes/task03_demo_29/features.npy",
+      "bytes": 95133824
+    },
+    {
+      "path": "prepared/episodes/task03_demo_29/actions.npy",
+      "bytes": 8976
+    },
+    {
+      "path": "prepared/episodes/task03_demo_30/features.npy",
+      "bytes": 81285248
+    },
+    {
+      "path": "prepared/episodes/task03_demo_30/actions.npy",
+      "bytes": 7688
+    },
+    {
+      "path": "prepared/episodes/task03_demo_31/features.npy",
+      "bytes": 83392640
+    },
+    {
+      "path": "prepared/episodes/task03_demo_31/actions.npy",
+      "bytes": 7884
+    },
+    {
+      "path": "prepared/episodes/task03_demo_32/features.npy",
+      "bytes": 82489472
+    },
+    {
+      "path": "prepared/episodes/task03_demo_32/actions.npy",
+      "bytes": 7800
+    },
+    {
+      "path": "prepared/episodes/task03_demo_33/features.npy",
+      "bytes": 81586304
+    },
+    {
+      "path": "prepared/episodes/task03_demo_33/actions.npy",
+      "bytes": 7716
+    },
+    {
+      "path": "prepared/episodes/task03_demo_34/features.npy",
+      "bytes": 82790528
+    },
+    {
+      "path": "prepared/episodes/task03_demo_34/actions.npy",
+      "bytes": 7828
+    },
+    {
+      "path": "prepared/episodes/task03_demo_35/features.npy",
+      "bytes": 77371520
+    },
+    {
+      "path": "prepared/episodes/task03_demo_35/actions.npy",
+      "bytes": 7324
+    },
+    {
+      "path": "prepared/episodes/task03_demo_36/features.npy",
+      "bytes": 85198976
+    },
+    {
+      "path": "prepared/episodes/task03_demo_36/actions.npy",
+      "bytes": 8052
+    },
+    {
+      "path": "prepared/episodes/task03_demo_37/features.npy",
+      "bytes": 92725376
+    },
+    {
+      "path": "prepared/episodes/task03_demo_37/actions.npy",
+      "bytes": 8752
+    },
+    {
+      "path": "prepared/episodes/task03_demo_38/features.npy",
+      "bytes": 85801088
+    },
+    {
+      "path": "prepared/episodes/task03_demo_38/actions.npy",
+      "bytes": 8108
+    },
+    {
+      "path": "prepared/episodes/task03_demo_39/features.npy",
+      "bytes": 90316928
+    },
+    {
+      "path": "prepared/episodes/task03_demo_39/actions.npy",
+      "bytes": 8528
+    },
+    {
+      "path": "prepared/episodes/task03_demo_40/features.npy",
+      "bytes": 84295808
+    },
+    {
+      "path": "prepared/episodes/task03_demo_40/actions.npy",
+      "bytes": 7968
+    },
+    {
+      "path": "prepared/episodes/task03_demo_41/features.npy",
+      "bytes": 99348608
+    },
+    {
+      "path": "prepared/episodes/task03_demo_41/actions.npy",
+      "bytes": 9368
+    },
+    {
+      "path": "prepared/episodes/task03_demo_42/features.npy",
+      "bytes": 83392640
+    },
+    {
+      "path": "prepared/episodes/task03_demo_42/actions.npy",
+      "bytes": 7884
+    },
+    {
+      "path": "prepared/episodes/task03_demo_43/features.npy",
+      "bytes": 87005312
+    },
+    {
+      "path": "prepared/episodes/task03_demo_43/actions.npy",
+      "bytes": 8220
+    },
+    {
+      "path": "prepared/episodes/task03_demo_44/features.npy",
+      "bytes": 95133824
+    },
+    {
+      "path": "prepared/episodes/task03_demo_44/actions.npy",
+      "bytes": 8976
+    },
+    {
+      "path": "prepared/episodes/task03_demo_45/features.npy",
+      "bytes": 92424320
+    },
+    {
+      "path": "prepared/episodes/task03_demo_45/actions.npy",
+      "bytes": 8724
+    },
+    {
+      "path": "prepared/episodes/task03_demo_46/features.npy",
+      "bytes": 80984192
+    },
+    {
+      "path": "prepared/episodes/task03_demo_46/actions.npy",
+      "bytes": 7660
+    },
+    {
+      "path": "prepared/episodes/task03_demo_47/features.npy",
+      "bytes": 89714816
+    },
+    {
+      "path": "prepared/episodes/task03_demo_47/actions.npy",
+      "bytes": 8472
+    },
+    {
+      "path": "prepared/episodes/task03_demo_49/features.npy",
+      "bytes": 82790528
+    },
+    {
+      "path": "prepared/episodes/task03_demo_49/actions.npy",
+      "bytes": 7828
+    },
+    {
+      "path": "prepared/episodes/task03_demo_50/features.npy",
+      "bytes": 82489472
+    },
+    {
+      "path": "prepared/episodes/task03_demo_50/actions.npy",
+      "bytes": 7800
+    },
+    {
+      "path": "prepared/episodes/task03_demo_51/features.npy",
+      "bytes": 88510592
+    },
+    {
+      "path": "prepared/episodes/task03_demo_51/actions.npy",
+      "bytes": 8360
+    },
+    {
+      "path": "prepared/episodes/task03_demo_52/features.npy",
+      "bytes": 79779968
+    },
+    {
+      "path": "prepared/episodes/task03_demo_52/actions.npy",
+      "bytes": 7548
+    },
+    {
+      "path": "prepared/episodes/task03_demo_53/features.npy",
+      "bytes": 79478912
+    },
+    {
+      "path": "prepared/episodes/task03_demo_53/actions.npy",
+      "bytes": 7520
+    },
+    {
+      "path": "prepared/episodes/task03_demo_54/features.npy",
+      "bytes": 77973632
+    },
+    {
+      "path": "prepared/episodes/task03_demo_54/actions.npy",
+      "bytes": 7380
+    },
+    {
+      "path": "prepared/episodes/task03_demo_55/features.npy",
+      "bytes": 88510592
+    },
+    {
+      "path": "prepared/episodes/task03_demo_55/actions.npy",
+      "bytes": 8360
+    },
+    {
+      "path": "prepared/episodes/task03_demo_56/features.npy",
+      "bytes": 87005312
+    },
+    {
+      "path": "prepared/episodes/task03_demo_56/actions.npy",
+      "bytes": 8220
+    },
+    {
+      "path": "prepared/episodes/task03_demo_57/features.npy",
+      "bytes": 90919040
+    },
+    {
+      "path": "prepared/episodes/task03_demo_57/actions.npy",
+      "bytes": 8584
+    },
+    {
+      "path": "prepared/episodes/task03_demo_58/features.npy",
+      "bytes": 89112704
+    },
+    {
+      "path": "prepared/episodes/task03_demo_58/actions.npy",
+      "bytes": 8416
+    },
+    {
+      "path": "prepared/episodes/task03_demo_59/features.npy",
+      "bytes": 88510592
+    },
+    {
+      "path": "prepared/episodes/task03_demo_59/actions.npy",
+      "bytes": 8360
+    },
+    {
+      "path": "prepared/episodes/task03_demo_60/features.npy",
+      "bytes": 83392640
+    },
+    {
+      "path": "prepared/episodes/task03_demo_60/actions.npy",
+      "bytes": 7884
+    },
+    {
+      "path": "prepared/episodes/task03_demo_61/features.npy",
+      "bytes": 85198976
+    },
+    {
+      "path": "prepared/episodes/task03_demo_61/actions.npy",
+      "bytes": 8052
+    },
+    {
+      "path": "prepared/episodes/task03_demo_62/features.npy",
+      "bytes": 87306368
+    },
+    {
+      "path": "prepared/episodes/task03_demo_62/actions.npy",
+      "bytes": 8248
+    },
+    {
+      "path": "prepared/episodes/task03_demo_63/features.npy",
+      "bytes": 85500032
+    },
+    {
+      "path": "prepared/episodes/task03_demo_63/actions.npy",
+      "bytes": 8080
+    },
+    {
+      "path": "prepared/episodes/task03_demo_64/features.npy",
+      "bytes": 84295808
+    },
+    {
+      "path": "prepared/episodes/task03_demo_64/actions.npy",
+      "bytes": 7968
+    },
+    {
+      "path": "prepared/episodes/task03_demo_65/features.npy",
+      "bytes": 84596864
+    },
+    {
+      "path": "prepared/episodes/task03_demo_65/actions.npy",
+      "bytes": 7996
+    },
+    {
+      "path": "prepared/episodes/task03_demo_66/features.npy",
+      "bytes": 96639104
+    },
+    {
+      "path": "prepared/episodes/task03_demo_66/actions.npy",
+      "bytes": 9116
+    },
+    {
+      "path": "prepared/episodes/task03_demo_67/features.npy",
+      "bytes": 87908480
+    },
+    {
+      "path": "prepared/episodes/task03_demo_67/actions.npy",
+      "bytes": 8304
+    },
+    {
+      "path": "prepared/episodes/task03_demo_68/features.npy",
+      "bytes": 85198976
+    },
+    {
+      "path": "prepared/episodes/task03_demo_68/actions.npy",
+      "bytes": 8052
+    },
+    {
+      "path": "prepared/episodes/task03_demo_69/features.npy",
+      "bytes": 82790528
+    },
+    {
+      "path": "prepared/episodes/task03_demo_69/actions.npy",
+      "bytes": 7828
+    },
+    {
+      "path": "prepared/episodes/task03_demo_70/features.npy",
+      "bytes": 81586304
+    },
+    {
+      "path": "prepared/episodes/task03_demo_70/actions.npy",
+      "bytes": 7716
+    },
+    {
+      "path": "prepared/episodes/task03_demo_71/features.npy",
+      "bytes": 87306368
+    },
+    {
+      "path": "prepared/episodes/task03_demo_71/actions.npy",
+      "bytes": 8248
+    },
+    {
+      "path": "prepared/episodes/task03_demo_72/features.npy",
+      "bytes": 85801088
+    },
+    {
+      "path": "prepared/episodes/task03_demo_72/actions.npy",
+      "bytes": 8108
+    },
+    {
+      "path": "prepared/episodes/task03_demo_73/features.npy",
+      "bytes": 83091584
+    },
+    {
+      "path": "prepared/episodes/task03_demo_73/actions.npy",
+      "bytes": 7856
+    },
+    {
+      "path": "prepared/episodes/task03_demo_74/features.npy",
+      "bytes": 82188416
+    },
+    {
+      "path": "prepared/episodes/task03_demo_74/actions.npy",
+      "bytes": 7772
+    },
+    {
+      "path": "prepared/episodes/task03_demo_75/features.npy",
+      "bytes": 88209536
+    },
+    {
+      "path": "prepared/episodes/task03_demo_75/actions.npy",
+      "bytes": 8332
+    },
+    {
+      "path": "prepared/episodes/task03_demo_76/features.npy",
+      "bytes": 84596864
+    },
+    {
+      "path": "prepared/episodes/task03_demo_76/actions.npy",
+      "bytes": 7996
+    },
+    {
+      "path": "prepared/episodes/task03_demo_77/features.npy",
+      "bytes": 83994752
+    },
+    {
+      "path": "prepared/episodes/task03_demo_77/actions.npy",
+      "bytes": 7940
+    },
+    {
+      "path": "prepared/episodes/task03_demo_78/features.npy",
+      "bytes": 82790528
+    },
+    {
+      "path": "prepared/episodes/task03_demo_78/actions.npy",
+      "bytes": 7828
+    },
+    {
+      "path": "prepared/episodes/task03_demo_79/features.npy",
+      "bytes": 87607424
+    },
+    {
+      "path": "prepared/episodes/task03_demo_79/actions.npy",
+      "bytes": 8276
+    },
+    {
+      "path": "prepared/episodes/task03_demo_80/features.npy",
+      "bytes": 86403200
+    },
+    {
+      "path": "prepared/episodes/task03_demo_80/actions.npy",
+      "bytes": 8164
+    },
+    {
+      "path": "prepared/episodes/task03_demo_82/features.npy",
+      "bytes": 83994752
+    },
+    {
+      "path": "prepared/episodes/task03_demo_82/actions.npy",
+      "bytes": 7940
+    },
+    {
+      "path": "prepared/episodes/task03_demo_83/features.npy",
+      "bytes": 81285248
+    },
+    {
+      "path": "prepared/episodes/task03_demo_83/actions.npy",
+      "bytes": 7688
+    },
+    {
+      "path": "prepared/episodes/task03_demo_84/features.npy",
+      "bytes": 85198976
+    },
+    {
+      "path": "prepared/episodes/task03_demo_84/actions.npy",
+      "bytes": 8052
+    },
+    {
+      "path": "prepared/episodes/task03_demo_85/features.npy",
+      "bytes": 81887360
+    },
+    {
+      "path": "prepared/episodes/task03_demo_85/actions.npy",
+      "bytes": 7744
+    },
+    {
+      "path": "prepared/episodes/task03_demo_86/features.npy",
+      "bytes": 85500032
+    },
+    {
+      "path": "prepared/episodes/task03_demo_86/actions.npy",
+      "bytes": 8080
+    },
+    {
+      "path": "prepared/episodes/task03_demo_87/features.npy",
+      "bytes": 78876800
+    },
+    {
+      "path": "prepared/episodes/task03_demo_87/actions.npy",
+      "bytes": 7464
+    },
+    {
+      "path": "prepared/episodes/task03_demo_88/features.npy",
+      "bytes": 77973632
+    },
+    {
+      "path": "prepared/episodes/task03_demo_88/actions.npy",
+      "bytes": 7380
+    },
+    {
+      "path": "prepared/episodes/task03_demo_89/features.npy",
+      "bytes": 90015872
+    },
+    {
+      "path": "prepared/episodes/task03_demo_89/actions.npy",
+      "bytes": 8500
+    },
+    {
+      "path": "prepared/episodes/task03_demo_90/features.npy",
+      "bytes": 85500032
+    },
+    {
+      "path": "prepared/episodes/task03_demo_90/actions.npy",
+      "bytes": 8080
+    },
+    {
+      "path": "prepared/episodes/task03_demo_91/features.npy",
+      "bytes": 84897920
+    },
+    {
+      "path": "prepared/episodes/task03_demo_91/actions.npy",
+      "bytes": 8024
+    },
+    {
+      "path": "prepared/episodes/task03_demo_92/features.npy",
+      "bytes": 85500032
+    },
+    {
+      "path": "prepared/episodes/task03_demo_92/actions.npy",
+      "bytes": 8080
+    },
+    {
+      "path": "prepared/episodes/task03_demo_93/features.npy",
+      "bytes": 77070464
+    },
+    {
+      "path": "prepared/episodes/task03_demo_93/actions.npy",
+      "bytes": 7296
+    },
+    {
+      "path": "prepared/episodes/task03_demo_94/features.npy",
+      "bytes": 88510592
+    },
+    {
+      "path": "prepared/episodes/task03_demo_94/actions.npy",
+      "bytes": 8360
+    },
+    {
+      "path": "prepared/episodes/task03_demo_95/features.npy",
+      "bytes": 83994752
+    },
+    {
+      "path": "prepared/episodes/task03_demo_95/actions.npy",
+      "bytes": 7940
+    },
+    {
+      "path": "prepared/episodes/task03_demo_96/features.npy",
+      "bytes": 81285248
+    },
+    {
+      "path": "prepared/episodes/task03_demo_96/actions.npy",
+      "bytes": 7688
+    },
+    {
+      "path": "prepared/episodes/task03_demo_97/features.npy",
+      "bytes": 94531712
+    },
+    {
+      "path": "prepared/episodes/task03_demo_97/actions.npy",
+      "bytes": 8920
+    },
+    {
+      "path": "prepared/episodes/task03_demo_98/features.npy",
+      "bytes": 94531712
+    },
+    {
+      "path": "prepared/episodes/task03_demo_98/actions.npy",
+      "bytes": 8920
+    },
+    {
+      "path": "prepared/episodes/task03_demo_99/features.npy",
+      "bytes": 82790528
+    },
+    {
+      "path": "prepared/episodes/task03_demo_99/actions.npy",
+      "bytes": 7828
+    },
+    {
+      "path": "prepared/episodes/task03_demo_100/features.npy",
+      "bytes": 92424320
+    },
+    {
+      "path": "prepared/episodes/task03_demo_100/actions.npy",
+      "bytes": 8724
+    },
+    {
+      "path": "prepared/episodes/task04_demo_1/features.npy",
+      "bytes": 91220096
+    },
+    {
+      "path": "prepared/episodes/task04_demo_1/actions.npy",
+      "bytes": 8612
+    },
+    {
+      "path": "prepared/episodes/task04_demo_2/features.npy",
+      "bytes": 104466560
+    },
+    {
+      "path": "prepared/episodes/task04_demo_2/actions.npy",
+      "bytes": 9844
+    },
+    {
+      "path": "prepared/episodes/task04_demo_3/features.npy",
+      "bytes": 76769408
+    },
+    {
+      "path": "prepared/episodes/task04_demo_3/actions.npy",
+      "bytes": 7268
+    },
+    {
+      "path": "prepared/episodes/task04_demo_4/features.npy",
+      "bytes": 90316928
+    },
+    {
+      "path": "prepared/episodes/task04_demo_4/actions.npy",
+      "bytes": 8528
+    },
+    {
+      "path": "prepared/episodes/task04_demo_5/features.npy",
+      "bytes": 77070464
+    },
+    {
+      "path": "prepared/episodes/task04_demo_5/actions.npy",
+      "bytes": 7296
+    },
+    {
+      "path": "prepared/episodes/task04_demo_6/features.npy",
+      "bytes": 79779968
+    },
+    {
+      "path": "prepared/episodes/task04_demo_6/actions.npy",
+      "bytes": 7548
+    },
+    {
+      "path": "prepared/episodes/task04_demo_7/features.npy",
+      "bytes": 77070464
+    },
+    {
+      "path": "prepared/episodes/task04_demo_7/actions.npy",
+      "bytes": 7296
+    },
+    {
+      "path": "prepared/episodes/task04_demo_8/features.npy",
+      "bytes": 94230656
+    },
+    {
+      "path": "prepared/episodes/task04_demo_8/actions.npy",
+      "bytes": 8892
+    },
+    {
+      "path": "prepared/episodes/task04_demo_9/features.npy",
+      "bytes": 82188416
+    },
+    {
+      "path": "prepared/episodes/task04_demo_9/actions.npy",
+      "bytes": 7772
+    },
+    {
+      "path": "prepared/episodes/task04_demo_10/features.npy",
+      "bytes": 92725376
+    },
+    {
+      "path": "prepared/episodes/task04_demo_10/actions.npy",
+      "bytes": 8752
+    },
+    {
+      "path": "prepared/episodes/task04_demo_11/features.npy",
+      "bytes": 78274688
+    },
+    {
+      "path": "prepared/episodes/task04_demo_11/actions.npy",
+      "bytes": 7408
+    },
+    {
+      "path": "prepared/episodes/task04_demo_12/features.npy",
+      "bytes": 96338048
+    },
+    {
+      "path": "prepared/episodes/task04_demo_12/actions.npy",
+      "bytes": 9088
+    },
+    {
+      "path": "prepared/episodes/task04_demo_13/features.npy",
+      "bytes": 87005312
+    },
+    {
+      "path": "prepared/episodes/task04_demo_13/actions.npy",
+      "bytes": 8220
+    },
+    {
+      "path": "prepared/episodes/task04_demo_14/features.npy",
+      "bytes": 77371520
+    },
+    {
+      "path": "prepared/episodes/task04_demo_14/actions.npy",
+      "bytes": 7324
+    },
+    {
+      "path": "prepared/episodes/task04_demo_15/features.npy",
+      "bytes": 96338048
+    },
+    {
+      "path": "prepared/episodes/task04_demo_15/actions.npy",
+      "bytes": 9088
+    },
+    {
+      "path": "prepared/episodes/task04_demo_16/features.npy",
+      "bytes": 113498240
+    },
+    {
+      "path": "prepared/episodes/task04_demo_16/actions.npy",
+      "bytes": 10684
+    },
+    {
+      "path": "prepared/episodes/task04_demo_17/features.npy",
+      "bytes": 93026432
+    },
+    {
+      "path": "prepared/episodes/task04_demo_17/actions.npy",
+      "bytes": 8780
+    },
+    {
+      "path": "prepared/episodes/task04_demo_18/features.npy",
+      "bytes": 99950720
+    },
+    {
+      "path": "prepared/episodes/task04_demo_18/actions.npy",
+      "bytes": 9424
+    },
+    {
+      "path": "prepared/episodes/task04_demo_19/features.npy",
+      "bytes": 80382080
+    },
+    {
+      "path": "prepared/episodes/task04_demo_19/actions.npy",
+      "bytes": 7604
+    },
+    {
+      "path": "prepared/episodes/task04_demo_20/features.npy",
+      "bytes": 76769408
+    },
+    {
+      "path": "prepared/episodes/task04_demo_20/actions.npy",
+      "bytes": 7268
+    },
+    {
+      "path": "prepared/episodes/task04_demo_21/features.npy",
+      "bytes": 82188416
+    },
+    {
+      "path": "prepared/episodes/task04_demo_21/actions.npy",
+      "bytes": 7772
+    },
+    {
+      "path": "prepared/episodes/task04_demo_22/features.npy",
+      "bytes": 80382080
+    },
+    {
+      "path": "prepared/episodes/task04_demo_22/actions.npy",
+      "bytes": 7604
+    },
+    {
+      "path": "prepared/episodes/task04_demo_23/features.npy",
+      "bytes": 85198976
+    },
+    {
+      "path": "prepared/episodes/task04_demo_23/actions.npy",
+      "bytes": 8052
+    },
+    {
+      "path": "prepared/episodes/task04_demo_24/features.npy",
+      "bytes": 77973632
+    },
+    {
+      "path": "prepared/episodes/task04_demo_24/actions.npy",
+      "bytes": 7380
+    },
+    {
+      "path": "prepared/episodes/task04_demo_25/features.npy",
+      "bytes": 82188416
+    },
+    {
+      "path": "prepared/episodes/task04_demo_25/actions.npy",
+      "bytes": 7772
+    },
+    {
+      "path": "prepared/episodes/task04_demo_26/features.npy",
+      "bytes": 80081024
+    },
+    {
+      "path": "prepared/episodes/task04_demo_26/actions.npy",
+      "bytes": 7576
+    },
+    {
+      "path": "prepared/episodes/task04_demo_27/features.npy",
+      "bytes": 91521152
+    },
+    {
+      "path": "prepared/episodes/task04_demo_27/actions.npy",
+      "bytes": 8640
+    },
+    {
+      "path": "prepared/episodes/task04_demo_28/features.npy",
+      "bytes": 83693696
+    },
+    {
+      "path": "prepared/episodes/task04_demo_28/actions.npy",
+      "bytes": 7912
+    },
+    {
+      "path": "prepared/episodes/task04_demo_29/features.npy",
+      "bytes": 83994752
+    },
+    {
+      "path": "prepared/episodes/task04_demo_29/actions.npy",
+      "bytes": 7940
+    },
+    {
+      "path": "prepared/episodes/task04_demo_30/features.npy",
+      "bytes": 81285248
+    },
+    {
+      "path": "prepared/episodes/task04_demo_30/actions.npy",
+      "bytes": 7688
+    },
+    {
+      "path": "prepared/episodes/task04_demo_31/features.npy",
+      "bytes": 84295808
+    },
+    {
+      "path": "prepared/episodes/task04_demo_31/actions.npy",
+      "bytes": 7968
+    },
+    {
+      "path": "prepared/episodes/task04_demo_32/features.npy",
+      "bytes": 103262336
+    },
+    {
+      "path": "prepared/episodes/task04_demo_32/actions.npy",
+      "bytes": 9732
+    },
+    {
+      "path": "prepared/episodes/task04_demo_33/features.npy",
+      "bytes": 77973632
+    },
+    {
+      "path": "prepared/episodes/task04_demo_33/actions.npy",
+      "bytes": 7380
+    },
+    {
+      "path": "prepared/episodes/task04_demo_34/features.npy",
+      "bytes": 78274688
+    },
+    {
+      "path": "prepared/episodes/task04_demo_34/actions.npy",
+      "bytes": 7408
+    },
+    {
+      "path": "prepared/episodes/task04_demo_35/features.npy",
+      "bytes": 83091584
+    },
+    {
+      "path": "prepared/episodes/task04_demo_35/actions.npy",
+      "bytes": 7856
+    },
+    {
+      "path": "prepared/episodes/task04_demo_36/features.npy",
+      "bytes": 95133824
+    },
+    {
+      "path": "prepared/episodes/task04_demo_36/actions.npy",
+      "bytes": 8976
+    },
+    {
+      "path": "prepared/episodes/task04_demo_37/features.npy",
+      "bytes": 95434880
+    },
+    {
+      "path": "prepared/episodes/task04_demo_37/actions.npy",
+      "bytes": 9004
+    },
+    {
+      "path": "prepared/episodes/task04_demo_38/features.npy",
+      "bytes": 78876800
+    },
+    {
+      "path": "prepared/episodes/task04_demo_38/actions.npy",
+      "bytes": 7464
+    },
+    {
+      "path": "prepared/episodes/task04_demo_39/features.npy",
+      "bytes": 88209536
+    },
+    {
+      "path": "prepared/episodes/task04_demo_39/actions.npy",
+      "bytes": 8332
+    },
+    {
+      "path": "prepared/episodes/task04_demo_40/features.npy",
+      "bytes": 86403200
+    },
+    {
+      "path": "prepared/episodes/task04_demo_40/actions.npy",
+      "bytes": 8164
+    },
+    {
+      "path": "prepared/episodes/task04_demo_41/features.npy",
+      "bytes": 81887360
+    },
+    {
+      "path": "prepared/episodes/task04_demo_41/actions.npy",
+      "bytes": 7744
+    },
+    {
+      "path": "prepared/episodes/task04_demo_42/features.npy",
+      "bytes": 77973632
+    },
+    {
+      "path": "prepared/episodes/task04_demo_42/actions.npy",
+      "bytes": 7380
+    },
+    {
+      "path": "prepared/episodes/task04_demo_43/features.npy",
+      "bytes": 77672576
+    },
+    {
+      "path": "prepared/episodes/task04_demo_43/actions.npy",
+      "bytes": 7352
+    },
+    {
+      "path": "prepared/episodes/task04_demo_44/features.npy",
+      "bytes": 103864448
+    },
+    {
+      "path": "prepared/episodes/task04_demo_44/actions.npy",
+      "bytes": 9788
+    },
+    {
+      "path": "prepared/episodes/task04_demo_45/features.npy",
+      "bytes": 84897920
+    },
+    {
+      "path": "prepared/episodes/task04_demo_45/actions.npy",
+      "bytes": 8024
+    },
+    {
+      "path": "prepared/episodes/task04_demo_46/features.npy",
+      "bytes": 80984192
+    },
+    {
+      "path": "prepared/episodes/task04_demo_46/actions.npy",
+      "bytes": 7660
+    },
+    {
+      "path": "prepared/episodes/task04_demo_47/features.npy",
+      "bytes": 83392640
+    },
+    {
+      "path": "prepared/episodes/task04_demo_47/actions.npy",
+      "bytes": 7884
+    },
+    {
+      "path": "prepared/episodes/task04_demo_48/features.npy",
+      "bytes": 96940160
+    },
+    {
+      "path": "prepared/episodes/task04_demo_48/actions.npy",
+      "bytes": 9144
+    },
+    {
+      "path": "prepared/episodes/task04_demo_49/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task04_demo_49/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task04_demo_50/features.npy",
+      "bytes": 80984192
+    },
+    {
+      "path": "prepared/episodes/task04_demo_50/actions.npy",
+      "bytes": 7660
+    },
+    {
+      "path": "prepared/episodes/task04_demo_51/features.npy",
+      "bytes": 101456000
+    },
+    {
+      "path": "prepared/episodes/task04_demo_51/actions.npy",
+      "bytes": 9564
+    },
+    {
+      "path": "prepared/episodes/task04_demo_52/features.npy",
+      "bytes": 81285248
+    },
+    {
+      "path": "prepared/episodes/task04_demo_52/actions.npy",
+      "bytes": 7688
+    },
+    {
+      "path": "prepared/episodes/task04_demo_53/features.npy",
+      "bytes": 83091584
+    },
+    {
+      "path": "prepared/episodes/task04_demo_53/actions.npy",
+      "bytes": 7856
+    },
+    {
+      "path": "prepared/episodes/task04_demo_54/features.npy",
+      "bytes": 76167296
+    },
+    {
+      "path": "prepared/episodes/task04_demo_54/actions.npy",
+      "bytes": 7212
+    },
+    {
+      "path": "prepared/episodes/task04_demo_55/features.npy",
+      "bytes": 76468352
+    },
+    {
+      "path": "prepared/episodes/task04_demo_55/actions.npy",
+      "bytes": 7240
+    },
+    {
+      "path": "prepared/episodes/task04_demo_56/features.npy",
+      "bytes": 81285248
+    },
+    {
+      "path": "prepared/episodes/task04_demo_56/actions.npy",
+      "bytes": 7688
+    },
+    {
+      "path": "prepared/episodes/task04_demo_57/features.npy",
+      "bytes": 81285248
+    },
+    {
+      "path": "prepared/episodes/task04_demo_57/actions.npy",
+      "bytes": 7688
+    },
+    {
+      "path": "prepared/episodes/task04_demo_58/features.npy",
+      "bytes": 87908480
+    },
+    {
+      "path": "prepared/episodes/task04_demo_58/actions.npy",
+      "bytes": 8304
+    },
+    {
+      "path": "prepared/episodes/task04_demo_59/features.npy",
+      "bytes": 101456000
+    },
+    {
+      "path": "prepared/episodes/task04_demo_59/actions.npy",
+      "bytes": 9564
+    },
+    {
+      "path": "prepared/episodes/task04_demo_60/features.npy",
+      "bytes": 87005312
+    },
+    {
+      "path": "prepared/episodes/task04_demo_60/actions.npy",
+      "bytes": 8220
+    },
+    {
+      "path": "prepared/episodes/task04_demo_61/features.npy",
+      "bytes": 82188416
+    },
+    {
+      "path": "prepared/episodes/task04_demo_61/actions.npy",
+      "bytes": 7772
+    },
+    {
+      "path": "prepared/episodes/task04_demo_62/features.npy",
+      "bytes": 77672576
+    },
+    {
+      "path": "prepared/episodes/task04_demo_62/actions.npy",
+      "bytes": 7352
+    },
+    {
+      "path": "prepared/episodes/task04_demo_63/features.npy",
+      "bytes": 78575744
+    },
+    {
+      "path": "prepared/episodes/task04_demo_63/actions.npy",
+      "bytes": 7436
+    },
+    {
+      "path": "prepared/episodes/task04_demo_64/features.npy",
+      "bytes": 97542272
+    },
+    {
+      "path": "prepared/episodes/task04_demo_64/actions.npy",
+      "bytes": 9200
+    },
+    {
+      "path": "prepared/episodes/task04_demo_65/features.npy",
+      "bytes": 102660224
+    },
+    {
+      "path": "prepared/episodes/task04_demo_65/actions.npy",
+      "bytes": 9676
+    },
+    {
+      "path": "prepared/episodes/task04_demo_66/features.npy",
+      "bytes": 83693696
+    },
+    {
+      "path": "prepared/episodes/task04_demo_66/actions.npy",
+      "bytes": 7912
+    },
+    {
+      "path": "prepared/episodes/task04_demo_67/features.npy",
+      "bytes": 78575744
+    },
+    {
+      "path": "prepared/episodes/task04_demo_67/actions.npy",
+      "bytes": 7436
+    },
+    {
+      "path": "prepared/episodes/task04_demo_68/features.npy",
+      "bytes": 93026432
+    },
+    {
+      "path": "prepared/episodes/task04_demo_68/actions.npy",
+      "bytes": 8780
+    },
+    {
+      "path": "prepared/episodes/task04_demo_69/features.npy",
+      "bytes": 89413760
+    },
+    {
+      "path": "prepared/episodes/task04_demo_69/actions.npy",
+      "bytes": 8444
+    },
+    {
+      "path": "prepared/episodes/task04_demo_70/features.npy",
+      "bytes": 83392640
+    },
+    {
+      "path": "prepared/episodes/task04_demo_70/actions.npy",
+      "bytes": 7884
+    },
+    {
+      "path": "prepared/episodes/task04_demo_71/features.npy",
+      "bytes": 77672576
+    },
+    {
+      "path": "prepared/episodes/task04_demo_71/actions.npy",
+      "bytes": 7352
+    },
+    {
+      "path": "prepared/episodes/task04_demo_72/features.npy",
+      "bytes": 77371520
+    },
+    {
+      "path": "prepared/episodes/task04_demo_72/actions.npy",
+      "bytes": 7324
+    },
+    {
+      "path": "prepared/episodes/task04_demo_73/features.npy",
+      "bytes": 80382080
+    },
+    {
+      "path": "prepared/episodes/task04_demo_73/actions.npy",
+      "bytes": 7604
+    },
+    {
+      "path": "prepared/episodes/task04_demo_74/features.npy",
+      "bytes": 82188416
+    },
+    {
+      "path": "prepared/episodes/task04_demo_74/actions.npy",
+      "bytes": 7772
+    },
+    {
+      "path": "prepared/episodes/task04_demo_75/features.npy",
+      "bytes": 75866240
+    },
+    {
+      "path": "prepared/episodes/task04_demo_75/actions.npy",
+      "bytes": 7184
+    },
+    {
+      "path": "prepared/episodes/task04_demo_76/features.npy",
+      "bytes": 77973632
+    },
+    {
+      "path": "prepared/episodes/task04_demo_76/actions.npy",
+      "bytes": 7380
+    },
+    {
+      "path": "prepared/episodes/task04_demo_77/features.npy",
+      "bytes": 94832768
+    },
+    {
+      "path": "prepared/episodes/task04_demo_77/actions.npy",
+      "bytes": 8948
+    },
+    {
+      "path": "prepared/episodes/task04_demo_78/features.npy",
+      "bytes": 94230656
+    },
+    {
+      "path": "prepared/episodes/task04_demo_78/actions.npy",
+      "bytes": 8892
+    },
+    {
+      "path": "prepared/episodes/task04_demo_79/features.npy",
+      "bytes": 85801088
+    },
+    {
+      "path": "prepared/episodes/task04_demo_79/actions.npy",
+      "bytes": 8108
+    },
+    {
+      "path": "prepared/episodes/task04_demo_80/features.npy",
+      "bytes": 82188416
+    },
+    {
+      "path": "prepared/episodes/task04_demo_80/actions.npy",
+      "bytes": 7772
+    },
+    {
+      "path": "prepared/episodes/task04_demo_81/features.npy",
+      "bytes": 96639104
+    },
+    {
+      "path": "prepared/episodes/task04_demo_81/actions.npy",
+      "bytes": 9116
+    },
+    {
+      "path": "prepared/episodes/task04_demo_82/features.npy",
+      "bytes": 77672576
+    },
+    {
+      "path": "prepared/episodes/task04_demo_82/actions.npy",
+      "bytes": 7352
+    },
+    {
+      "path": "prepared/episodes/task04_demo_83/features.npy",
+      "bytes": 72855680
+    },
+    {
+      "path": "prepared/episodes/task04_demo_83/actions.npy",
+      "bytes": 6904
+    },
+    {
+      "path": "prepared/episodes/task04_demo_84/features.npy",
+      "bytes": 77973632
+    },
+    {
+      "path": "prepared/episodes/task04_demo_84/actions.npy",
+      "bytes": 7380
+    },
+    {
+      "path": "prepared/episodes/task04_demo_85/features.npy",
+      "bytes": 83693696
+    },
+    {
+      "path": "prepared/episodes/task04_demo_85/actions.npy",
+      "bytes": 7912
+    },
+    {
+      "path": "prepared/episodes/task04_demo_86/features.npy",
+      "bytes": 98445440
+    },
+    {
+      "path": "prepared/episodes/task04_demo_86/actions.npy",
+      "bytes": 9284
+    },
+    {
+      "path": "prepared/episodes/task04_demo_87/features.npy",
+      "bytes": 80683136
+    },
+    {
+      "path": "prepared/episodes/task04_demo_87/actions.npy",
+      "bytes": 7632
+    },
+    {
+      "path": "prepared/episodes/task04_demo_88/features.npy",
+      "bytes": 85801088
+    },
+    {
+      "path": "prepared/episodes/task04_demo_88/actions.npy",
+      "bytes": 8108
+    },
+    {
+      "path": "prepared/episodes/task04_demo_90/features.npy",
+      "bytes": 81285248
+    },
+    {
+      "path": "prepared/episodes/task04_demo_90/actions.npy",
+      "bytes": 7688
+    },
+    {
+      "path": "prepared/episodes/task04_demo_91/features.npy",
+      "bytes": 73156736
+    },
+    {
+      "path": "prepared/episodes/task04_demo_91/actions.npy",
+      "bytes": 6932
+    },
+    {
+      "path": "prepared/episodes/task04_demo_92/features.npy",
+      "bytes": 78876800
+    },
+    {
+      "path": "prepared/episodes/task04_demo_92/actions.npy",
+      "bytes": 7464
+    },
+    {
+      "path": "prepared/episodes/task04_demo_93/features.npy",
+      "bytes": 94531712
+    },
+    {
+      "path": "prepared/episodes/task04_demo_93/actions.npy",
+      "bytes": 8920
+    },
+    {
+      "path": "prepared/episodes/task04_demo_94/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task04_demo_94/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task04_demo_95/features.npy",
+      "bytes": 78876800
+    },
+    {
+      "path": "prepared/episodes/task04_demo_95/actions.npy",
+      "bytes": 7464
+    },
+    {
+      "path": "prepared/episodes/task04_demo_96/features.npy",
+      "bytes": 79177856
+    },
+    {
+      "path": "prepared/episodes/task04_demo_96/actions.npy",
+      "bytes": 7492
+    },
+    {
+      "path": "prepared/episodes/task04_demo_97/features.npy",
+      "bytes": 85198976
+    },
+    {
+      "path": "prepared/episodes/task04_demo_97/actions.npy",
+      "bytes": 8052
+    },
+    {
+      "path": "prepared/episodes/task04_demo_98/features.npy",
+      "bytes": 97241216
+    },
+    {
+      "path": "prepared/episodes/task04_demo_98/actions.npy",
+      "bytes": 9172
+    },
+    {
+      "path": "prepared/episodes/task04_demo_99/features.npy",
+      "bytes": 77672576
+    },
+    {
+      "path": "prepared/episodes/task04_demo_99/actions.npy",
+      "bytes": 7352
+    },
+    {
+      "path": "prepared/episodes/task04_demo_100/features.npy",
+      "bytes": 95735936
+    },
+    {
+      "path": "prepared/episodes/task04_demo_100/actions.npy",
+      "bytes": 9032
+    },
+    {
+      "path": "prepared/episodes/task05_demo_1/features.npy",
+      "bytes": 112294016
+    },
+    {
+      "path": "prepared/episodes/task05_demo_1/actions.npy",
+      "bytes": 10572
+    },
+    {
+      "path": "prepared/episodes/task05_demo_2/features.npy",
+      "bytes": 93929600
+    },
+    {
+      "path": "prepared/episodes/task05_demo_2/actions.npy",
+      "bytes": 8864
+    },
+    {
+      "path": "prepared/episodes/task05_demo_3/features.npy",
+      "bytes": 100552832
+    },
+    {
+      "path": "prepared/episodes/task05_demo_3/actions.npy",
+      "bytes": 9480
+    },
+    {
+      "path": "prepared/episodes/task05_demo_4/features.npy",
+      "bytes": 110186624
+    },
+    {
+      "path": "prepared/episodes/task05_demo_4/actions.npy",
+      "bytes": 10376
+    },
+    {
+      "path": "prepared/episodes/task05_demo_5/features.npy",
+      "bytes": 108982400
+    },
+    {
+      "path": "prepared/episodes/task05_demo_5/actions.npy",
+      "bytes": 10264
+    },
+    {
+      "path": "prepared/episodes/task05_demo_6/features.npy",
+      "bytes": 113498240
+    },
+    {
+      "path": "prepared/episodes/task05_demo_6/actions.npy",
+      "bytes": 10684
+    },
+    {
+      "path": "prepared/episodes/task05_demo_8/features.npy",
+      "bytes": 112595072
+    },
+    {
+      "path": "prepared/episodes/task05_demo_8/actions.npy",
+      "bytes": 10600
+    },
+    {
+      "path": "prepared/episodes/task05_demo_9/features.npy",
+      "bytes": 106272896
+    },
+    {
+      "path": "prepared/episodes/task05_demo_9/actions.npy",
+      "bytes": 10012
+    },
+    {
+      "path": "prepared/episodes/task05_demo_10/features.npy",
+      "bytes": 111390848
+    },
+    {
+      "path": "prepared/episodes/task05_demo_10/actions.npy",
+      "bytes": 10488
+    },
+    {
+      "path": "prepared/episodes/task05_demo_11/features.npy",
+      "bytes": 120121472
+    },
+    {
+      "path": "prepared/episodes/task05_demo_11/actions.npy",
+      "bytes": 11300
+    },
+    {
+      "path": "prepared/episodes/task05_demo_12/features.npy",
+      "bytes": 124035200
+    },
+    {
+      "path": "prepared/episodes/task05_demo_12/actions.npy",
+      "bytes": 11664
+    },
+    {
+      "path": "prepared/episodes/task05_demo_13/features.npy",
+      "bytes": 105068672
+    },
+    {
+      "path": "prepared/episodes/task05_demo_13/actions.npy",
+      "bytes": 9900
+    },
+    {
+      "path": "prepared/episodes/task05_demo_14/features.npy",
+      "bytes": 117411968
+    },
+    {
+      "path": "prepared/episodes/task05_demo_14/actions.npy",
+      "bytes": 11048
+    },
+    {
+      "path": "prepared/episodes/task05_demo_15/features.npy",
+      "bytes": 105369728
+    },
+    {
+      "path": "prepared/episodes/task05_demo_15/actions.npy",
+      "bytes": 9928
+    },
+    {
+      "path": "prepared/episodes/task05_demo_16/features.npy",
+      "bytes": 129755264
+    },
+    {
+      "path": "prepared/episodes/task05_demo_16/actions.npy",
+      "bytes": 12196
+    },
+    {
+      "path": "prepared/episodes/task05_demo_17/features.npy",
+      "bytes": 121325696
+    },
+    {
+      "path": "prepared/episodes/task05_demo_17/actions.npy",
+      "bytes": 11412
+    },
+    {
+      "path": "prepared/episodes/task05_demo_18/features.npy",
+      "bytes": 132163712
+    },
+    {
+      "path": "prepared/episodes/task05_demo_18/actions.npy",
+      "bytes": 12420
+    },
+    {
+      "path": "prepared/episodes/task05_demo_19/features.npy",
+      "bytes": 109885568
+    },
+    {
+      "path": "prepared/episodes/task05_demo_19/actions.npy",
+      "bytes": 10348
+    },
+    {
+      "path": "prepared/episodes/task05_demo_20/features.npy",
+      "bytes": 110487680
+    },
+    {
+      "path": "prepared/episodes/task05_demo_20/actions.npy",
+      "bytes": 10404
+    },
+    {
+      "path": "prepared/episodes/task05_demo_21/features.npy",
+      "bytes": 118917248
+    },
+    {
+      "path": "prepared/episodes/task05_demo_21/actions.npy",
+      "bytes": 11188
+    },
+    {
+      "path": "prepared/episodes/task05_demo_22/features.npy",
+      "bytes": 118014080
+    },
+    {
+      "path": "prepared/episodes/task05_demo_22/actions.npy",
+      "bytes": 11104
+    },
+    {
+      "path": "prepared/episodes/task05_demo_23/features.npy",
+      "bytes": 133367936
+    },
+    {
+      "path": "prepared/episodes/task05_demo_23/actions.npy",
+      "bytes": 12532
+    },
+    {
+      "path": "prepared/episodes/task05_demo_24/features.npy",
+      "bytes": 108982400
+    },
+    {
+      "path": "prepared/episodes/task05_demo_24/actions.npy",
+      "bytes": 10264
+    },
+    {
+      "path": "prepared/episodes/task05_demo_25/features.npy",
+      "bytes": 111992960
+    },
+    {
+      "path": "prepared/episodes/task05_demo_25/actions.npy",
+      "bytes": 10544
+    },
+    {
+      "path": "prepared/episodes/task05_demo_26/features.npy",
+      "bytes": 114401408
+    },
+    {
+      "path": "prepared/episodes/task05_demo_26/actions.npy",
+      "bytes": 10768
+    },
+    {
+      "path": "prepared/episodes/task05_demo_28/features.npy",
+      "bytes": 120723584
+    },
+    {
+      "path": "prepared/episodes/task05_demo_28/actions.npy",
+      "bytes": 11356
+    },
+    {
+      "path": "prepared/episodes/task05_demo_29/features.npy",
+      "bytes": 111089792
+    },
+    {
+      "path": "prepared/episodes/task05_demo_29/actions.npy",
+      "bytes": 10460
+    },
+    {
+      "path": "prepared/episodes/task05_demo_30/features.npy",
+      "bytes": 120723584
+    },
+    {
+      "path": "prepared/episodes/task05_demo_30/actions.npy",
+      "bytes": 11356
+    },
+    {
+      "path": "prepared/episodes/task05_demo_31/features.npy",
+      "bytes": 136378496
+    },
+    {
+      "path": "prepared/episodes/task05_demo_31/actions.npy",
+      "bytes": 12812
+    },
+    {
+      "path": "prepared/episodes/task05_demo_32/features.npy",
+      "bytes": 124336256
+    },
+    {
+      "path": "prepared/episodes/task05_demo_32/actions.npy",
+      "bytes": 11692
+    },
+    {
+      "path": "prepared/episodes/task05_demo_33/features.npy",
+      "bytes": 114401408
+    },
+    {
+      "path": "prepared/episodes/task05_demo_33/actions.npy",
+      "bytes": 10768
+    },
+    {
+      "path": "prepared/episodes/task05_demo_34/features.npy",
+      "bytes": 135475328
+    },
+    {
+      "path": "prepared/episodes/task05_demo_34/actions.npy",
+      "bytes": 12728
+    },
+    {
+      "path": "prepared/episodes/task05_demo_35/features.npy",
+      "bytes": 113799296
+    },
+    {
+      "path": "prepared/episodes/task05_demo_35/actions.npy",
+      "bytes": 10712
+    },
+    {
+      "path": "prepared/episodes/task05_demo_36/features.npy",
+      "bytes": 119218304
+    },
+    {
+      "path": "prepared/episodes/task05_demo_36/actions.npy",
+      "bytes": 11216
+    },
+    {
+      "path": "prepared/episodes/task05_demo_37/features.npy",
+      "bytes": 119820416
+    },
+    {
+      "path": "prepared/episodes/task05_demo_37/actions.npy",
+      "bytes": 11272
+    },
+    {
+      "path": "prepared/episodes/task05_demo_38/features.npy",
+      "bytes": 119820416
+    },
+    {
+      "path": "prepared/episodes/task05_demo_38/actions.npy",
+      "bytes": 11272
+    },
+    {
+      "path": "prepared/episodes/task05_demo_39/features.npy",
+      "bytes": 134572160
+    },
+    {
+      "path": "prepared/episodes/task05_demo_39/actions.npy",
+      "bytes": 12644
+    },
+    {
+      "path": "prepared/episodes/task05_demo_40/features.npy",
+      "bytes": 111089792
+    },
+    {
+      "path": "prepared/episodes/task05_demo_40/actions.npy",
+      "bytes": 10460
+    },
+    {
+      "path": "prepared/episodes/task05_demo_41/features.npy",
+      "bytes": 118315136
+    },
+    {
+      "path": "prepared/episodes/task05_demo_41/actions.npy",
+      "bytes": 11132
+    },
+    {
+      "path": "prepared/episodes/task05_demo_42/features.npy",
+      "bytes": 107778176
+    },
+    {
+      "path": "prepared/episodes/task05_demo_42/actions.npy",
+      "bytes": 10152
+    },
+    {
+      "path": "prepared/episodes/task05_demo_43/features.npy",
+      "bytes": 111691904
+    },
+    {
+      "path": "prepared/episodes/task05_demo_43/actions.npy",
+      "bytes": 10516
+    },
+    {
+      "path": "prepared/episodes/task05_demo_44/features.npy",
+      "bytes": 126443648
+    },
+    {
+      "path": "prepared/episodes/task05_demo_44/actions.npy",
+      "bytes": 11888
+    },
+    {
+      "path": "prepared/episodes/task05_demo_45/features.npy",
+      "bytes": 126443648
+    },
+    {
+      "path": "prepared/episodes/task05_demo_45/actions.npy",
+      "bytes": 11888
+    },
+    {
+      "path": "prepared/episodes/task05_demo_46/features.npy",
+      "bytes": 111390848
+    },
+    {
+      "path": "prepared/episodes/task05_demo_46/actions.npy",
+      "bytes": 10488
+    },
+    {
+      "path": "prepared/episodes/task05_demo_47/features.npy",
+      "bytes": 112294016
+    },
+    {
+      "path": "prepared/episodes/task05_demo_47/actions.npy",
+      "bytes": 10572
+    },
+    {
+      "path": "prepared/episodes/task05_demo_48/features.npy",
+      "bytes": 113197184
+    },
+    {
+      "path": "prepared/episodes/task05_demo_48/actions.npy",
+      "bytes": 10656
+    },
+    {
+      "path": "prepared/episodes/task05_demo_49/features.npy",
+      "bytes": 104466560
+    },
+    {
+      "path": "prepared/episodes/task05_demo_49/actions.npy",
+      "bytes": 9844
+    },
+    {
+      "path": "prepared/episodes/task05_demo_50/features.npy",
+      "bytes": 119820416
+    },
+    {
+      "path": "prepared/episodes/task05_demo_50/actions.npy",
+      "bytes": 11272
+    },
+    {
+      "path": "prepared/episodes/task05_demo_51/features.npy",
+      "bytes": 118315136
+    },
+    {
+      "path": "prepared/episodes/task05_demo_51/actions.npy",
+      "bytes": 11132
+    },
+    {
+      "path": "prepared/episodes/task05_demo_52/features.npy",
+      "bytes": 110788736
+    },
+    {
+      "path": "prepared/episodes/task05_demo_52/actions.npy",
+      "bytes": 10432
+    },
+    {
+      "path": "prepared/episodes/task05_demo_53/features.npy",
+      "bytes": 106875008
+    },
+    {
+      "path": "prepared/episodes/task05_demo_53/actions.npy",
+      "bytes": 10068
+    },
+    {
+      "path": "prepared/episodes/task05_demo_54/features.npy",
+      "bytes": 115003520
+    },
+    {
+      "path": "prepared/episodes/task05_demo_54/actions.npy",
+      "bytes": 10824
+    },
+    {
+      "path": "prepared/episodes/task05_demo_55/features.npy",
+      "bytes": 113498240
+    },
+    {
+      "path": "prepared/episodes/task05_demo_55/actions.npy",
+      "bytes": 10684
+    },
+    {
+      "path": "prepared/episodes/task05_demo_56/features.npy",
+      "bytes": 113799296
+    },
+    {
+      "path": "prepared/episodes/task05_demo_56/actions.npy",
+      "bytes": 10712
+    },
+    {
+      "path": "prepared/episodes/task05_demo_57/features.npy",
+      "bytes": 117713024
+    },
+    {
+      "path": "prepared/episodes/task05_demo_57/actions.npy",
+      "bytes": 11076
+    },
+    {
+      "path": "prepared/episodes/task05_demo_58/features.npy",
+      "bytes": 105670784
+    },
+    {
+      "path": "prepared/episodes/task05_demo_58/actions.npy",
+      "bytes": 9956
+    },
+    {
+      "path": "prepared/episodes/task05_demo_59/features.npy",
+      "bytes": 119218304
+    },
+    {
+      "path": "prepared/episodes/task05_demo_59/actions.npy",
+      "bytes": 11216
+    },
+    {
+      "path": "prepared/episodes/task05_demo_61/features.npy",
+      "bytes": 112294016
+    },
+    {
+      "path": "prepared/episodes/task05_demo_61/actions.npy",
+      "bytes": 10572
+    },
+    {
+      "path": "prepared/episodes/task05_demo_62/features.npy",
+      "bytes": 105670784
+    },
+    {
+      "path": "prepared/episodes/task05_demo_62/actions.npy",
+      "bytes": 9956
+    },
+    {
+      "path": "prepared/episodes/task05_demo_63/features.npy",
+      "bytes": 133668992
+    },
+    {
+      "path": "prepared/episodes/task05_demo_63/actions.npy",
+      "bytes": 12560
+    },
+    {
+      "path": "prepared/episodes/task05_demo_64/features.npy",
+      "bytes": 109283456
+    },
+    {
+      "path": "prepared/episodes/task05_demo_64/actions.npy",
+      "bytes": 10292
+    },
+    {
+      "path": "prepared/episodes/task05_demo_65/features.npy",
+      "bytes": 108982400
+    },
+    {
+      "path": "prepared/episodes/task05_demo_65/actions.npy",
+      "bytes": 10264
+    },
+    {
+      "path": "prepared/episodes/task05_demo_66/features.npy",
+      "bytes": 122228864
+    },
+    {
+      "path": "prepared/episodes/task05_demo_66/actions.npy",
+      "bytes": 11496
+    },
+    {
+      "path": "prepared/episodes/task05_demo_67/features.npy",
+      "bytes": 117713024
+    },
+    {
+      "path": "prepared/episodes/task05_demo_67/actions.npy",
+      "bytes": 11076
+    },
+    {
+      "path": "prepared/episodes/task05_demo_68/features.npy",
+      "bytes": 123132032
+    },
+    {
+      "path": "prepared/episodes/task05_demo_68/actions.npy",
+      "bytes": 11580
+    },
+    {
+      "path": "prepared/episodes/task05_demo_69/features.npy",
+      "bytes": 121927808
+    },
+    {
+      "path": "prepared/episodes/task05_demo_69/actions.npy",
+      "bytes": 11468
+    },
+    {
+      "path": "prepared/episodes/task05_demo_70/features.npy",
+      "bytes": 106272896
+    },
+    {
+      "path": "prepared/episodes/task05_demo_70/actions.npy",
+      "bytes": 10012
+    },
+    {
+      "path": "prepared/episodes/task05_demo_71/features.npy",
+      "bytes": 115906688
+    },
+    {
+      "path": "prepared/episodes/task05_demo_71/actions.npy",
+      "bytes": 10908
+    },
+    {
+      "path": "prepared/episodes/task05_demo_72/features.npy",
+      "bytes": 124938368
+    },
+    {
+      "path": "prepared/episodes/task05_demo_72/actions.npy",
+      "bytes": 11748
+    },
+    {
+      "path": "prepared/episodes/task05_demo_73/features.npy",
+      "bytes": 120121472
+    },
+    {
+      "path": "prepared/episodes/task05_demo_73/actions.npy",
+      "bytes": 11300
+    },
+    {
+      "path": "prepared/episodes/task05_demo_74/features.npy",
+      "bytes": 106875008
+    },
+    {
+      "path": "prepared/episodes/task05_demo_74/actions.npy",
+      "bytes": 10068
+    },
+    {
+      "path": "prepared/episodes/task05_demo_75/features.npy",
+      "bytes": 115605632
+    },
+    {
+      "path": "prepared/episodes/task05_demo_75/actions.npy",
+      "bytes": 10880
+    },
+    {
+      "path": "prepared/episodes/task05_demo_76/features.npy",
+      "bytes": 135475328
+    },
+    {
+      "path": "prepared/episodes/task05_demo_76/actions.npy",
+      "bytes": 12728
+    },
+    {
+      "path": "prepared/episodes/task05_demo_77/features.npy",
+      "bytes": 107477120
+    },
+    {
+      "path": "prepared/episodes/task05_demo_77/actions.npy",
+      "bytes": 10124
+    },
+    {
+      "path": "prepared/episodes/task05_demo_78/features.npy",
+      "bytes": 109885568
+    },
+    {
+      "path": "prepared/episodes/task05_demo_78/actions.npy",
+      "bytes": 10348
+    },
+    {
+      "path": "prepared/episodes/task05_demo_79/features.npy",
+      "bytes": 116508800
+    },
+    {
+      "path": "prepared/episodes/task05_demo_79/actions.npy",
+      "bytes": 10964
+    },
+    {
+      "path": "prepared/episodes/task05_demo_80/features.npy",
+      "bytes": 136980608
+    },
+    {
+      "path": "prepared/episodes/task05_demo_80/actions.npy",
+      "bytes": 12868
+    },
+    {
+      "path": "prepared/episodes/task05_demo_81/features.npy",
+      "bytes": 115003520
+    },
+    {
+      "path": "prepared/episodes/task05_demo_81/actions.npy",
+      "bytes": 10824
+    },
+    {
+      "path": "prepared/episodes/task05_demo_82/features.npy",
+      "bytes": 111691904
+    },
+    {
+      "path": "prepared/episodes/task05_demo_82/actions.npy",
+      "bytes": 10516
+    },
+    {
+      "path": "prepared/episodes/task05_demo_83/features.npy",
+      "bytes": 115003520
+    },
+    {
+      "path": "prepared/episodes/task05_demo_83/actions.npy",
+      "bytes": 10824
+    },
+    {
+      "path": "prepared/episodes/task05_demo_84/features.npy",
+      "bytes": 113197184
+    },
+    {
+      "path": "prepared/episodes/task05_demo_84/actions.npy",
+      "bytes": 10656
+    },
+    {
+      "path": "prepared/episodes/task05_demo_85/features.npy",
+      "bytes": 112896128
+    },
+    {
+      "path": "prepared/episodes/task05_demo_85/actions.npy",
+      "bytes": 10628
+    },
+    {
+      "path": "prepared/episodes/task05_demo_86/features.npy",
+      "bytes": 117110912
+    },
+    {
+      "path": "prepared/episodes/task05_demo_86/actions.npy",
+      "bytes": 11020
+    },
+    {
+      "path": "prepared/episodes/task05_demo_87/features.npy",
+      "bytes": 111089792
+    },
+    {
+      "path": "prepared/episodes/task05_demo_87/actions.npy",
+      "bytes": 10460
+    },
+    {
+      "path": "prepared/episodes/task05_demo_88/features.npy",
+      "bytes": 122228864
+    },
+    {
+      "path": "prepared/episodes/task05_demo_88/actions.npy",
+      "bytes": 11496
+    },
+    {
+      "path": "prepared/episodes/task05_demo_89/features.npy",
+      "bytes": 114401408
+    },
+    {
+      "path": "prepared/episodes/task05_demo_89/actions.npy",
+      "bytes": 10768
+    },
+    {
+      "path": "prepared/episodes/task05_demo_90/features.npy",
+      "bytes": 128249984
+    },
+    {
+      "path": "prepared/episodes/task05_demo_90/actions.npy",
+      "bytes": 12056
+    },
+    {
+      "path": "prepared/episodes/task05_demo_91/features.npy",
+      "bytes": 114401408
+    },
+    {
+      "path": "prepared/episodes/task05_demo_91/actions.npy",
+      "bytes": 10768
+    },
+    {
+      "path": "prepared/episodes/task05_demo_92/features.npy",
+      "bytes": 121024640
+    },
+    {
+      "path": "prepared/episodes/task05_demo_92/actions.npy",
+      "bytes": 11384
+    },
+    {
+      "path": "prepared/episodes/task05_demo_93/features.npy",
+      "bytes": 115003520
+    },
+    {
+      "path": "prepared/episodes/task05_demo_93/actions.npy",
+      "bytes": 10824
+    },
+    {
+      "path": "prepared/episodes/task05_demo_94/features.npy",
+      "bytes": 134271104
+    },
+    {
+      "path": "prepared/episodes/task05_demo_94/actions.npy",
+      "bytes": 12616
+    },
+    {
+      "path": "prepared/episodes/task05_demo_95/features.npy",
+      "bytes": 116809856
+    },
+    {
+      "path": "prepared/episodes/task05_demo_95/actions.npy",
+      "bytes": 10992
+    },
+    {
+      "path": "prepared/episodes/task05_demo_96/features.npy",
+      "bytes": 112294016
+    },
+    {
+      "path": "prepared/episodes/task05_demo_96/actions.npy",
+      "bytes": 10572
+    },
+    {
+      "path": "prepared/episodes/task05_demo_97/features.npy",
+      "bytes": 131862656
+    },
+    {
+      "path": "prepared/episodes/task05_demo_97/actions.npy",
+      "bytes": 12392
+    },
+    {
+      "path": "prepared/episodes/task05_demo_98/features.npy",
+      "bytes": 127045760
+    },
+    {
+      "path": "prepared/episodes/task05_demo_98/actions.npy",
+      "bytes": 11944
+    },
+    {
+      "path": "prepared/episodes/task05_demo_99/features.npy",
+      "bytes": 118917248
+    },
+    {
+      "path": "prepared/episodes/task05_demo_99/actions.npy",
+      "bytes": 11188
+    },
+    {
+      "path": "prepared/episodes/task05_demo_100/features.npy",
+      "bytes": 123734144
+    },
+    {
+      "path": "prepared/episodes/task05_demo_100/actions.npy",
+      "bytes": 11636
+    },
+    {
+      "path": "prepared/episodes/task06_demo_1/features.npy",
+      "bytes": 158957696
+    },
+    {
+      "path": "prepared/episodes/task06_demo_1/actions.npy",
+      "bytes": 14912
+    },
+    {
+      "path": "prepared/episodes/task06_demo_2/features.npy",
+      "bytes": 177021056
+    },
+    {
+      "path": "prepared/episodes/task06_demo_2/actions.npy",
+      "bytes": 16592
+    },
+    {
+      "path": "prepared/episodes/task06_demo_3/features.npy",
+      "bytes": 166785152
+    },
+    {
+      "path": "prepared/episodes/task06_demo_3/actions.npy",
+      "bytes": 15640
+    },
+    {
+      "path": "prepared/episodes/task06_demo_4/features.npy",
+      "bytes": 164978816
+    },
+    {
+      "path": "prepared/episodes/task06_demo_4/actions.npy",
+      "bytes": 15472
+    },
+    {
+      "path": "prepared/episodes/task06_demo_5/features.npy",
+      "bytes": 195385472
+    },
+    {
+      "path": "prepared/episodes/task06_demo_5/actions.npy",
+      "bytes": 18300
+    },
+    {
+      "path": "prepared/episodes/task06_demo_6/features.npy",
+      "bytes": 158054528
+    },
+    {
+      "path": "prepared/episodes/task06_demo_6/actions.npy",
+      "bytes": 14828
+    },
+    {
+      "path": "prepared/episodes/task06_demo_7/features.npy",
+      "bytes": 174010496
+    },
+    {
+      "path": "prepared/episodes/task06_demo_7/actions.npy",
+      "bytes": 16312
+    },
+    {
+      "path": "prepared/episodes/task06_demo_8/features.npy",
+      "bytes": 176418944
+    },
+    {
+      "path": "prepared/episodes/task06_demo_8/actions.npy",
+      "bytes": 16536
+    },
+    {
+      "path": "prepared/episodes/task06_demo_9/features.npy",
+      "bytes": 185450624
+    },
+    {
+      "path": "prepared/episodes/task06_demo_9/actions.npy",
+      "bytes": 17376
+    },
+    {
+      "path": "prepared/episodes/task06_demo_10/features.npy",
+      "bytes": 170397824
+    },
+    {
+      "path": "prepared/episodes/task06_demo_10/actions.npy",
+      "bytes": 15976
+    },
+    {
+      "path": "prepared/episodes/task06_demo_11/features.npy",
+      "bytes": 179128448
+    },
+    {
+      "path": "prepared/episodes/task06_demo_11/actions.npy",
+      "bytes": 16788
+    },
+    {
+      "path": "prepared/episodes/task06_demo_12/features.npy",
+      "bytes": 191772800
+    },
+    {
+      "path": "prepared/episodes/task06_demo_12/actions.npy",
+      "bytes": 17964
+    },
+    {
+      "path": "prepared/episodes/task06_demo_13/features.npy",
+      "bytes": 188461184
+    },
+    {
+      "path": "prepared/episodes/task06_demo_13/actions.npy",
+      "bytes": 17656
+    },
+    {
+      "path": "prepared/episodes/task06_demo_14/features.npy",
+      "bytes": 175515776
+    },
+    {
+      "path": "prepared/episodes/task06_demo_14/actions.npy",
+      "bytes": 16452
+    },
+    {
+      "path": "prepared/episodes/task06_demo_15/features.npy",
+      "bytes": 177021056
+    },
+    {
+      "path": "prepared/episodes/task06_demo_15/actions.npy",
+      "bytes": 16592
+    },
+    {
+      "path": "prepared/episodes/task06_demo_16/features.npy",
+      "bytes": 192675968
+    },
+    {
+      "path": "prepared/episodes/task06_demo_16/actions.npy",
+      "bytes": 18048
+    },
+    {
+      "path": "prepared/episodes/task06_demo_17/features.npy",
+      "bytes": 182741120
+    },
+    {
+      "path": "prepared/episodes/task06_demo_17/actions.npy",
+      "bytes": 17124
+    },
+    {
+      "path": "prepared/episodes/task06_demo_18/features.npy",
+      "bytes": 198094976
+    },
+    {
+      "path": "prepared/episodes/task06_demo_18/actions.npy",
+      "bytes": 18552
+    },
+    {
+      "path": "prepared/episodes/task06_demo_19/features.npy",
+      "bytes": 181837952
+    },
+    {
+      "path": "prepared/episodes/task06_demo_19/actions.npy",
+      "bytes": 17040
+    },
+    {
+      "path": "prepared/episodes/task06_demo_20/features.npy",
+      "bytes": 163774592
+    },
+    {
+      "path": "prepared/episodes/task06_demo_20/actions.npy",
+      "bytes": 15360
+    },
+    {
+      "path": "prepared/episodes/task06_demo_21/features.npy",
+      "bytes": 180332672
+    },
+    {
+      "path": "prepared/episodes/task06_demo_21/actions.npy",
+      "bytes": 16900
+    },
+    {
+      "path": "prepared/episodes/task06_demo_22/features.npy",
+      "bytes": 179128448
+    },
+    {
+      "path": "prepared/episodes/task06_demo_22/actions.npy",
+      "bytes": 16788
+    },
+    {
+      "path": "prepared/episodes/task06_demo_23/features.npy",
+      "bytes": 184547456
+    },
+    {
+      "path": "prepared/episodes/task06_demo_23/actions.npy",
+      "bytes": 17292
+    },
+    {
+      "path": "prepared/episodes/task06_demo_24/features.npy",
+      "bytes": 182139008
+    },
+    {
+      "path": "prepared/episodes/task06_demo_24/actions.npy",
+      "bytes": 17068
+    },
+    {
+      "path": "prepared/episodes/task06_demo_25/features.npy",
+      "bytes": 177924224
+    },
+    {
+      "path": "prepared/episodes/task06_demo_25/actions.npy",
+      "bytes": 16676
+    },
+    {
+      "path": "prepared/episodes/task06_demo_26/features.npy",
+      "bytes": 183343232
+    },
+    {
+      "path": "prepared/episodes/task06_demo_26/actions.npy",
+      "bytes": 17180
+    },
+    {
+      "path": "prepared/episodes/task06_demo_27/features.npy",
+      "bytes": 161968256
+    },
+    {
+      "path": "prepared/episodes/task06_demo_27/actions.npy",
+      "bytes": 15192
+    },
+    {
+      "path": "prepared/episodes/task06_demo_28/features.npy",
+      "bytes": 174612608
+    },
+    {
+      "path": "prepared/episodes/task06_demo_28/actions.npy",
+      "bytes": 16368
+    },
+    {
+      "path": "prepared/episodes/task06_demo_29/features.npy",
+      "bytes": 190568576
+    },
+    {
+      "path": "prepared/episodes/task06_demo_29/actions.npy",
+      "bytes": 17852
+    },
+    {
+      "path": "prepared/episodes/task06_demo_30/features.npy",
+      "bytes": 181235840
+    },
+    {
+      "path": "prepared/episodes/task06_demo_30/actions.npy",
+      "bytes": 16984
+    },
+    {
+      "path": "prepared/episodes/task06_demo_31/features.npy",
+      "bytes": 182440064
+    },
+    {
+      "path": "prepared/episodes/task06_demo_31/actions.npy",
+      "bytes": 17096
+    },
+    {
+      "path": "prepared/episodes/task06_demo_32/features.npy",
+      "bytes": 174010496
+    },
+    {
+      "path": "prepared/episodes/task06_demo_32/actions.npy",
+      "bytes": 16312
+    },
+    {
+      "path": "prepared/episodes/task06_demo_33/features.npy",
+      "bytes": 175515776
+    },
+    {
+      "path": "prepared/episodes/task06_demo_33/actions.npy",
+      "bytes": 16452
+    },
+    {
+      "path": "prepared/episodes/task06_demo_34/features.npy",
+      "bytes": 174612608
+    },
+    {
+      "path": "prepared/episodes/task06_demo_34/actions.npy",
+      "bytes": 16368
+    },
+    {
+      "path": "prepared/episodes/task06_demo_35/features.npy",
+      "bytes": 176720000
+    },
+    {
+      "path": "prepared/episodes/task06_demo_35/actions.npy",
+      "bytes": 16564
+    },
+    {
+      "path": "prepared/episodes/task06_demo_36/features.npy",
+      "bytes": 170999936
+    },
+    {
+      "path": "prepared/episodes/task06_demo_36/actions.npy",
+      "bytes": 16032
+    },
+    {
+      "path": "prepared/episodes/task06_demo_37/features.npy",
+      "bytes": 182139008
+    },
+    {
+      "path": "prepared/episodes/task06_demo_37/actions.npy",
+      "bytes": 17068
+    },
+    {
+      "path": "prepared/episodes/task06_demo_38/features.npy",
+      "bytes": 181837952
+    },
+    {
+      "path": "prepared/episodes/task06_demo_38/actions.npy",
+      "bytes": 17040
+    },
+    {
+      "path": "prepared/episodes/task06_demo_39/features.npy",
+      "bytes": 169795712
+    },
+    {
+      "path": "prepared/episodes/task06_demo_39/actions.npy",
+      "bytes": 15920
+    },
+    {
+      "path": "prepared/episodes/task06_demo_40/features.npy",
+      "bytes": 166484096
+    },
+    {
+      "path": "prepared/episodes/task06_demo_40/actions.npy",
+      "bytes": 15612
+    },
+    {
+      "path": "prepared/episodes/task06_demo_41/features.npy",
+      "bytes": 177021056
+    },
+    {
+      "path": "prepared/episodes/task06_demo_41/actions.npy",
+      "bytes": 16592
+    },
+    {
+      "path": "prepared/episodes/task06_demo_42/features.npy",
+      "bytes": 163473536
+    },
+    {
+      "path": "prepared/episodes/task06_demo_42/actions.npy",
+      "bytes": 15332
+    },
+    {
+      "path": "prepared/episodes/task06_demo_43/features.npy",
+      "bytes": 164075648
+    },
+    {
+      "path": "prepared/episodes/task06_demo_43/actions.npy",
+      "bytes": 15388
+    },
+    {
+      "path": "prepared/episodes/task06_demo_44/features.npy",
+      "bytes": 174311552
+    },
+    {
+      "path": "prepared/episodes/task06_demo_44/actions.npy",
+      "bytes": 16340
+    },
+    {
+      "path": "prepared/episodes/task06_demo_45/features.npy",
+      "bytes": 186353792
+    },
+    {
+      "path": "prepared/episodes/task06_demo_45/actions.npy",
+      "bytes": 17460
+    },
+    {
+      "path": "prepared/episodes/task06_demo_46/features.npy",
+      "bytes": 159258752
+    },
+    {
+      "path": "prepared/episodes/task06_demo_46/actions.npy",
+      "bytes": 14940
+    },
+    {
+      "path": "prepared/episodes/task06_demo_47/features.npy",
+      "bytes": 165279872
+    },
+    {
+      "path": "prepared/episodes/task06_demo_47/actions.npy",
+      "bytes": 15500
+    },
+    {
+      "path": "prepared/episodes/task06_demo_48/features.npy",
+      "bytes": 167387264
+    },
+    {
+      "path": "prepared/episodes/task06_demo_48/actions.npy",
+      "bytes": 15696
+    },
+    {
+      "path": "prepared/episodes/task06_demo_49/features.npy",
+      "bytes": 175214720
+    },
+    {
+      "path": "prepared/episodes/task06_demo_49/actions.npy",
+      "bytes": 16424
+    },
+    {
+      "path": "prepared/episodes/task06_demo_50/features.npy",
+      "bytes": 164677760
+    },
+    {
+      "path": "prepared/episodes/task06_demo_50/actions.npy",
+      "bytes": 15444
+    },
+    {
+      "path": "prepared/episodes/task06_demo_51/features.npy",
+      "bytes": 171300992
+    },
+    {
+      "path": "prepared/episodes/task06_demo_51/actions.npy",
+      "bytes": 16060
+    },
+    {
+      "path": "prepared/episodes/task06_demo_52/features.npy",
+      "bytes": 167387264
+    },
+    {
+      "path": "prepared/episodes/task06_demo_52/actions.npy",
+      "bytes": 15696
+    },
+    {
+      "path": "prepared/episodes/task06_demo_53/features.npy",
+      "bytes": 167086208
+    },
+    {
+      "path": "prepared/episodes/task06_demo_53/actions.npy",
+      "bytes": 15668
+    },
+    {
+      "path": "prepared/episodes/task06_demo_54/features.npy",
+      "bytes": 169494656
+    },
+    {
+      "path": "prepared/episodes/task06_demo_54/actions.npy",
+      "bytes": 15892
+    },
+    {
+      "path": "prepared/episodes/task06_demo_55/features.npy",
+      "bytes": 166183040
+    },
+    {
+      "path": "prepared/episodes/task06_demo_55/actions.npy",
+      "bytes": 15584
+    },
+    {
+      "path": "prepared/episodes/task06_demo_56/features.npy",
+      "bytes": 154742912
+    },
+    {
+      "path": "prepared/episodes/task06_demo_56/actions.npy",
+      "bytes": 14520
+    },
+    {
+      "path": "prepared/episodes/task06_demo_57/features.npy",
+      "bytes": 146012288
+    },
+    {
+      "path": "prepared/episodes/task06_demo_57/actions.npy",
+      "bytes": 13708
+    },
+    {
+      "path": "prepared/episodes/task06_demo_58/features.npy",
+      "bytes": 155947136
+    },
+    {
+      "path": "prepared/episodes/task06_demo_58/actions.npy",
+      "bytes": 14632
+    },
+    {
+      "path": "prepared/episodes/task06_demo_59/features.npy",
+      "bytes": 154742912
+    },
+    {
+      "path": "prepared/episodes/task06_demo_59/actions.npy",
+      "bytes": 14520
+    },
+    {
+      "path": "prepared/episodes/task06_demo_60/features.npy",
+      "bytes": 151130240
+    },
+    {
+      "path": "prepared/episodes/task06_demo_60/actions.npy",
+      "bytes": 14184
+    },
+    {
+      "path": "prepared/episodes/task06_demo_61/features.npy",
+      "bytes": 144808064
+    },
+    {
+      "path": "prepared/episodes/task06_demo_61/actions.npy",
+      "bytes": 13596
+    },
+    {
+      "path": "prepared/episodes/task06_demo_62/features.npy",
+      "bytes": 152033408
+    },
+    {
+      "path": "prepared/episodes/task06_demo_62/actions.npy",
+      "bytes": 14268
+    },
+    {
+      "path": "prepared/episodes/task06_demo_63/features.npy",
+      "bytes": 155043968
+    },
+    {
+      "path": "prepared/episodes/task06_demo_63/actions.npy",
+      "bytes": 14548
+    },
+    {
+      "path": "prepared/episodes/task06_demo_64/features.npy",
+      "bytes": 152936576
+    },
+    {
+      "path": "prepared/episodes/task06_demo_64/actions.npy",
+      "bytes": 14352
+    },
+    {
+      "path": "prepared/episodes/task06_demo_65/features.npy",
+      "bytes": 176418944
+    },
+    {
+      "path": "prepared/episodes/task06_demo_65/actions.npy",
+      "bytes": 16536
+    },
+    {
+      "path": "prepared/episodes/task06_demo_66/features.npy",
+      "bytes": 168290432
+    },
+    {
+      "path": "prepared/episodes/task06_demo_66/actions.npy",
+      "bytes": 15780
+    },
+    {
+      "path": "prepared/episodes/task06_demo_67/features.npy",
+      "bytes": 166484096
+    },
+    {
+      "path": "prepared/episodes/task06_demo_67/actions.npy",
+      "bytes": 15612
+    },
+    {
+      "path": "prepared/episodes/task06_demo_68/features.npy",
+      "bytes": 154441856
+    },
+    {
+      "path": "prepared/episodes/task06_demo_68/actions.npy",
+      "bytes": 14492
+    },
+    {
+      "path": "prepared/episodes/task06_demo_69/features.npy",
+      "bytes": 161366144
+    },
+    {
+      "path": "prepared/episodes/task06_demo_69/actions.npy",
+      "bytes": 15136
+    },
+    {
+      "path": "prepared/episodes/task06_demo_70/features.npy",
+      "bytes": 164978816
+    },
+    {
+      "path": "prepared/episodes/task06_demo_70/actions.npy",
+      "bytes": 15472
+    },
+    {
+      "path": "prepared/episodes/task06_demo_71/features.npy",
+      "bytes": 179429504
+    },
+    {
+      "path": "prepared/episodes/task06_demo_71/actions.npy",
+      "bytes": 16816
+    },
+    {
+      "path": "prepared/episodes/task06_demo_72/features.npy",
+      "bytes": 180031616
+    },
+    {
+      "path": "prepared/episodes/task06_demo_72/actions.npy",
+      "bytes": 16872
+    },
+    {
+      "path": "prepared/episodes/task06_demo_73/features.npy",
+      "bytes": 165279872
+    },
+    {
+      "path": "prepared/episodes/task06_demo_73/actions.npy",
+      "bytes": 15500
+    },
+    {
+      "path": "prepared/episodes/task06_demo_74/features.npy",
+      "bytes": 156850304
+    },
+    {
+      "path": "prepared/episodes/task06_demo_74/actions.npy",
+      "bytes": 14716
+    },
+    {
+      "path": "prepared/episodes/task06_demo_75/features.npy",
+      "bytes": 158656640
+    },
+    {
+      "path": "prepared/episodes/task06_demo_75/actions.npy",
+      "bytes": 14884
+    },
+    {
+      "path": "prepared/episodes/task06_demo_76/features.npy",
+      "bytes": 164376704
+    },
+    {
+      "path": "prepared/episodes/task06_demo_76/actions.npy",
+      "bytes": 15416
+    },
+    {
+      "path": "prepared/episodes/task06_demo_77/features.npy",
+      "bytes": 158355584
+    },
+    {
+      "path": "prepared/episodes/task06_demo_77/actions.npy",
+      "bytes": 14856
+    },
+    {
+      "path": "prepared/episodes/task06_demo_78/features.npy",
+      "bytes": 167086208
+    },
+    {
+      "path": "prepared/episodes/task06_demo_78/actions.npy",
+      "bytes": 15668
+    },
+    {
+      "path": "prepared/episodes/task06_demo_79/features.npy",
+      "bytes": 158054528
+    },
+    {
+      "path": "prepared/episodes/task06_demo_79/actions.npy",
+      "bytes": 14828
+    },
+    {
+      "path": "prepared/episodes/task06_demo_80/features.npy",
+      "bytes": 170698880
+    },
+    {
+      "path": "prepared/episodes/task06_demo_80/actions.npy",
+      "bytes": 16004
+    },
+    {
+      "path": "prepared/episodes/task06_demo_81/features.npy",
+      "bytes": 165580928
+    },
+    {
+      "path": "prepared/episodes/task06_demo_81/actions.npy",
+      "bytes": 15528
+    },
+    {
+      "path": "prepared/episodes/task06_demo_82/features.npy",
+      "bytes": 155345024
+    },
+    {
+      "path": "prepared/episodes/task06_demo_82/actions.npy",
+      "bytes": 14576
+    },
+    {
+      "path": "prepared/episodes/task06_demo_83/features.npy",
+      "bytes": 159258752
+    },
+    {
+      "path": "prepared/episodes/task06_demo_83/actions.npy",
+      "bytes": 14940
+    },
+    {
+      "path": "prepared/episodes/task06_demo_84/features.npy",
+      "bytes": 180633728
+    },
+    {
+      "path": "prepared/episodes/task06_demo_84/actions.npy",
+      "bytes": 16928
+    },
+    {
+      "path": "prepared/episodes/task06_demo_85/features.npy",
+      "bytes": 164376704
+    },
+    {
+      "path": "prepared/episodes/task06_demo_85/actions.npy",
+      "bytes": 15416
+    },
+    {
+      "path": "prepared/episodes/task06_demo_86/features.npy",
+      "bytes": 175816832
+    },
+    {
+      "path": "prepared/episodes/task06_demo_86/actions.npy",
+      "bytes": 16480
+    },
+    {
+      "path": "prepared/episodes/task06_demo_87/features.npy",
+      "bytes": 153237632
+    },
+    {
+      "path": "prepared/episodes/task06_demo_87/actions.npy",
+      "bytes": 14380
+    },
+    {
+      "path": "prepared/episodes/task06_demo_88/features.npy",
+      "bytes": 170397824
+    },
+    {
+      "path": "prepared/episodes/task06_demo_88/actions.npy",
+      "bytes": 15976
+    },
+    {
+      "path": "prepared/episodes/task06_demo_89/features.npy",
+      "bytes": 176720000
+    },
+    {
+      "path": "prepared/episodes/task06_demo_89/actions.npy",
+      "bytes": 16564
+    },
+    {
+      "path": "prepared/episodes/task06_demo_90/features.npy",
+      "bytes": 169795712
+    },
+    {
+      "path": "prepared/episodes/task06_demo_90/actions.npy",
+      "bytes": 15920
+    },
+    {
+      "path": "prepared/episodes/task06_demo_91/features.npy",
+      "bytes": 163774592
+    },
+    {
+      "path": "prepared/episodes/task06_demo_91/actions.npy",
+      "bytes": 15360
+    },
+    {
+      "path": "prepared/episodes/task06_demo_92/features.npy",
+      "bytes": 174311552
+    },
+    {
+      "path": "prepared/episodes/task06_demo_92/actions.npy",
+      "bytes": 16340
+    },
+    {
+      "path": "prepared/episodes/task06_demo_93/features.npy",
+      "bytes": 167989376
+    },
+    {
+      "path": "prepared/episodes/task06_demo_93/actions.npy",
+      "bytes": 15752
+    },
+    {
+      "path": "prepared/episodes/task06_demo_94/features.npy",
+      "bytes": 156248192
+    },
+    {
+      "path": "prepared/episodes/task06_demo_94/actions.npy",
+      "bytes": 14660
+    },
+    {
+      "path": "prepared/episodes/task06_demo_95/features.npy",
+      "bytes": 163172480
+    },
+    {
+      "path": "prepared/episodes/task06_demo_95/actions.npy",
+      "bytes": 15304
+    },
+    {
+      "path": "prepared/episodes/task06_demo_96/features.npy",
+      "bytes": 153237632
+    },
+    {
+      "path": "prepared/episodes/task06_demo_96/actions.npy",
+      "bytes": 14380
+    },
+    {
+      "path": "prepared/episodes/task06_demo_97/features.npy",
+      "bytes": 165580928
+    },
+    {
+      "path": "prepared/episodes/task06_demo_97/actions.npy",
+      "bytes": 15528
+    },
+    {
+      "path": "prepared/episodes/task06_demo_98/features.npy",
+      "bytes": 172806272
+    },
+    {
+      "path": "prepared/episodes/task06_demo_98/actions.npy",
+      "bytes": 16200
+    },
+    {
+      "path": "prepared/episodes/task06_demo_99/features.npy",
+      "bytes": 162269312
+    },
+    {
+      "path": "prepared/episodes/task06_demo_99/actions.npy",
+      "bytes": 15220
+    },
+    {
+      "path": "prepared/episodes/task06_demo_100/features.npy",
+      "bytes": 157151360
+    },
+    {
+      "path": "prepared/episodes/task06_demo_100/actions.npy",
+      "bytes": 14744
+    },
+    {
+      "path": "prepared/episodes/task07_demo_1/features.npy",
+      "bytes": 127948928
+    },
+    {
+      "path": "prepared/episodes/task07_demo_1/actions.npy",
+      "bytes": 12028
+    },
+    {
+      "path": "prepared/episodes/task07_demo_3/features.npy",
+      "bytes": 115605632
+    },
+    {
+      "path": "prepared/episodes/task07_demo_3/actions.npy",
+      "bytes": 10880
+    },
+    {
+      "path": "prepared/episodes/task07_demo_4/features.npy",
+      "bytes": 101757056
+    },
+    {
+      "path": "prepared/episodes/task07_demo_4/actions.npy",
+      "bytes": 9592
+    },
+    {
+      "path": "prepared/episodes/task07_demo_5/features.npy",
+      "bytes": 122228864
+    },
+    {
+      "path": "prepared/episodes/task07_demo_5/actions.npy",
+      "bytes": 11496
+    },
+    {
+      "path": "prepared/episodes/task07_demo_6/features.npy",
+      "bytes": 109283456
+    },
+    {
+      "path": "prepared/episodes/task07_demo_6/actions.npy",
+      "bytes": 10292
+    },
+    {
+      "path": "prepared/episodes/task07_demo_7/features.npy",
+      "bytes": 122228864
+    },
+    {
+      "path": "prepared/episodes/task07_demo_7/actions.npy",
+      "bytes": 11496
+    },
+    {
+      "path": "prepared/episodes/task07_demo_8/features.npy",
+      "bytes": 139389056
+    },
+    {
+      "path": "prepared/episodes/task07_demo_8/actions.npy",
+      "bytes": 13092
+    },
+    {
+      "path": "prepared/episodes/task07_demo_9/features.npy",
+      "bytes": 142399616
+    },
+    {
+      "path": "prepared/episodes/task07_demo_9/actions.npy",
+      "bytes": 13372
+    },
+    {
+      "path": "prepared/episodes/task07_demo_10/features.npy",
+      "bytes": 131561600
+    },
+    {
+      "path": "prepared/episodes/task07_demo_10/actions.npy",
+      "bytes": 12364
+    },
+    {
+      "path": "prepared/episodes/task07_demo_11/features.npy",
+      "bytes": 127647872
+    },
+    {
+      "path": "prepared/episodes/task07_demo_11/actions.npy",
+      "bytes": 12000
+    },
+    {
+      "path": "prepared/episodes/task07_demo_12/features.npy",
+      "bytes": 103864448
+    },
+    {
+      "path": "prepared/episodes/task07_demo_12/actions.npy",
+      "bytes": 9788
+    },
+    {
+      "path": "prepared/episodes/task07_demo_13/features.npy",
+      "bytes": 130357376
+    },
+    {
+      "path": "prepared/episodes/task07_demo_13/actions.npy",
+      "bytes": 12252
+    },
+    {
+      "path": "prepared/episodes/task07_demo_14/features.npy",
+      "bytes": 106573952
+    },
+    {
+      "path": "prepared/episodes/task07_demo_14/actions.npy",
+      "bytes": 10040
+    },
+    {
+      "path": "prepared/episodes/task07_demo_15/features.npy",
+      "bytes": 116809856
+    },
+    {
+      "path": "prepared/episodes/task07_demo_15/actions.npy",
+      "bytes": 10992
+    },
+    {
+      "path": "prepared/episodes/task07_demo_17/features.npy",
+      "bytes": 142700672
+    },
+    {
+      "path": "prepared/episodes/task07_demo_17/actions.npy",
+      "bytes": 13400
+    },
+    {
+      "path": "prepared/episodes/task07_demo_18/features.npy",
+      "bytes": 119820416
+    },
+    {
+      "path": "prepared/episodes/task07_demo_18/actions.npy",
+      "bytes": 11272
+    },
+    {
+      "path": "prepared/episodes/task07_demo_19/features.npy",
+      "bytes": 129153152
+    },
+    {
+      "path": "prepared/episodes/task07_demo_19/actions.npy",
+      "bytes": 12140
+    },
+    {
+      "path": "prepared/episodes/task07_demo_20/features.npy",
+      "bytes": 142700672
+    },
+    {
+      "path": "prepared/episodes/task07_demo_20/actions.npy",
+      "bytes": 13400
+    },
+    {
+      "path": "prepared/episodes/task07_demo_21/features.npy",
+      "bytes": 108681344
+    },
+    {
+      "path": "prepared/episodes/task07_demo_21/actions.npy",
+      "bytes": 10236
+    },
+    {
+      "path": "prepared/episodes/task07_demo_22/features.npy",
+      "bytes": 120121472
+    },
+    {
+      "path": "prepared/episodes/task07_demo_22/actions.npy",
+      "bytes": 11300
+    },
+    {
+      "path": "prepared/episodes/task07_demo_23/features.npy",
+      "bytes": 118616192
+    },
+    {
+      "path": "prepared/episodes/task07_demo_23/actions.npy",
+      "bytes": 11160
+    },
+    {
+      "path": "prepared/episodes/task07_demo_24/features.npy",
+      "bytes": 97241216
+    },
+    {
+      "path": "prepared/episodes/task07_demo_24/actions.npy",
+      "bytes": 9172
+    },
+    {
+      "path": "prepared/episodes/task07_demo_25/features.npy",
+      "bytes": 106875008
+    },
+    {
+      "path": "prepared/episodes/task07_demo_25/actions.npy",
+      "bytes": 10068
+    },
+    {
+      "path": "prepared/episodes/task07_demo_26/features.npy",
+      "bytes": 118014080
+    },
+    {
+      "path": "prepared/episodes/task07_demo_26/actions.npy",
+      "bytes": 11104
+    },
+    {
+      "path": "prepared/episodes/task07_demo_28/features.npy",
+      "bytes": 128551040
+    },
+    {
+      "path": "prepared/episodes/task07_demo_28/actions.npy",
+      "bytes": 12084
+    },
+    {
+      "path": "prepared/episodes/task07_demo_29/features.npy",
+      "bytes": 108982400
+    },
+    {
+      "path": "prepared/episodes/task07_demo_29/actions.npy",
+      "bytes": 10264
+    },
+    {
+      "path": "prepared/episodes/task07_demo_30/features.npy",
+      "bytes": 121626752
+    },
+    {
+      "path": "prepared/episodes/task07_demo_30/actions.npy",
+      "bytes": 11440
+    },
+    {
+      "path": "prepared/episodes/task07_demo_32/features.npy",
+      "bytes": 108380288
+    },
+    {
+      "path": "prepared/episodes/task07_demo_32/actions.npy",
+      "bytes": 10208
+    },
+    {
+      "path": "prepared/episodes/task07_demo_33/features.npy",
+      "bytes": 121325696
+    },
+    {
+      "path": "prepared/episodes/task07_demo_33/actions.npy",
+      "bytes": 11412
+    },
+    {
+      "path": "prepared/episodes/task07_demo_34/features.npy",
+      "bytes": 124035200
+    },
+    {
+      "path": "prepared/episodes/task07_demo_34/actions.npy",
+      "bytes": 11664
+    },
+    {
+      "path": "prepared/episodes/task07_demo_35/features.npy",
+      "bytes": 108681344
+    },
+    {
+      "path": "prepared/episodes/task07_demo_35/actions.npy",
+      "bytes": 10236
+    },
+    {
+      "path": "prepared/episodes/task07_demo_36/features.npy",
+      "bytes": 116508800
+    },
+    {
+      "path": "prepared/episodes/task07_demo_36/actions.npy",
+      "bytes": 10964
+    },
+    {
+      "path": "prepared/episodes/task07_demo_37/features.npy",
+      "bytes": 106573952
+    },
+    {
+      "path": "prepared/episodes/task07_demo_37/actions.npy",
+      "bytes": 10040
+    },
+    {
+      "path": "prepared/episodes/task07_demo_38/features.npy",
+      "bytes": 134873216
+    },
+    {
+      "path": "prepared/episodes/task07_demo_38/actions.npy",
+      "bytes": 12672
+    },
+    {
+      "path": "prepared/episodes/task07_demo_39/features.npy",
+      "bytes": 146012288
+    },
+    {
+      "path": "prepared/episodes/task07_demo_39/actions.npy",
+      "bytes": 13708
+    },
+    {
+      "path": "prepared/episodes/task07_demo_40/features.npy",
+      "bytes": 131862656
+    },
+    {
+      "path": "prepared/episodes/task07_demo_40/actions.npy",
+      "bytes": 12392
+    },
+    {
+      "path": "prepared/episodes/task07_demo_41/features.npy",
+      "bytes": 131561600
+    },
+    {
+      "path": "prepared/episodes/task07_demo_41/actions.npy",
+      "bytes": 12364
+    },
+    {
+      "path": "prepared/episodes/task07_demo_42/features.npy",
+      "bytes": 120121472
+    },
+    {
+      "path": "prepared/episodes/task07_demo_42/actions.npy",
+      "bytes": 11300
+    },
+    {
+      "path": "prepared/episodes/task07_demo_43/features.npy",
+      "bytes": 115906688
+    },
+    {
+      "path": "prepared/episodes/task07_demo_43/actions.npy",
+      "bytes": 10908
+    },
+    {
+      "path": "prepared/episodes/task07_demo_44/features.npy",
+      "bytes": 128551040
+    },
+    {
+      "path": "prepared/episodes/task07_demo_44/actions.npy",
+      "bytes": 12084
+    },
+    {
+      "path": "prepared/episodes/task07_demo_45/features.npy",
+      "bytes": 136679552
+    },
+    {
+      "path": "prepared/episodes/task07_demo_45/actions.npy",
+      "bytes": 12840
+    },
+    {
+      "path": "prepared/episodes/task07_demo_47/features.npy",
+      "bytes": 118917248
+    },
+    {
+      "path": "prepared/episodes/task07_demo_47/actions.npy",
+      "bytes": 11188
+    },
+    {
+      "path": "prepared/episodes/task07_demo_48/features.npy",
+      "bytes": 113498240
+    },
+    {
+      "path": "prepared/episodes/task07_demo_48/actions.npy",
+      "bytes": 10684
+    },
+    {
+      "path": "prepared/episodes/task07_demo_49/features.npy",
+      "bytes": 120422528
+    },
+    {
+      "path": "prepared/episodes/task07_demo_49/actions.npy",
+      "bytes": 11328
+    },
+    {
+      "path": "prepared/episodes/task07_demo_50/features.npy",
+      "bytes": 130959488
+    },
+    {
+      "path": "prepared/episodes/task07_demo_50/actions.npy",
+      "bytes": 12308
+    },
+    {
+      "path": "prepared/episodes/task07_demo_51/features.npy",
+      "bytes": 128852096
+    },
+    {
+      "path": "prepared/episodes/task07_demo_51/actions.npy",
+      "bytes": 12112
+    },
+    {
+      "path": "prepared/episodes/task07_demo_52/features.npy",
+      "bytes": 128249984
+    },
+    {
+      "path": "prepared/episodes/task07_demo_52/actions.npy",
+      "bytes": 12056
+    },
+    {
+      "path": "prepared/episodes/task07_demo_53/features.npy",
+      "bytes": 124938368
+    },
+    {
+      "path": "prepared/episodes/task07_demo_53/actions.npy",
+      "bytes": 11748
+    },
+    {
+      "path": "prepared/episodes/task07_demo_54/features.npy",
+      "bytes": 120121472
+    },
+    {
+      "path": "prepared/episodes/task07_demo_54/actions.npy",
+      "bytes": 11300
+    },
+    {
+      "path": "prepared/episodes/task07_demo_55/features.npy",
+      "bytes": 121024640
+    },
+    {
+      "path": "prepared/episodes/task07_demo_55/actions.npy",
+      "bytes": 11384
+    },
+    {
+      "path": "prepared/episodes/task07_demo_56/features.npy",
+      "bytes": 141797504
+    },
+    {
+      "path": "prepared/episodes/task07_demo_56/actions.npy",
+      "bytes": 13316
+    },
+    {
+      "path": "prepared/episodes/task07_demo_57/features.npy",
+      "bytes": 123132032
+    },
+    {
+      "path": "prepared/episodes/task07_demo_57/actions.npy",
+      "bytes": 11580
+    },
+    {
+      "path": "prepared/episodes/task07_demo_58/features.npy",
+      "bytes": 140894336
+    },
+    {
+      "path": "prepared/episodes/task07_demo_58/actions.npy",
+      "bytes": 13232
+    },
+    {
+      "path": "prepared/episodes/task07_demo_59/features.npy",
+      "bytes": 128249984
+    },
+    {
+      "path": "prepared/episodes/task07_demo_59/actions.npy",
+      "bytes": 12056
+    },
+    {
+      "path": "prepared/episodes/task07_demo_60/features.npy",
+      "bytes": 123433088
+    },
+    {
+      "path": "prepared/episodes/task07_demo_60/actions.npy",
+      "bytes": 11608
+    },
+    {
+      "path": "prepared/episodes/task07_demo_61/features.npy",
+      "bytes": 145711232
+    },
+    {
+      "path": "prepared/episodes/task07_demo_61/actions.npy",
+      "bytes": 13680
+    },
+    {
+      "path": "prepared/episodes/task07_demo_62/features.npy",
+      "bytes": 114100352
+    },
+    {
+      "path": "prepared/episodes/task07_demo_62/actions.npy",
+      "bytes": 10740
+    },
+    {
+      "path": "prepared/episodes/task07_demo_63/features.npy",
+      "bytes": 133970048
+    },
+    {
+      "path": "prepared/episodes/task07_demo_63/actions.npy",
+      "bytes": 12588
+    },
+    {
+      "path": "prepared/episodes/task07_demo_64/features.npy",
+      "bytes": 126744704
+    },
+    {
+      "path": "prepared/episodes/task07_demo_64/actions.npy",
+      "bytes": 11916
+    },
+    {
+      "path": "prepared/episodes/task07_demo_67/features.npy",
+      "bytes": 130357376
+    },
+    {
+      "path": "prepared/episodes/task07_demo_67/actions.npy",
+      "bytes": 12252
+    },
+    {
+      "path": "prepared/episodes/task07_demo_68/features.npy",
+      "bytes": 121024640
+    },
+    {
+      "path": "prepared/episodes/task07_demo_68/actions.npy",
+      "bytes": 11384
+    },
+    {
+      "path": "prepared/episodes/task07_demo_70/features.npy",
+      "bytes": 102359168
+    },
+    {
+      "path": "prepared/episodes/task07_demo_70/actions.npy",
+      "bytes": 9648
+    },
+    {
+      "path": "prepared/episodes/task07_demo_71/features.npy",
+      "bytes": 113498240
+    },
+    {
+      "path": "prepared/episodes/task07_demo_71/actions.npy",
+      "bytes": 10684
+    },
+    {
+      "path": "prepared/episodes/task07_demo_72/features.npy",
+      "bytes": 127346816
+    },
+    {
+      "path": "prepared/episodes/task07_demo_72/actions.npy",
+      "bytes": 11972
+    },
+    {
+      "path": "prepared/episodes/task07_demo_73/features.npy",
+      "bytes": 116809856
+    },
+    {
+      "path": "prepared/episodes/task07_demo_73/actions.npy",
+      "bytes": 10992
+    },
+    {
+      "path": "prepared/episodes/task07_demo_74/features.npy",
+      "bytes": 117411968
+    },
+    {
+      "path": "prepared/episodes/task07_demo_74/actions.npy",
+      "bytes": 11048
+    },
+    {
+      "path": "prepared/episodes/task07_demo_75/features.npy",
+      "bytes": 108681344
+    },
+    {
+      "path": "prepared/episodes/task07_demo_75/actions.npy",
+      "bytes": 10236
+    },
+    {
+      "path": "prepared/episodes/task07_demo_77/features.npy",
+      "bytes": 121626752
+    },
+    {
+      "path": "prepared/episodes/task07_demo_77/actions.npy",
+      "bytes": 11440
+    },
+    {
+      "path": "prepared/episodes/task07_demo_78/features.npy",
+      "bytes": 132765824
+    },
+    {
+      "path": "prepared/episodes/task07_demo_78/actions.npy",
+      "bytes": 12476
+    },
+    {
+      "path": "prepared/episodes/task07_demo_79/features.npy",
+      "bytes": 106272896
+    },
+    {
+      "path": "prepared/episodes/task07_demo_79/actions.npy",
+      "bytes": 10012
+    },
+    {
+      "path": "prepared/episodes/task07_demo_80/features.npy",
+      "bytes": 121626752
+    },
+    {
+      "path": "prepared/episodes/task07_demo_80/actions.npy",
+      "bytes": 11440
+    },
+    {
+      "path": "prepared/episodes/task07_demo_81/features.npy",
+      "bytes": 124035200
+    },
+    {
+      "path": "prepared/episodes/task07_demo_81/actions.npy",
+      "bytes": 11664
+    },
+    {
+      "path": "prepared/episodes/task07_demo_82/features.npy",
+      "bytes": 118315136
+    },
+    {
+      "path": "prepared/episodes/task07_demo_82/actions.npy",
+      "bytes": 11132
+    },
+    {
+      "path": "prepared/episodes/task07_demo_83/features.npy",
+      "bytes": 107176064
+    },
+    {
+      "path": "prepared/episodes/task07_demo_83/actions.npy",
+      "bytes": 10096
+    },
+    {
+      "path": "prepared/episodes/task07_demo_84/features.npy",
+      "bytes": 130658432
+    },
+    {
+      "path": "prepared/episodes/task07_demo_84/actions.npy",
+      "bytes": 12280
+    },
+    {
+      "path": "prepared/episodes/task07_demo_85/features.npy",
+      "bytes": 131561600
+    },
+    {
+      "path": "prepared/episodes/task07_demo_85/actions.npy",
+      "bytes": 12364
+    },
+    {
+      "path": "prepared/episodes/task07_demo_86/features.npy",
+      "bytes": 132163712
+    },
+    {
+      "path": "prepared/episodes/task07_demo_86/actions.npy",
+      "bytes": 12420
+    },
+    {
+      "path": "prepared/episodes/task07_demo_87/features.npy",
+      "bytes": 125841536
+    },
+    {
+      "path": "prepared/episodes/task07_demo_87/actions.npy",
+      "bytes": 11832
+    },
+    {
+      "path": "prepared/episodes/task07_demo_88/features.npy",
+      "bytes": 123132032
+    },
+    {
+      "path": "prepared/episodes/task07_demo_88/actions.npy",
+      "bytes": 11580
+    },
+    {
+      "path": "prepared/episodes/task07_demo_89/features.npy",
+      "bytes": 124336256
+    },
+    {
+      "path": "prepared/episodes/task07_demo_89/actions.npy",
+      "bytes": 11692
+    },
+    {
+      "path": "prepared/episodes/task07_demo_90/features.npy",
+      "bytes": 124336256
+    },
+    {
+      "path": "prepared/episodes/task07_demo_90/actions.npy",
+      "bytes": 11692
+    },
+    {
+      "path": "prepared/episodes/task07_demo_91/features.npy",
+      "bytes": 118014080
+    },
+    {
+      "path": "prepared/episodes/task07_demo_91/actions.npy",
+      "bytes": 11104
+    },
+    {
+      "path": "prepared/episodes/task07_demo_92/features.npy",
+      "bytes": 115003520
+    },
+    {
+      "path": "prepared/episodes/task07_demo_92/actions.npy",
+      "bytes": 10824
+    },
+    {
+      "path": "prepared/episodes/task07_demo_94/features.npy",
+      "bytes": 112896128
+    },
+    {
+      "path": "prepared/episodes/task07_demo_94/actions.npy",
+      "bytes": 10628
+    },
+    {
+      "path": "prepared/episodes/task07_demo_95/features.npy",
+      "bytes": 99348608
+    },
+    {
+      "path": "prepared/episodes/task07_demo_95/actions.npy",
+      "bytes": 9368
+    },
+    {
+      "path": "prepared/episodes/task07_demo_96/features.npy",
+      "bytes": 105068672
+    },
+    {
+      "path": "prepared/episodes/task07_demo_96/actions.npy",
+      "bytes": 9900
+    },
+    {
+      "path": "prepared/episodes/task07_demo_97/features.npy",
+      "bytes": 127948928
+    },
+    {
+      "path": "prepared/episodes/task07_demo_97/actions.npy",
+      "bytes": 12028
+    },
+    {
+      "path": "prepared/episodes/task07_demo_99/features.npy",
+      "bytes": 112294016
+    },
+    {
+      "path": "prepared/episodes/task07_demo_99/actions.npy",
+      "bytes": 10572
+    },
+    {
+      "path": "prepared/episodes/task08_demo_1/features.npy",
+      "bytes": 184547456
+    },
+    {
+      "path": "prepared/episodes/task08_demo_1/actions.npy",
+      "bytes": 17292
+    },
+    {
+      "path": "prepared/episodes/task08_demo_3/features.npy",
+      "bytes": 157151360
+    },
+    {
+      "path": "prepared/episodes/task08_demo_3/actions.npy",
+      "bytes": 14744
+    },
+    {
+      "path": "prepared/episodes/task08_demo_4/features.npy",
+      "bytes": 168591488
+    },
+    {
+      "path": "prepared/episodes/task08_demo_4/actions.npy",
+      "bytes": 15808
+    },
+    {
+      "path": "prepared/episodes/task08_demo_5/features.npy",
+      "bytes": 203815040
+    },
+    {
+      "path": "prepared/episodes/task08_demo_5/actions.npy",
+      "bytes": 19084
+    },
+    {
+      "path": "prepared/episodes/task08_demo_6/features.npy",
+      "bytes": 177322112
+    },
+    {
+      "path": "prepared/episodes/task08_demo_6/actions.npy",
+      "bytes": 16620
+    },
+    {
+      "path": "prepared/episodes/task08_demo_7/features.npy",
+      "bytes": 189966464
+    },
+    {
+      "path": "prepared/episodes/task08_demo_7/actions.npy",
+      "bytes": 17796
+    },
+    {
+      "path": "prepared/episodes/task08_demo_9/features.npy",
+      "bytes": 175816832
+    },
+    {
+      "path": "prepared/episodes/task08_demo_9/actions.npy",
+      "bytes": 16480
+    },
+    {
+      "path": "prepared/episodes/task08_demo_10/features.npy",
+      "bytes": 182741120
+    },
+    {
+      "path": "prepared/episodes/task08_demo_10/actions.npy",
+      "bytes": 17124
+    },
+    {
+      "path": "prepared/episodes/task08_demo_11/features.npy",
+      "bytes": 175214720
+    },
+    {
+      "path": "prepared/episodes/task08_demo_11/actions.npy",
+      "bytes": 16424
+    },
+    {
+      "path": "prepared/episodes/task08_demo_12/features.npy",
+      "bytes": 164376704
+    },
+    {
+      "path": "prepared/episodes/task08_demo_12/actions.npy",
+      "bytes": 15416
+    },
+    {
+      "path": "prepared/episodes/task08_demo_13/features.npy",
+      "bytes": 161366144
+    },
+    {
+      "path": "prepared/episodes/task08_demo_13/actions.npy",
+      "bytes": 15136
+    },
+    {
+      "path": "prepared/episodes/task08_demo_14/features.npy",
+      "bytes": 158957696
+    },
+    {
+      "path": "prepared/episodes/task08_demo_14/actions.npy",
+      "bytes": 14912
+    },
+    {
+      "path": "prepared/episodes/task08_demo_15/features.npy",
+      "bytes": 170698880
+    },
+    {
+      "path": "prepared/episodes/task08_demo_15/actions.npy",
+      "bytes": 16004
+    },
+    {
+      "path": "prepared/episodes/task08_demo_17/features.npy",
+      "bytes": 171903104
+    },
+    {
+      "path": "prepared/episodes/task08_demo_17/actions.npy",
+      "bytes": 16116
+    },
+    {
+      "path": "prepared/episodes/task08_demo_18/features.npy",
+      "bytes": 173709440
+    },
+    {
+      "path": "prepared/episodes/task08_demo_18/actions.npy",
+      "bytes": 16284
+    },
+    {
+      "path": "prepared/episodes/task08_demo_20/features.npy",
+      "bytes": 141797504
+    },
+    {
+      "path": "prepared/episodes/task08_demo_20/actions.npy",
+      "bytes": 13316
+    },
+    {
+      "path": "prepared/episodes/task08_demo_21/features.npy",
+      "bytes": 149022848
+    },
+    {
+      "path": "prepared/episodes/task08_demo_21/actions.npy",
+      "bytes": 13988
+    },
+    {
+      "path": "prepared/episodes/task08_demo_22/features.npy",
+      "bytes": 155043968
+    },
+    {
+      "path": "prepared/episodes/task08_demo_22/actions.npy",
+      "bytes": 14548
+    },
+    {
+      "path": "prepared/episodes/task08_demo_23/features.npy",
+      "bytes": 156248192
+    },
+    {
+      "path": "prepared/episodes/task08_demo_23/actions.npy",
+      "bytes": 14660
+    },
+    {
+      "path": "prepared/episodes/task08_demo_25/features.npy",
+      "bytes": 164075648
+    },
+    {
+      "path": "prepared/episodes/task08_demo_25/actions.npy",
+      "bytes": 15388
+    },
+    {
+      "path": "prepared/episodes/task08_demo_27/features.npy",
+      "bytes": 151130240
+    },
+    {
+      "path": "prepared/episodes/task08_demo_27/actions.npy",
+      "bytes": 14184
+    },
+    {
+      "path": "prepared/episodes/task08_demo_28/features.npy",
+      "bytes": 156549248
+    },
+    {
+      "path": "prepared/episodes/task08_demo_28/actions.npy",
+      "bytes": 14688
+    },
+    {
+      "path": "prepared/episodes/task08_demo_30/features.npy",
+      "bytes": 149323904
+    },
+    {
+      "path": "prepared/episodes/task08_demo_30/actions.npy",
+      "bytes": 14016
+    },
+    {
+      "path": "prepared/episodes/task08_demo_31/features.npy",
+      "bytes": 171602048
+    },
+    {
+      "path": "prepared/episodes/task08_demo_31/actions.npy",
+      "bytes": 16088
+    },
+    {
+      "path": "prepared/episodes/task08_demo_32/features.npy",
+      "bytes": 157151360
+    },
+    {
+      "path": "prepared/episodes/task08_demo_32/actions.npy",
+      "bytes": 14744
+    },
+    {
+      "path": "prepared/episodes/task08_demo_34/features.npy",
+      "bytes": 139389056
+    },
+    {
+      "path": "prepared/episodes/task08_demo_34/actions.npy",
+      "bytes": 13092
+    },
+    {
+      "path": "prepared/episodes/task08_demo_35/features.npy",
+      "bytes": 155947136
+    },
+    {
+      "path": "prepared/episodes/task08_demo_35/actions.npy",
+      "bytes": 14632
+    },
+    {
+      "path": "prepared/episodes/task08_demo_36/features.npy",
+      "bytes": 147216512
+    },
+    {
+      "path": "prepared/episodes/task08_demo_36/actions.npy",
+      "bytes": 13820
+    },
+    {
+      "path": "prepared/episodes/task08_demo_37/features.npy",
+      "bytes": 167086208
+    },
+    {
+      "path": "prepared/episodes/task08_demo_37/actions.npy",
+      "bytes": 15668
+    },
+    {
+      "path": "prepared/episodes/task08_demo_38/features.npy",
+      "bytes": 155345024
+    },
+    {
+      "path": "prepared/episodes/task08_demo_38/actions.npy",
+      "bytes": 14576
+    },
+    {
+      "path": "prepared/episodes/task08_demo_39/features.npy",
+      "bytes": 167989376
+    },
+    {
+      "path": "prepared/episodes/task08_demo_39/actions.npy",
+      "bytes": 15752
+    },
+    {
+      "path": "prepared/episodes/task08_demo_40/features.npy",
+      "bytes": 142700672
+    },
+    {
+      "path": "prepared/episodes/task08_demo_40/actions.npy",
+      "bytes": 13400
+    },
+    {
+      "path": "prepared/episodes/task08_demo_43/features.npy",
+      "bytes": 159559808
+    },
+    {
+      "path": "prepared/episodes/task08_demo_43/actions.npy",
+      "bytes": 14968
+    },
+    {
+      "path": "prepared/episodes/task08_demo_44/features.npy",
+      "bytes": 159258752
+    },
+    {
+      "path": "prepared/episodes/task08_demo_44/actions.npy",
+      "bytes": 14940
+    },
+    {
+      "path": "prepared/episodes/task08_demo_45/features.npy",
+      "bytes": 137582720
+    },
+    {
+      "path": "prepared/episodes/task08_demo_45/actions.npy",
+      "bytes": 12924
+    },
+    {
+      "path": "prepared/episodes/task08_demo_46/features.npy",
+      "bytes": 148721792
+    },
+    {
+      "path": "prepared/episodes/task08_demo_46/actions.npy",
+      "bytes": 13960
+    },
+    {
+      "path": "prepared/episodes/task08_demo_47/features.npy",
+      "bytes": 169494656
+    },
+    {
+      "path": "prepared/episodes/task08_demo_47/actions.npy",
+      "bytes": 15892
+    },
+    {
+      "path": "prepared/episodes/task08_demo_49/features.npy",
+      "bytes": 164075648
+    },
+    {
+      "path": "prepared/episodes/task08_demo_49/actions.npy",
+      "bytes": 15388
+    },
+    {
+      "path": "prepared/episodes/task08_demo_50/features.npy",
+      "bytes": 156549248
+    },
+    {
+      "path": "prepared/episodes/task08_demo_50/actions.npy",
+      "bytes": 14688
+    },
+    {
+      "path": "prepared/episodes/task08_demo_51/features.npy",
+      "bytes": 150227072
+    },
+    {
+      "path": "prepared/episodes/task08_demo_51/actions.npy",
+      "bytes": 14100
+    },
+    {
+      "path": "prepared/episodes/task08_demo_53/features.npy",
+      "bytes": 155043968
+    },
+    {
+      "path": "prepared/episodes/task08_demo_53/actions.npy",
+      "bytes": 14548
+    },
+    {
+      "path": "prepared/episodes/task08_demo_54/features.npy",
+      "bytes": 177021056
+    },
+    {
+      "path": "prepared/episodes/task08_demo_54/actions.npy",
+      "bytes": 16592
+    },
+    {
+      "path": "prepared/episodes/task08_demo_55/features.npy",
+      "bytes": 162871424
+    },
+    {
+      "path": "prepared/episodes/task08_demo_55/actions.npy",
+      "bytes": 15276
+    },
+    {
+      "path": "prepared/episodes/task08_demo_56/features.npy",
+      "bytes": 150829184
+    },
+    {
+      "path": "prepared/episodes/task08_demo_56/actions.npy",
+      "bytes": 14156
+    },
+    {
+      "path": "prepared/episodes/task08_demo_57/features.npy",
+      "bytes": 157753472
+    },
+    {
+      "path": "prepared/episodes/task08_demo_57/actions.npy",
+      "bytes": 14800
+    },
+    {
+      "path": "prepared/episodes/task08_demo_58/features.npy",
+      "bytes": 165279872
+    },
+    {
+      "path": "prepared/episodes/task08_demo_58/actions.npy",
+      "bytes": 15500
+    },
+    {
+      "path": "prepared/episodes/task08_demo_59/features.npy",
+      "bytes": 150227072
+    },
+    {
+      "path": "prepared/episodes/task08_demo_59/actions.npy",
+      "bytes": 14100
+    },
+    {
+      "path": "prepared/episodes/task08_demo_60/features.npy",
+      "bytes": 161065088
+    },
+    {
+      "path": "prepared/episodes/task08_demo_60/actions.npy",
+      "bytes": 15108
+    },
+    {
+      "path": "prepared/episodes/task08_demo_61/features.npy",
+      "bytes": 152936576
+    },
+    {
+      "path": "prepared/episodes/task08_demo_61/actions.npy",
+      "bytes": 14352
+    },
+    {
+      "path": "prepared/episodes/task08_demo_62/features.npy",
+      "bytes": 147216512
+    },
+    {
+      "path": "prepared/episodes/task08_demo_62/actions.npy",
+      "bytes": 13820
+    },
+    {
+      "path": "prepared/episodes/task08_demo_63/features.npy",
+      "bytes": 142098560
+    },
+    {
+      "path": "prepared/episodes/task08_demo_63/actions.npy",
+      "bytes": 13344
+    },
+    {
+      "path": "prepared/episodes/task08_demo_64/features.npy",
+      "bytes": 158054528
+    },
+    {
+      "path": "prepared/episodes/task08_demo_64/actions.npy",
+      "bytes": 14828
+    },
+    {
+      "path": "prepared/episodes/task08_demo_65/features.npy",
+      "bytes": 155043968
+    },
+    {
+      "path": "prepared/episodes/task08_demo_65/actions.npy",
+      "bytes": 14548
+    },
+    {
+      "path": "prepared/episodes/task08_demo_66/features.npy",
+      "bytes": 146614400
+    },
+    {
+      "path": "prepared/episodes/task08_demo_66/actions.npy",
+      "bytes": 13764
+    },
+    {
+      "path": "prepared/episodes/task08_demo_67/features.npy",
+      "bytes": 139088000
+    },
+    {
+      "path": "prepared/episodes/task08_demo_67/actions.npy",
+      "bytes": 13064
+    },
+    {
+      "path": "prepared/episodes/task08_demo_68/features.npy",
+      "bytes": 156850304
+    },
+    {
+      "path": "prepared/episodes/task08_demo_68/actions.npy",
+      "bytes": 14716
+    },
+    {
+      "path": "prepared/episodes/task08_demo_70/features.npy",
+      "bytes": 148119680
+    },
+    {
+      "path": "prepared/episodes/task08_demo_70/actions.npy",
+      "bytes": 13904
+    },
+    {
+      "path": "prepared/episodes/task08_demo_71/features.npy",
+      "bytes": 137883776
+    },
+    {
+      "path": "prepared/episodes/task08_demo_71/actions.npy",
+      "bytes": 12952
+    },
+    {
+      "path": "prepared/episodes/task08_demo_72/features.npy",
+      "bytes": 133668992
+    },
+    {
+      "path": "prepared/episodes/task08_demo_72/actions.npy",
+      "bytes": 12560
+    },
+    {
+      "path": "prepared/episodes/task08_demo_74/features.npy",
+      "bytes": 165881984
+    },
+    {
+      "path": "prepared/episodes/task08_demo_74/actions.npy",
+      "bytes": 15556
+    },
+    {
+      "path": "prepared/episodes/task08_demo_75/features.npy",
+      "bytes": 159559808
+    },
+    {
+      "path": "prepared/episodes/task08_demo_75/actions.npy",
+      "bytes": 14968
+    },
+    {
+      "path": "prepared/episodes/task08_demo_76/features.npy",
+      "bytes": 135174272
+    },
+    {
+      "path": "prepared/episodes/task08_demo_76/actions.npy",
+      "bytes": 12700
+    },
+    {
+      "path": "prepared/episodes/task08_demo_77/features.npy",
+      "bytes": 144808064
+    },
+    {
+      "path": "prepared/episodes/task08_demo_77/actions.npy",
+      "bytes": 13596
+    },
+    {
+      "path": "prepared/episodes/task08_demo_79/features.npy",
+      "bytes": 155947136
+    },
+    {
+      "path": "prepared/episodes/task08_demo_79/actions.npy",
+      "bytes": 14632
+    },
+    {
+      "path": "prepared/episodes/task08_demo_81/features.npy",
+      "bytes": 147216512
+    },
+    {
+      "path": "prepared/episodes/task08_demo_81/actions.npy",
+      "bytes": 13820
+    },
+    {
+      "path": "prepared/episodes/task08_demo_82/features.npy",
+      "bytes": 156248192
+    },
+    {
+      "path": "prepared/episodes/task08_demo_82/actions.npy",
+      "bytes": 14660
+    },
+    {
+      "path": "prepared/episodes/task08_demo_83/features.npy",
+      "bytes": 169795712
+    },
+    {
+      "path": "prepared/episodes/task08_demo_83/actions.npy",
+      "bytes": 15920
+    },
+    {
+      "path": "prepared/episodes/task08_demo_85/features.npy",
+      "bytes": 182741120
+    },
+    {
+      "path": "prepared/episodes/task08_demo_85/actions.npy",
+      "bytes": 17124
+    },
+    {
+      "path": "prepared/episodes/task08_demo_86/features.npy",
+      "bytes": 148721792
+    },
+    {
+      "path": "prepared/episodes/task08_demo_86/actions.npy",
+      "bytes": 13960
+    },
+    {
+      "path": "prepared/episodes/task08_demo_87/features.npy",
+      "bytes": 158355584
+    },
+    {
+      "path": "prepared/episodes/task08_demo_87/actions.npy",
+      "bytes": 14856
+    },
+    {
+      "path": "prepared/episodes/task08_demo_88/features.npy",
+      "bytes": 164677760
+    },
+    {
+      "path": "prepared/episodes/task08_demo_88/actions.npy",
+      "bytes": 15444
+    },
+    {
+      "path": "prepared/episodes/task08_demo_89/features.npy",
+      "bytes": 141496448
+    },
+    {
+      "path": "prepared/episodes/task08_demo_89/actions.npy",
+      "bytes": 13288
+    },
+    {
+      "path": "prepared/episodes/task08_demo_90/features.npy",
+      "bytes": 159559808
+    },
+    {
+      "path": "prepared/episodes/task08_demo_90/actions.npy",
+      "bytes": 14968
+    },
+    {
+      "path": "prepared/episodes/task08_demo_91/features.npy",
+      "bytes": 164075648
+    },
+    {
+      "path": "prepared/episodes/task08_demo_91/actions.npy",
+      "bytes": 15388
+    },
+    {
+      "path": "prepared/episodes/task08_demo_92/features.npy",
+      "bytes": 139088000
+    },
+    {
+      "path": "prepared/episodes/task08_demo_92/actions.npy",
+      "bytes": 13064
+    },
+    {
+      "path": "prepared/episodes/task08_demo_93/features.npy",
+      "bytes": 146614400
+    },
+    {
+      "path": "prepared/episodes/task08_demo_93/actions.npy",
+      "bytes": 13764
+    },
+    {
+      "path": "prepared/episodes/task08_demo_95/features.npy",
+      "bytes": 160764032
+    },
+    {
+      "path": "prepared/episodes/task08_demo_95/actions.npy",
+      "bytes": 15080
+    },
+    {
+      "path": "prepared/episodes/task08_demo_96/features.npy",
+      "bytes": 142700672
+    },
+    {
+      "path": "prepared/episodes/task08_demo_96/actions.npy",
+      "bytes": 13400
+    },
+    {
+      "path": "prepared/episodes/task08_demo_97/features.npy",
+      "bytes": 162871424
+    },
+    {
+      "path": "prepared/episodes/task08_demo_97/actions.npy",
+      "bytes": 15276
+    },
+    {
+      "path": "prepared/episodes/task08_demo_98/features.npy",
+      "bytes": 161065088
+    },
+    {
+      "path": "prepared/episodes/task08_demo_98/actions.npy",
+      "bytes": 15108
+    },
+    {
+      "path": "prepared/episodes/task08_demo_99/features.npy",
+      "bytes": 143001728
+    },
+    {
+      "path": "prepared/episodes/task08_demo_99/actions.npy",
+      "bytes": 13428
+    },
+    {
+      "path": "prepared/episodes/task08_demo_100/features.npy",
+      "bytes": 159860864
+    },
+    {
+      "path": "prepared/episodes/task08_demo_100/actions.npy",
+      "bytes": 14996
+    },
+    {
+      "path": "prepared/episodes/task09_demo_1/features.npy",
+      "bytes": 107176064
+    },
+    {
+      "path": "prepared/episodes/task09_demo_1/actions.npy",
+      "bytes": 10096
+    },
+    {
+      "path": "prepared/episodes/task09_demo_2/features.npy",
+      "bytes": 97843328
+    },
+    {
+      "path": "prepared/episodes/task09_demo_2/actions.npy",
+      "bytes": 9228
+    },
+    {
+      "path": "prepared/episodes/task09_demo_3/features.npy",
+      "bytes": 107176064
+    },
+    {
+      "path": "prepared/episodes/task09_demo_3/actions.npy",
+      "bytes": 10096
+    },
+    {
+      "path": "prepared/episodes/task09_demo_4/features.npy",
+      "bytes": 103864448
+    },
+    {
+      "path": "prepared/episodes/task09_demo_4/actions.npy",
+      "bytes": 9788
+    },
+    {
+      "path": "prepared/episodes/task09_demo_5/features.npy",
+      "bytes": 105369728
+    },
+    {
+      "path": "prepared/episodes/task09_demo_5/actions.npy",
+      "bytes": 9928
+    },
+    {
+      "path": "prepared/episodes/task09_demo_6/features.npy",
+      "bytes": 93929600
+    },
+    {
+      "path": "prepared/episodes/task09_demo_6/actions.npy",
+      "bytes": 8864
+    },
+    {
+      "path": "prepared/episodes/task09_demo_7/features.npy",
+      "bytes": 97542272
+    },
+    {
+      "path": "prepared/episodes/task09_demo_7/actions.npy",
+      "bytes": 9200
+    },
+    {
+      "path": "prepared/episodes/task09_demo_8/features.npy",
+      "bytes": 98445440
+    },
+    {
+      "path": "prepared/episodes/task09_demo_8/actions.npy",
+      "bytes": 9284
+    },
+    {
+      "path": "prepared/episodes/task09_demo_9/features.npy",
+      "bytes": 99950720
+    },
+    {
+      "path": "prepared/episodes/task09_demo_9/actions.npy",
+      "bytes": 9424
+    },
+    {
+      "path": "prepared/episodes/task09_demo_10/features.npy",
+      "bytes": 100552832
+    },
+    {
+      "path": "prepared/episodes/task09_demo_10/actions.npy",
+      "bytes": 9480
+    },
+    {
+      "path": "prepared/episodes/task09_demo_11/features.npy",
+      "bytes": 96940160
+    },
+    {
+      "path": "prepared/episodes/task09_demo_11/actions.npy",
+      "bytes": 9144
+    },
+    {
+      "path": "prepared/episodes/task09_demo_12/features.npy",
+      "bytes": 101757056
+    },
+    {
+      "path": "prepared/episodes/task09_demo_12/actions.npy",
+      "bytes": 9592
+    },
+    {
+      "path": "prepared/episodes/task09_demo_13/features.npy",
+      "bytes": 103262336
+    },
+    {
+      "path": "prepared/episodes/task09_demo_13/actions.npy",
+      "bytes": 9732
+    },
+    {
+      "path": "prepared/episodes/task09_demo_14/features.npy",
+      "bytes": 104767616
+    },
+    {
+      "path": "prepared/episodes/task09_demo_14/actions.npy",
+      "bytes": 9872
+    },
+    {
+      "path": "prepared/episodes/task09_demo_15/features.npy",
+      "bytes": 96940160
+    },
+    {
+      "path": "prepared/episodes/task09_demo_15/actions.npy",
+      "bytes": 9144
+    },
+    {
+      "path": "prepared/episodes/task09_demo_16/features.npy",
+      "bytes": 97241216
+    },
+    {
+      "path": "prepared/episodes/task09_demo_16/actions.npy",
+      "bytes": 9172
+    },
+    {
+      "path": "prepared/episodes/task09_demo_17/features.npy",
+      "bytes": 99950720
+    },
+    {
+      "path": "prepared/episodes/task09_demo_17/actions.npy",
+      "bytes": 9424
+    },
+    {
+      "path": "prepared/episodes/task09_demo_18/features.npy",
+      "bytes": 105971840
+    },
+    {
+      "path": "prepared/episodes/task09_demo_18/actions.npy",
+      "bytes": 9984
+    },
+    {
+      "path": "prepared/episodes/task09_demo_19/features.npy",
+      "bytes": 92123264
+    },
+    {
+      "path": "prepared/episodes/task09_demo_19/actions.npy",
+      "bytes": 8696
+    },
+    {
+      "path": "prepared/episodes/task09_demo_20/features.npy",
+      "bytes": 92123264
+    },
+    {
+      "path": "prepared/episodes/task09_demo_20/actions.npy",
+      "bytes": 8696
+    },
+    {
+      "path": "prepared/episodes/task09_demo_21/features.npy",
+      "bytes": 92725376
+    },
+    {
+      "path": "prepared/episodes/task09_demo_21/actions.npy",
+      "bytes": 8752
+    },
+    {
+      "path": "prepared/episodes/task09_demo_22/features.npy",
+      "bytes": 97542272
+    },
+    {
+      "path": "prepared/episodes/task09_demo_22/actions.npy",
+      "bytes": 9200
+    },
+    {
+      "path": "prepared/episodes/task09_demo_23/features.npy",
+      "bytes": 96036992
+    },
+    {
+      "path": "prepared/episodes/task09_demo_23/actions.npy",
+      "bytes": 9060
+    },
+    {
+      "path": "prepared/episodes/task09_demo_24/features.npy",
+      "bytes": 89112704
+    },
+    {
+      "path": "prepared/episodes/task09_demo_24/actions.npy",
+      "bytes": 8416
+    },
+    {
+      "path": "prepared/episodes/task09_demo_25/features.npy",
+      "bytes": 110186624
+    },
+    {
+      "path": "prepared/episodes/task09_demo_25/actions.npy",
+      "bytes": 10376
+    },
+    {
+      "path": "prepared/episodes/task09_demo_26/features.npy",
+      "bytes": 92424320
+    },
+    {
+      "path": "prepared/episodes/task09_demo_26/actions.npy",
+      "bytes": 8724
+    },
+    {
+      "path": "prepared/episodes/task09_demo_27/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task09_demo_27/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task09_demo_28/features.npy",
+      "bytes": 89413760
+    },
+    {
+      "path": "prepared/episodes/task09_demo_28/actions.npy",
+      "bytes": 8444
+    },
+    {
+      "path": "prepared/episodes/task09_demo_29/features.npy",
+      "bytes": 107477120
+    },
+    {
+      "path": "prepared/episodes/task09_demo_29/actions.npy",
+      "bytes": 10124
+    },
+    {
+      "path": "prepared/episodes/task09_demo_30/features.npy",
+      "bytes": 112896128
+    },
+    {
+      "path": "prepared/episodes/task09_demo_30/actions.npy",
+      "bytes": 10628
+    },
+    {
+      "path": "prepared/episodes/task09_demo_31/features.npy",
+      "bytes": 96338048
+    },
+    {
+      "path": "prepared/episodes/task09_demo_31/actions.npy",
+      "bytes": 9088
+    },
+    {
+      "path": "prepared/episodes/task09_demo_32/features.npy",
+      "bytes": 91521152
+    },
+    {
+      "path": "prepared/episodes/task09_demo_32/actions.npy",
+      "bytes": 8640
+    },
+    {
+      "path": "prepared/episodes/task09_demo_33/features.npy",
+      "bytes": 102058112
+    },
+    {
+      "path": "prepared/episodes/task09_demo_33/actions.npy",
+      "bytes": 9620
+    },
+    {
+      "path": "prepared/episodes/task09_demo_34/features.npy",
+      "bytes": 95434880
+    },
+    {
+      "path": "prepared/episodes/task09_demo_34/actions.npy",
+      "bytes": 9004
+    },
+    {
+      "path": "prepared/episodes/task09_demo_35/features.npy",
+      "bytes": 93929600
+    },
+    {
+      "path": "prepared/episodes/task09_demo_35/actions.npy",
+      "bytes": 8864
+    },
+    {
+      "path": "prepared/episodes/task09_demo_36/features.npy",
+      "bytes": 101757056
+    },
+    {
+      "path": "prepared/episodes/task09_demo_36/actions.npy",
+      "bytes": 9592
+    },
+    {
+      "path": "prepared/episodes/task09_demo_37/features.npy",
+      "bytes": 90617984
+    },
+    {
+      "path": "prepared/episodes/task09_demo_37/actions.npy",
+      "bytes": 8556
+    },
+    {
+      "path": "prepared/episodes/task09_demo_38/features.npy",
+      "bytes": 100552832
+    },
+    {
+      "path": "prepared/episodes/task09_demo_38/actions.npy",
+      "bytes": 9480
+    },
+    {
+      "path": "prepared/episodes/task09_demo_39/features.npy",
+      "bytes": 93026432
+    },
+    {
+      "path": "prepared/episodes/task09_demo_39/actions.npy",
+      "bytes": 8780
+    },
+    {
+      "path": "prepared/episodes/task09_demo_40/features.npy",
+      "bytes": 96940160
+    },
+    {
+      "path": "prepared/episodes/task09_demo_40/actions.npy",
+      "bytes": 9144
+    },
+    {
+      "path": "prepared/episodes/task09_demo_41/features.npy",
+      "bytes": 93026432
+    },
+    {
+      "path": "prepared/episodes/task09_demo_41/actions.npy",
+      "bytes": 8780
+    },
+    {
+      "path": "prepared/episodes/task09_demo_42/features.npy",
+      "bytes": 89413760
+    },
+    {
+      "path": "prepared/episodes/task09_demo_42/actions.npy",
+      "bytes": 8444
+    },
+    {
+      "path": "prepared/episodes/task09_demo_43/features.npy",
+      "bytes": 100251776
+    },
+    {
+      "path": "prepared/episodes/task09_demo_43/actions.npy",
+      "bytes": 9452
+    },
+    {
+      "path": "prepared/episodes/task09_demo_44/features.npy",
+      "bytes": 87005312
+    },
+    {
+      "path": "prepared/episodes/task09_demo_44/actions.npy",
+      "bytes": 8220
+    },
+    {
+      "path": "prepared/episodes/task09_demo_45/features.npy",
+      "bytes": 95133824
+    },
+    {
+      "path": "prepared/episodes/task09_demo_45/actions.npy",
+      "bytes": 8976
+    },
+    {
+      "path": "prepared/episodes/task09_demo_46/features.npy",
+      "bytes": 92123264
+    },
+    {
+      "path": "prepared/episodes/task09_demo_46/actions.npy",
+      "bytes": 8696
+    },
+    {
+      "path": "prepared/episodes/task09_demo_47/features.npy",
+      "bytes": 86403200
+    },
+    {
+      "path": "prepared/episodes/task09_demo_47/actions.npy",
+      "bytes": 8164
+    },
+    {
+      "path": "prepared/episodes/task09_demo_48/features.npy",
+      "bytes": 92123264
+    },
+    {
+      "path": "prepared/episodes/task09_demo_48/actions.npy",
+      "bytes": 8696
+    },
+    {
+      "path": "prepared/episodes/task09_demo_49/features.npy",
+      "bytes": 85500032
+    },
+    {
+      "path": "prepared/episodes/task09_demo_49/actions.npy",
+      "bytes": 8080
+    },
+    {
+      "path": "prepared/episodes/task09_demo_50/features.npy",
+      "bytes": 97241216
+    },
+    {
+      "path": "prepared/episodes/task09_demo_50/actions.npy",
+      "bytes": 9172
+    },
+    {
+      "path": "prepared/episodes/task09_demo_51/features.npy",
+      "bytes": 90617984
+    },
+    {
+      "path": "prepared/episodes/task09_demo_51/actions.npy",
+      "bytes": 8556
+    },
+    {
+      "path": "prepared/episodes/task09_demo_52/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task09_demo_52/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task09_demo_53/features.npy",
+      "bytes": 91220096
+    },
+    {
+      "path": "prepared/episodes/task09_demo_53/actions.npy",
+      "bytes": 8612
+    },
+    {
+      "path": "prepared/episodes/task09_demo_54/features.npy",
+      "bytes": 90015872
+    },
+    {
+      "path": "prepared/episodes/task09_demo_54/actions.npy",
+      "bytes": 8500
+    },
+    {
+      "path": "prepared/episodes/task09_demo_55/features.npy",
+      "bytes": 92725376
+    },
+    {
+      "path": "prepared/episodes/task09_demo_55/actions.npy",
+      "bytes": 8752
+    },
+    {
+      "path": "prepared/episodes/task09_demo_56/features.npy",
+      "bytes": 90316928
+    },
+    {
+      "path": "prepared/episodes/task09_demo_56/actions.npy",
+      "bytes": 8528
+    },
+    {
+      "path": "prepared/episodes/task09_demo_57/features.npy",
+      "bytes": 88510592
+    },
+    {
+      "path": "prepared/episodes/task09_demo_57/actions.npy",
+      "bytes": 8360
+    },
+    {
+      "path": "prepared/episodes/task09_demo_58/features.npy",
+      "bytes": 93628544
+    },
+    {
+      "path": "prepared/episodes/task09_demo_58/actions.npy",
+      "bytes": 8836
+    },
+    {
+      "path": "prepared/episodes/task09_demo_59/features.npy",
+      "bytes": 98144384
+    },
+    {
+      "path": "prepared/episodes/task09_demo_59/actions.npy",
+      "bytes": 9256
+    },
+    {
+      "path": "prepared/episodes/task09_demo_60/features.npy",
+      "bytes": 90919040
+    },
+    {
+      "path": "prepared/episodes/task09_demo_60/actions.npy",
+      "bytes": 8584
+    },
+    {
+      "path": "prepared/episodes/task09_demo_61/features.npy",
+      "bytes": 95735936
+    },
+    {
+      "path": "prepared/episodes/task09_demo_61/actions.npy",
+      "bytes": 9032
+    },
+    {
+      "path": "prepared/episodes/task09_demo_62/features.npy",
+      "bytes": 96639104
+    },
+    {
+      "path": "prepared/episodes/task09_demo_62/actions.npy",
+      "bytes": 9116
+    },
+    {
+      "path": "prepared/episodes/task09_demo_63/features.npy",
+      "bytes": 89714816
+    },
+    {
+      "path": "prepared/episodes/task09_demo_63/actions.npy",
+      "bytes": 8472
+    },
+    {
+      "path": "prepared/episodes/task09_demo_64/features.npy",
+      "bytes": 94832768
+    },
+    {
+      "path": "prepared/episodes/task09_demo_64/actions.npy",
+      "bytes": 8948
+    },
+    {
+      "path": "prepared/episodes/task09_demo_65/features.npy",
+      "bytes": 98746496
+    },
+    {
+      "path": "prepared/episodes/task09_demo_65/actions.npy",
+      "bytes": 9312
+    },
+    {
+      "path": "prepared/episodes/task09_demo_66/features.npy",
+      "bytes": 89112704
+    },
+    {
+      "path": "prepared/episodes/task09_demo_66/actions.npy",
+      "bytes": 8416
+    },
+    {
+      "path": "prepared/episodes/task09_demo_67/features.npy",
+      "bytes": 104466560
+    },
+    {
+      "path": "prepared/episodes/task09_demo_67/actions.npy",
+      "bytes": 9844
+    },
+    {
+      "path": "prepared/episodes/task09_demo_68/features.npy",
+      "bytes": 96036992
+    },
+    {
+      "path": "prepared/episodes/task09_demo_68/actions.npy",
+      "bytes": 9060
+    },
+    {
+      "path": "prepared/episodes/task09_demo_69/features.npy",
+      "bytes": 98144384
+    },
+    {
+      "path": "prepared/episodes/task09_demo_69/actions.npy",
+      "bytes": 9256
+    },
+    {
+      "path": "prepared/episodes/task09_demo_70/features.npy",
+      "bytes": 90617984
+    },
+    {
+      "path": "prepared/episodes/task09_demo_70/actions.npy",
+      "bytes": 8556
+    },
+    {
+      "path": "prepared/episodes/task09_demo_71/features.npy",
+      "bytes": 93929600
+    },
+    {
+      "path": "prepared/episodes/task09_demo_71/actions.npy",
+      "bytes": 8864
+    },
+    {
+      "path": "prepared/episodes/task09_demo_72/features.npy",
+      "bytes": 100552832
+    },
+    {
+      "path": "prepared/episodes/task09_demo_72/actions.npy",
+      "bytes": 9480
+    },
+    {
+      "path": "prepared/episodes/task09_demo_73/features.npy",
+      "bytes": 96036992
+    },
+    {
+      "path": "prepared/episodes/task09_demo_73/actions.npy",
+      "bytes": 9060
+    },
+    {
+      "path": "prepared/episodes/task09_demo_74/features.npy",
+      "bytes": 87005312
+    },
+    {
+      "path": "prepared/episodes/task09_demo_74/actions.npy",
+      "bytes": 8220
+    },
+    {
+      "path": "prepared/episodes/task09_demo_75/features.npy",
+      "bytes": 96940160
+    },
+    {
+      "path": "prepared/episodes/task09_demo_75/actions.npy",
+      "bytes": 9144
+    },
+    {
+      "path": "prepared/episodes/task09_demo_76/features.npy",
+      "bytes": 97542272
+    },
+    {
+      "path": "prepared/episodes/task09_demo_76/actions.npy",
+      "bytes": 9200
+    },
+    {
+      "path": "prepared/episodes/task09_demo_77/features.npy",
+      "bytes": 101154944
+    },
+    {
+      "path": "prepared/episodes/task09_demo_77/actions.npy",
+      "bytes": 9536
+    },
+    {
+      "path": "prepared/episodes/task09_demo_78/features.npy",
+      "bytes": 94832768
+    },
+    {
+      "path": "prepared/episodes/task09_demo_78/actions.npy",
+      "bytes": 8948
+    },
+    {
+      "path": "prepared/episodes/task09_demo_79/features.npy",
+      "bytes": 86102144
+    },
+    {
+      "path": "prepared/episodes/task09_demo_79/actions.npy",
+      "bytes": 8136
+    },
+    {
+      "path": "prepared/episodes/task09_demo_80/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task09_demo_80/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task09_demo_81/features.npy",
+      "bytes": 94531712
+    },
+    {
+      "path": "prepared/episodes/task09_demo_81/actions.npy",
+      "bytes": 8920
+    },
+    {
+      "path": "prepared/episodes/task09_demo_82/features.npy",
+      "bytes": 102359168
+    },
+    {
+      "path": "prepared/episodes/task09_demo_82/actions.npy",
+      "bytes": 9648
+    },
+    {
+      "path": "prepared/episodes/task09_demo_83/features.npy",
+      "bytes": 91521152
+    },
+    {
+      "path": "prepared/episodes/task09_demo_83/actions.npy",
+      "bytes": 8640
+    },
+    {
+      "path": "prepared/episodes/task09_demo_84/features.npy",
+      "bytes": 93929600
+    },
+    {
+      "path": "prepared/episodes/task09_demo_84/actions.npy",
+      "bytes": 8864
+    },
+    {
+      "path": "prepared/episodes/task09_demo_85/features.npy",
+      "bytes": 89112704
+    },
+    {
+      "path": "prepared/episodes/task09_demo_85/actions.npy",
+      "bytes": 8416
+    },
+    {
+      "path": "prepared/episodes/task09_demo_86/features.npy",
+      "bytes": 98746496
+    },
+    {
+      "path": "prepared/episodes/task09_demo_86/actions.npy",
+      "bytes": 9312
+    },
+    {
+      "path": "prepared/episodes/task09_demo_87/features.npy",
+      "bytes": 91521152
+    },
+    {
+      "path": "prepared/episodes/task09_demo_87/actions.npy",
+      "bytes": 8640
+    },
+    {
+      "path": "prepared/episodes/task09_demo_88/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task09_demo_88/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task09_demo_89/features.npy",
+      "bytes": 99649664
+    },
+    {
+      "path": "prepared/episodes/task09_demo_89/actions.npy",
+      "bytes": 9396
+    },
+    {
+      "path": "prepared/episodes/task09_demo_90/features.npy",
+      "bytes": 99348608
+    },
+    {
+      "path": "prepared/episodes/task09_demo_90/actions.npy",
+      "bytes": 9368
+    },
+    {
+      "path": "prepared/episodes/task09_demo_91/features.npy",
+      "bytes": 97843328
+    },
+    {
+      "path": "prepared/episodes/task09_demo_91/actions.npy",
+      "bytes": 9228
+    },
+    {
+      "path": "prepared/episodes/task09_demo_92/features.npy",
+      "bytes": 88209536
+    },
+    {
+      "path": "prepared/episodes/task09_demo_92/actions.npy",
+      "bytes": 8332
+    },
+    {
+      "path": "prepared/episodes/task09_demo_93/features.npy",
+      "bytes": 100251776
+    },
+    {
+      "path": "prepared/episodes/task09_demo_93/actions.npy",
+      "bytes": 9452
+    },
+    {
+      "path": "prepared/episodes/task09_demo_94/features.npy",
+      "bytes": 94531712
+    },
+    {
+      "path": "prepared/episodes/task09_demo_94/actions.npy",
+      "bytes": 8920
+    },
+    {
+      "path": "prepared/episodes/task09_demo_95/features.npy",
+      "bytes": 98746496
+    },
+    {
+      "path": "prepared/episodes/task09_demo_95/actions.npy",
+      "bytes": 9312
+    },
+    {
+      "path": "prepared/episodes/task09_demo_96/features.npy",
+      "bytes": 92725376
+    },
+    {
+      "path": "prepared/episodes/task09_demo_96/actions.npy",
+      "bytes": 8752
+    },
+    {
+      "path": "prepared/episodes/task09_demo_97/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task09_demo_97/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task09_demo_98/features.npy",
+      "bytes": 101757056
+    },
+    {
+      "path": "prepared/episodes/task09_demo_98/actions.npy",
+      "bytes": 9592
+    },
+    {
+      "path": "prepared/episodes/task09_demo_99/features.npy",
+      "bytes": 88811648
+    },
+    {
+      "path": "prepared/episodes/task09_demo_99/actions.npy",
+      "bytes": 8388
+    },
+    {
+      "path": "prepared/episodes/task09_demo_100/features.npy",
+      "bytes": 89112704
+    },
+    {
+      "path": "prepared/episodes/task09_demo_100/actions.npy",
+      "bytes": 8416
+    },
+    {
+      "path": "prepared/episodes/task10_demo_1/features.npy",
+      "bytes": 93026432
+    },
+    {
+      "path": "prepared/episodes/task10_demo_1/actions.npy",
+      "bytes": 8780
+    },
+    {
+      "path": "prepared/episodes/task10_demo_2/features.npy",
+      "bytes": 102058112
+    },
+    {
+      "path": "prepared/episodes/task10_demo_2/actions.npy",
+      "bytes": 9620
+    },
+    {
+      "path": "prepared/episodes/task10_demo_3/features.npy",
+      "bytes": 99649664
+    },
+    {
+      "path": "prepared/episodes/task10_demo_3/actions.npy",
+      "bytes": 9396
+    },
+    {
+      "path": "prepared/episodes/task10_demo_4/features.npy",
+      "bytes": 99348608
+    },
+    {
+      "path": "prepared/episodes/task10_demo_4/actions.npy",
+      "bytes": 9368
+    },
+    {
+      "path": "prepared/episodes/task10_demo_5/features.npy",
+      "bytes": 121024640
+    },
+    {
+      "path": "prepared/episodes/task10_demo_5/actions.npy",
+      "bytes": 11384
+    },
+    {
+      "path": "prepared/episodes/task10_demo_6/features.npy",
+      "bytes": 95735936
+    },
+    {
+      "path": "prepared/episodes/task10_demo_6/actions.npy",
+      "bytes": 9032
+    },
+    {
+      "path": "prepared/episodes/task10_demo_7/features.npy",
+      "bytes": 93929600
+    },
+    {
+      "path": "prepared/episodes/task10_demo_7/actions.npy",
+      "bytes": 8864
+    },
+    {
+      "path": "prepared/episodes/task10_demo_8/features.npy",
+      "bytes": 104466560
+    },
+    {
+      "path": "prepared/episodes/task10_demo_8/actions.npy",
+      "bytes": 9844
+    },
+    {
+      "path": "prepared/episodes/task10_demo_9/features.npy",
+      "bytes": 96639104
+    },
+    {
+      "path": "prepared/episodes/task10_demo_9/actions.npy",
+      "bytes": 9116
+    },
+    {
+      "path": "prepared/episodes/task10_demo_10/features.npy",
+      "bytes": 100552832
+    },
+    {
+      "path": "prepared/episodes/task10_demo_10/actions.npy",
+      "bytes": 9480
+    },
+    {
+      "path": "prepared/episodes/task10_demo_11/features.npy",
+      "bytes": 104165504
+    },
+    {
+      "path": "prepared/episodes/task10_demo_11/actions.npy",
+      "bytes": 9816
+    },
+    {
+      "path": "prepared/episodes/task10_demo_12/features.npy",
+      "bytes": 103262336
+    },
+    {
+      "path": "prepared/episodes/task10_demo_12/actions.npy",
+      "bytes": 9732
+    },
+    {
+      "path": "prepared/episodes/task10_demo_13/features.npy",
+      "bytes": 102660224
+    },
+    {
+      "path": "prepared/episodes/task10_demo_13/actions.npy",
+      "bytes": 9676
+    },
+    {
+      "path": "prepared/episodes/task10_demo_14/features.npy",
+      "bytes": 104767616
+    },
+    {
+      "path": "prepared/episodes/task10_demo_14/actions.npy",
+      "bytes": 9872
+    },
+    {
+      "path": "prepared/episodes/task10_demo_15/features.npy",
+      "bytes": 98144384
+    },
+    {
+      "path": "prepared/episodes/task10_demo_15/actions.npy",
+      "bytes": 9256
+    },
+    {
+      "path": "prepared/episodes/task10_demo_16/features.npy",
+      "bytes": 98144384
+    },
+    {
+      "path": "prepared/episodes/task10_demo_16/actions.npy",
+      "bytes": 9256
+    },
+    {
+      "path": "prepared/episodes/task10_demo_17/features.npy",
+      "bytes": 93628544
+    },
+    {
+      "path": "prepared/episodes/task10_demo_17/actions.npy",
+      "bytes": 8836
+    },
+    {
+      "path": "prepared/episodes/task10_demo_18/features.npy",
+      "bytes": 102058112
+    },
+    {
+      "path": "prepared/episodes/task10_demo_18/actions.npy",
+      "bytes": 9620
+    },
+    {
+      "path": "prepared/episodes/task10_demo_19/features.npy",
+      "bytes": 99047552
+    },
+    {
+      "path": "prepared/episodes/task10_demo_19/actions.npy",
+      "bytes": 9340
+    },
+    {
+      "path": "prepared/episodes/task10_demo_20/features.npy",
+      "bytes": 89112704
+    },
+    {
+      "path": "prepared/episodes/task10_demo_20/actions.npy",
+      "bytes": 8416
+    },
+    {
+      "path": "prepared/episodes/task10_demo_21/features.npy",
+      "bytes": 90316928
+    },
+    {
+      "path": "prepared/episodes/task10_demo_21/actions.npy",
+      "bytes": 8528
+    },
+    {
+      "path": "prepared/episodes/task10_demo_22/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task10_demo_22/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task10_demo_23/features.npy",
+      "bytes": 99047552
+    },
+    {
+      "path": "prepared/episodes/task10_demo_23/actions.npy",
+      "bytes": 9340
+    },
+    {
+      "path": "prepared/episodes/task10_demo_24/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task10_demo_24/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task10_demo_25/features.npy",
+      "bytes": 107778176
+    },
+    {
+      "path": "prepared/episodes/task10_demo_25/actions.npy",
+      "bytes": 10152
+    },
+    {
+      "path": "prepared/episodes/task10_demo_26/features.npy",
+      "bytes": 95133824
+    },
+    {
+      "path": "prepared/episodes/task10_demo_26/actions.npy",
+      "bytes": 8976
+    },
+    {
+      "path": "prepared/episodes/task10_demo_27/features.npy",
+      "bytes": 87607424
+    },
+    {
+      "path": "prepared/episodes/task10_demo_27/actions.npy",
+      "bytes": 8276
+    },
+    {
+      "path": "prepared/episodes/task10_demo_28/features.npy",
+      "bytes": 95735936
+    },
+    {
+      "path": "prepared/episodes/task10_demo_28/actions.npy",
+      "bytes": 9032
+    },
+    {
+      "path": "prepared/episodes/task10_demo_29/features.npy",
+      "bytes": 92123264
+    },
+    {
+      "path": "prepared/episodes/task10_demo_29/actions.npy",
+      "bytes": 8696
+    },
+    {
+      "path": "prepared/episodes/task10_demo_30/features.npy",
+      "bytes": 101456000
+    },
+    {
+      "path": "prepared/episodes/task10_demo_30/actions.npy",
+      "bytes": 9564
+    },
+    {
+      "path": "prepared/episodes/task10_demo_31/features.npy",
+      "bytes": 96338048
+    },
+    {
+      "path": "prepared/episodes/task10_demo_31/actions.npy",
+      "bytes": 9088
+    },
+    {
+      "path": "prepared/episodes/task10_demo_32/features.npy",
+      "bytes": 95133824
+    },
+    {
+      "path": "prepared/episodes/task10_demo_32/actions.npy",
+      "bytes": 8976
+    },
+    {
+      "path": "prepared/episodes/task10_demo_33/features.npy",
+      "bytes": 89112704
+    },
+    {
+      "path": "prepared/episodes/task10_demo_33/actions.npy",
+      "bytes": 8416
+    },
+    {
+      "path": "prepared/episodes/task10_demo_34/features.npy",
+      "bytes": 95133824
+    },
+    {
+      "path": "prepared/episodes/task10_demo_34/actions.npy",
+      "bytes": 8976
+    },
+    {
+      "path": "prepared/episodes/task10_demo_35/features.npy",
+      "bytes": 90316928
+    },
+    {
+      "path": "prepared/episodes/task10_demo_35/actions.npy",
+      "bytes": 8528
+    },
+    {
+      "path": "prepared/episodes/task10_demo_36/features.npy",
+      "bytes": 96338048
+    },
+    {
+      "path": "prepared/episodes/task10_demo_36/actions.npy",
+      "bytes": 9088
+    },
+    {
+      "path": "prepared/episodes/task10_demo_37/features.npy",
+      "bytes": 90015872
+    },
+    {
+      "path": "prepared/episodes/task10_demo_37/actions.npy",
+      "bytes": 8500
+    },
+    {
+      "path": "prepared/episodes/task10_demo_38/features.npy",
+      "bytes": 91521152
+    },
+    {
+      "path": "prepared/episodes/task10_demo_38/actions.npy",
+      "bytes": 8640
+    },
+    {
+      "path": "prepared/episodes/task10_demo_39/features.npy",
+      "bytes": 88209536
+    },
+    {
+      "path": "prepared/episodes/task10_demo_39/actions.npy",
+      "bytes": 8332
+    },
+    {
+      "path": "prepared/episodes/task10_demo_40/features.npy",
+      "bytes": 99348608
+    },
+    {
+      "path": "prepared/episodes/task10_demo_40/actions.npy",
+      "bytes": 9368
+    },
+    {
+      "path": "prepared/episodes/task10_demo_41/features.npy",
+      "bytes": 90617984
+    },
+    {
+      "path": "prepared/episodes/task10_demo_41/actions.npy",
+      "bytes": 8556
+    },
+    {
+      "path": "prepared/episodes/task10_demo_42/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task10_demo_42/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task10_demo_43/features.npy",
+      "bytes": 94832768
+    },
+    {
+      "path": "prepared/episodes/task10_demo_43/actions.npy",
+      "bytes": 8948
+    },
+    {
+      "path": "prepared/episodes/task10_demo_44/features.npy",
+      "bytes": 92725376
+    },
+    {
+      "path": "prepared/episodes/task10_demo_44/actions.npy",
+      "bytes": 8752
+    },
+    {
+      "path": "prepared/episodes/task10_demo_45/features.npy",
+      "bytes": 100853888
+    },
+    {
+      "path": "prepared/episodes/task10_demo_45/actions.npy",
+      "bytes": 9508
+    },
+    {
+      "path": "prepared/episodes/task10_demo_46/features.npy",
+      "bytes": 100853888
+    },
+    {
+      "path": "prepared/episodes/task10_demo_46/actions.npy",
+      "bytes": 9508
+    },
+    {
+      "path": "prepared/episodes/task10_demo_47/features.npy",
+      "bytes": 89714816
+    },
+    {
+      "path": "prepared/episodes/task10_demo_47/actions.npy",
+      "bytes": 8472
+    },
+    {
+      "path": "prepared/episodes/task10_demo_48/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task10_demo_48/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task10_demo_49/features.npy",
+      "bytes": 86403200
+    },
+    {
+      "path": "prepared/episodes/task10_demo_49/actions.npy",
+      "bytes": 8164
+    },
+    {
+      "path": "prepared/episodes/task10_demo_50/features.npy",
+      "bytes": 93929600
+    },
+    {
+      "path": "prepared/episodes/task10_demo_50/actions.npy",
+      "bytes": 8864
+    },
+    {
+      "path": "prepared/episodes/task10_demo_51/features.npy",
+      "bytes": 89714816
+    },
+    {
+      "path": "prepared/episodes/task10_demo_51/actions.npy",
+      "bytes": 8472
+    },
+    {
+      "path": "prepared/episodes/task10_demo_52/features.npy",
+      "bytes": 90919040
+    },
+    {
+      "path": "prepared/episodes/task10_demo_52/actions.npy",
+      "bytes": 8584
+    },
+    {
+      "path": "prepared/episodes/task10_demo_53/features.npy",
+      "bytes": 92725376
+    },
+    {
+      "path": "prepared/episodes/task10_demo_53/actions.npy",
+      "bytes": 8752
+    },
+    {
+      "path": "prepared/episodes/task10_demo_54/features.npy",
+      "bytes": 104466560
+    },
+    {
+      "path": "prepared/episodes/task10_demo_54/actions.npy",
+      "bytes": 9844
+    },
+    {
+      "path": "prepared/episodes/task10_demo_55/features.npy",
+      "bytes": 82489472
+    },
+    {
+      "path": "prepared/episodes/task10_demo_55/actions.npy",
+      "bytes": 7800
+    },
+    {
+      "path": "prepared/episodes/task10_demo_56/features.npy",
+      "bytes": 82188416
+    },
+    {
+      "path": "prepared/episodes/task10_demo_56/actions.npy",
+      "bytes": 7772
+    },
+    {
+      "path": "prepared/episodes/task10_demo_57/features.npy",
+      "bytes": 88510592
+    },
+    {
+      "path": "prepared/episodes/task10_demo_57/actions.npy",
+      "bytes": 8360
+    },
+    {
+      "path": "prepared/episodes/task10_demo_58/features.npy",
+      "bytes": 81887360
+    },
+    {
+      "path": "prepared/episodes/task10_demo_58/actions.npy",
+      "bytes": 7744
+    },
+    {
+      "path": "prepared/episodes/task10_demo_59/features.npy",
+      "bytes": 91521152
+    },
+    {
+      "path": "prepared/episodes/task10_demo_59/actions.npy",
+      "bytes": 8640
+    },
+    {
+      "path": "prepared/episodes/task10_demo_60/features.npy",
+      "bytes": 88209536
+    },
+    {
+      "path": "prepared/episodes/task10_demo_60/actions.npy",
+      "bytes": 8332
+    },
+    {
+      "path": "prepared/episodes/task10_demo_61/features.npy",
+      "bytes": 95735936
+    },
+    {
+      "path": "prepared/episodes/task10_demo_61/actions.npy",
+      "bytes": 9032
+    },
+    {
+      "path": "prepared/episodes/task10_demo_62/features.npy",
+      "bytes": 94230656
+    },
+    {
+      "path": "prepared/episodes/task10_demo_62/actions.npy",
+      "bytes": 8892
+    },
+    {
+      "path": "prepared/episodes/task10_demo_63/features.npy",
+      "bytes": 88811648
+    },
+    {
+      "path": "prepared/episodes/task10_demo_63/actions.npy",
+      "bytes": 8388
+    },
+    {
+      "path": "prepared/episodes/task10_demo_64/features.npy",
+      "bytes": 90015872
+    },
+    {
+      "path": "prepared/episodes/task10_demo_64/actions.npy",
+      "bytes": 8500
+    },
+    {
+      "path": "prepared/episodes/task10_demo_65/features.npy",
+      "bytes": 87306368
+    },
+    {
+      "path": "prepared/episodes/task10_demo_65/actions.npy",
+      "bytes": 8248
+    },
+    {
+      "path": "prepared/episodes/task10_demo_66/features.npy",
+      "bytes": 84596864
+    },
+    {
+      "path": "prepared/episodes/task10_demo_66/actions.npy",
+      "bytes": 7996
+    },
+    {
+      "path": "prepared/episodes/task10_demo_67/features.npy",
+      "bytes": 83091584
+    },
+    {
+      "path": "prepared/episodes/task10_demo_67/actions.npy",
+      "bytes": 7856
+    },
+    {
+      "path": "prepared/episodes/task10_demo_68/features.npy",
+      "bytes": 85801088
+    },
+    {
+      "path": "prepared/episodes/task10_demo_68/actions.npy",
+      "bytes": 8108
+    },
+    {
+      "path": "prepared/episodes/task10_demo_69/features.npy",
+      "bytes": 93628544
+    },
+    {
+      "path": "prepared/episodes/task10_demo_69/actions.npy",
+      "bytes": 8836
+    },
+    {
+      "path": "prepared/episodes/task10_demo_70/features.npy",
+      "bytes": 87005312
+    },
+    {
+      "path": "prepared/episodes/task10_demo_70/actions.npy",
+      "bytes": 8220
+    },
+    {
+      "path": "prepared/episodes/task10_demo_71/features.npy",
+      "bytes": 84596864
+    },
+    {
+      "path": "prepared/episodes/task10_demo_71/actions.npy",
+      "bytes": 7996
+    },
+    {
+      "path": "prepared/episodes/task10_demo_72/features.npy",
+      "bytes": 92424320
+    },
+    {
+      "path": "prepared/episodes/task10_demo_72/actions.npy",
+      "bytes": 8724
+    },
+    {
+      "path": "prepared/episodes/task10_demo_74/features.npy",
+      "bytes": 87306368
+    },
+    {
+      "path": "prepared/episodes/task10_demo_74/actions.npy",
+      "bytes": 8248
+    },
+    {
+      "path": "prepared/episodes/task10_demo_75/features.npy",
+      "bytes": 83994752
+    },
+    {
+      "path": "prepared/episodes/task10_demo_75/actions.npy",
+      "bytes": 7940
+    },
+    {
+      "path": "prepared/episodes/task10_demo_76/features.npy",
+      "bytes": 82489472
+    },
+    {
+      "path": "prepared/episodes/task10_demo_76/actions.npy",
+      "bytes": 7800
+    },
+    {
+      "path": "prepared/episodes/task10_demo_77/features.npy",
+      "bytes": 85500032
+    },
+    {
+      "path": "prepared/episodes/task10_demo_77/actions.npy",
+      "bytes": 8080
+    },
+    {
+      "path": "prepared/episodes/task10_demo_78/features.npy",
+      "bytes": 85198976
+    },
+    {
+      "path": "prepared/episodes/task10_demo_78/actions.npy",
+      "bytes": 8052
+    },
+    {
+      "path": "prepared/episodes/task10_demo_79/features.npy",
+      "bytes": 82790528
+    },
+    {
+      "path": "prepared/episodes/task10_demo_79/actions.npy",
+      "bytes": 7828
+    },
+    {
+      "path": "prepared/episodes/task10_demo_80/features.npy",
+      "bytes": 86102144
+    },
+    {
+      "path": "prepared/episodes/task10_demo_80/actions.npy",
+      "bytes": 8136
+    },
+    {
+      "path": "prepared/episodes/task10_demo_81/features.npy",
+      "bytes": 90316928
+    },
+    {
+      "path": "prepared/episodes/task10_demo_81/actions.npy",
+      "bytes": 8528
+    },
+    {
+      "path": "prepared/episodes/task10_demo_82/features.npy",
+      "bytes": 86403200
+    },
+    {
+      "path": "prepared/episodes/task10_demo_82/actions.npy",
+      "bytes": 8164
+    },
+    {
+      "path": "prepared/episodes/task10_demo_83/features.npy",
+      "bytes": 87005312
+    },
+    {
+      "path": "prepared/episodes/task10_demo_83/actions.npy",
+      "bytes": 8220
+    },
+    {
+      "path": "prepared/episodes/task10_demo_84/features.npy",
+      "bytes": 89413760
+    },
+    {
+      "path": "prepared/episodes/task10_demo_84/actions.npy",
+      "bytes": 8444
+    },
+    {
+      "path": "prepared/episodes/task10_demo_85/features.npy",
+      "bytes": 84897920
+    },
+    {
+      "path": "prepared/episodes/task10_demo_85/actions.npy",
+      "bytes": 8024
+    },
+    {
+      "path": "prepared/episodes/task10_demo_86/features.npy",
+      "bytes": 91822208
+    },
+    {
+      "path": "prepared/episodes/task10_demo_86/actions.npy",
+      "bytes": 8668
+    },
+    {
+      "path": "prepared/episodes/task10_demo_87/features.npy",
+      "bytes": 86102144
+    },
+    {
+      "path": "prepared/episodes/task10_demo_87/actions.npy",
+      "bytes": 8136
+    },
+    {
+      "path": "prepared/episodes/task10_demo_88/features.npy",
+      "bytes": 86403200
+    },
+    {
+      "path": "prepared/episodes/task10_demo_88/actions.npy",
+      "bytes": 8164
+    },
+    {
+      "path": "prepared/episodes/task10_demo_89/features.npy",
+      "bytes": 91521152
+    },
+    {
+      "path": "prepared/episodes/task10_demo_89/actions.npy",
+      "bytes": 8640
+    },
+    {
+      "path": "prepared/episodes/task10_demo_90/features.npy",
+      "bytes": 93327488
+    },
+    {
+      "path": "prepared/episodes/task10_demo_90/actions.npy",
+      "bytes": 8808
+    },
+    {
+      "path": "prepared/episodes/task10_demo_91/features.npy",
+      "bytes": 88209536
+    },
+    {
+      "path": "prepared/episodes/task10_demo_91/actions.npy",
+      "bytes": 8332
+    },
+    {
+      "path": "prepared/episodes/task10_demo_92/features.npy",
+      "bytes": 83994752
+    },
+    {
+      "path": "prepared/episodes/task10_demo_92/actions.npy",
+      "bytes": 7940
+    },
+    {
+      "path": "prepared/episodes/task10_demo_93/features.npy",
+      "bytes": 85500032
+    },
+    {
+      "path": "prepared/episodes/task10_demo_93/actions.npy",
+      "bytes": 8080
+    },
+    {
+      "path": "prepared/episodes/task10_demo_94/features.npy",
+      "bytes": 99348608
+    },
+    {
+      "path": "prepared/episodes/task10_demo_94/actions.npy",
+      "bytes": 9368
+    },
+    {
+      "path": "prepared/episodes/task10_demo_95/features.npy",
+      "bytes": 88811648
+    },
+    {
+      "path": "prepared/episodes/task10_demo_95/actions.npy",
+      "bytes": 8388
+    },
+    {
+      "path": "prepared/episodes/task10_demo_96/features.npy",
+      "bytes": 89112704
+    },
+    {
+      "path": "prepared/episodes/task10_demo_96/actions.npy",
+      "bytes": 8416
+    },
+    {
+      "path": "prepared/episodes/task10_demo_97/features.npy",
+      "bytes": 96036992
+    },
+    {
+      "path": "prepared/episodes/task10_demo_97/actions.npy",
+      "bytes": 9060
+    },
+    {
+      "path": "prepared/episodes/task10_demo_98/features.npy",
+      "bytes": 95133824
+    },
+    {
+      "path": "prepared/episodes/task10_demo_98/actions.npy",
+      "bytes": 8976
+    },
+    {
+      "path": "prepared/episodes/task10_demo_99/features.npy",
+      "bytes": 88510592
+    },
+    {
+      "path": "prepared/episodes/task10_demo_99/actions.npy",
+      "bytes": 8360
+    },
+    {
+      "path": "prepared/episodes/task10_demo_100/features.npy",
+      "bytes": 84596864
+    },
+    {
+      "path": "prepared/episodes/task10_demo_100/actions.npy",
+      "bytes": 7996
+    }
+  ]
+}

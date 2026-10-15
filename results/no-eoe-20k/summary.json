@@ -1,0 +1,72 @@
+{
+  "trials": 200,
+  "successes": 51,
+  "whole_task_success": 0.255,
+  "subgoals_completed": 297,
+  "subgoals_total": 620,
+  "pooled_subgoal_completion": 0.4790322580645161,
+  "mean_subgoal_completion": 0.4914285714285714,
+  "overshot": 28,
+  "tasks": [
+    {
+      "task": 1,
+      "trials": 20,
+      "successes": 11,
+      "subgoal_completion": 0.7
+    },
+    {
+      "task": 2,
+      "trials": 20,
+      "successes": 3,
+      "subgoal_completion": 0.45
+    },
+    {
+      "task": 3,
+      "trials": 20,
+      "successes": 5,
+      "subgoal_completion": 0.5833333333333334
+    },
+    {
+      "task": 4,
+      "trials": 20,
+      "successes": 0,
+      "subgoal_completion": 0.5166666666666667
+    },
+    {
+      "task": 5,
+      "trials": 20,
+      "successes": 4,
+      "subgoal_completion": 0.65
+    },
+    {
+      "task": 6,
+      "trials": 20,
+      "successes": 2,
+      "subgoal_completion": 0.6142857142857143
+    },
+    {
+      "task": 7,
+      "trials": 20,
+      "successes": 0,
+      "subgoal_completion": 0.05
+    },
+    {
+      "task": 8,
+      "trials": 20,
+      "successes": 0,
+      "subgoal_completion": 0.0
+    },
+    {
+      "task": 9,
+      "trials": 20,
+      "successes": 12,
+      "subgoal_completion": 0.6
+    },
+    {
+      "task": 10,
+      "trials": 20,
+      "successes": 14,
+      "subgoal_completion": 0.75
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "source": "Official Hugging Face dataset revision and LFS metadata",
+  "datasets": [
+    {
+      "repository": "libero-mem/LIBERO-Mem",
+      "revision": "6df130c05b82e09294fa9534e84a069687b72d33",
+      "tree_url": "https://huggingface.co/datasets/libero-mem/LIBERO-Mem/tree/6df130c05b82e09294fa9534e84a069687b72d33",
+      "purpose": "RGB/action demonstrations",
+      "local_files_byte_verified": 0,
+      "note": "Upstream expected digests only; full raw-RGB re-extraction has not been verified.",
+      "files": [
+        {
+          "path": "KITCHEN_SCENE1_10_put_the_cream_cheese_in_the_nearest_basket_and_place_the_empty_basket_in_the_center_demo.hdf5",
+          "bytes": 19947570362,
+          "sha256": "bcb9357581d17a6312a34c1f7bd855b9bb7357ca3d5a6aa1c5be2d2a58e1d85b"
+        },
+        {
+          "path": "KITCHEN_SCENE1_1_pick_up_the_bowl_and_place_it_back_on_the_plate_demo.hdf5",
+          "bytes": 9668822790,
+          "sha256": "1737ddd2f460fc2f9f2fef735cb0f373c2ac86b5d4e9ed7a6ebe9a2f00742b22"
+        },
+        {
+          "path": "KITCHEN_SCENE1_2_lift_the_bottle_and_put_it_down_on_the_plate_demo.hdf5",
+          "bytes": 10119251245,
+          "sha256": "552ed9aea42960667a1319bcb4a5d45ae6df397e29bfcc733ed8df0f34a786a5"
+        },
+        {
+          "path": "KITCHEN_SCENE1_3_lift_the_bowl_and_place_it_back_on_the_plate_3_times_demo.hdf5",
+          "bytes": 18431683248,
+          "sha256": "bffe4eff3a7648ede07d04b4f573367ad34d30200390826f7c072bdd1603cb9f"
+        },
+        {
+          "path": "KITCHEN_SCENE1_4_pick_up_the_bottle_and_put_it_down_the_plate_3_times_demo.hdf5",
+          "bytes": 18478895915,
+          "sha256": "023ecc0846fc3cc16fdfb9fb21246ba3731df883b6d42769b571bc57be26d4d9"
+        },
+        {
+          "path": "KITCHEN_SCENE1_5_lift_the_bowl_and_place_it_back_on_the_plate_5_times_demo.hdf5",
+          "bytes": 24680756756,
+          "sha256": "7b31866d19f22aee8caea420a2ff74f9857b4912f9a4b960c747395fcdd55bdf"
+        },
+        {
+          "path": "KITCHEN_SCENE1_6_pick_up_the_bowl_and_place_it_on_the_plate_7_times_demo.hdf5",
+          "bytes": 36965836104,
+          "sha256": "b946659bbbf98c457aab337357cea1738c2a527f32472f41499123012f23117d"
+        },
+        {
+          "path": "KITCHEN_SCENE1_7_swap_the_2_bowls_on_their_plates_using_the_empty_plate_demo.hdf5",
+          "bytes": 23366117457,
+          "sha256": "8cbe1c2e7b5d1664fdc7e08c773aa0beabbc4ba5079bf47d4a10f9e6c9190757"
+        },
+        {
+          "path": "KITCHEN_SCENE1_8_rotate_the_3_bowls_on_their_plates_from_left_to_right_using_the_empty_plate_demo.hdf5",
+          "bytes": 28219269155,
+          "sha256": "399061494f4a0b4ac8a5ce646aa5755a6698ec65fbd4e6843143de5e95c1c555"
+        },
+        {
+          "path": "KITCHEN_SCENE1_9_put_the_cream_cheese_in_the_nearest_basket_and_place_that_basket_in_the_center_demo.hdf5",
+          "bytes": 20858283876,
+          "sha256": "f825fa2f8094f5ec45994e354dcee0ded16e8c6f9d046d4a0e2b919441246748"
+        }
+      ]
+    },
+    {
+      "repository": "libero-mem/LIBERO-Mem-Raw",
+      "revision": "61917674055e8b1cbbfd22c1b54c28d20c1a1584",
+      "tree_url": "https://huggingface.co/datasets/libero-mem/LIBERO-Mem-Raw/tree/61917674055e8b1cbbfd22c1b54c28d20c1a1584",
+      "purpose": "initial states and evaluation horizons",
+      "local_files_byte_verified": 10,
+      "note": "All local evaluation HDF5 files match the official LFS digests.",
+      "files": [
+        {
+          "path": "KITCHEN_SCENE1_10_put_the_cream_cheese_in_the_nearest_basket_and_place_the_empty_basket_in_the_center_demo.hdf5",
+          "bytes": 25280904,
+          "sha256": "53afeac724e9ead7eedf289e9fc985f87b071aa9146b3694d6c25e16760bc72c",
+          "local_evaluation_file_matches": true
+        },
+        {
+          "path": "KITCHEN_SCENE1_1_pick_up_the_bowl_and_place_it_back_on_the_plate_demo.hdf5",
+          "bytes": 24662872,
+          "sha256": "23230bd34e291d321158822c4f5b24c7830ec5c049dab72a79a814538a864f2d",
+          "local_evaluation_file_matches": true
+        },
+        {
+          "path": "KITCHEN_SCENE1_2_lift_the_bottle_and_put_it_down_on_the_plate_demo.hdf5",
+          "bytes": 25236336,
+          "sha256": "f893196fa53a60903fcfa9b380dd357887fe7b000332357a9d7f0aa542fa563f",
+          "local_evaluation_file_matches": true
+        },
+        {
+          "path": "KITCHEN_SCENE1_3_lift_the_bowl_and_place_it_back_on_the_plate_3_times_demo.hdf5",
+          "bytes": 37695016,
+          "sha256": "7794c587646c3bb28fcf146c5673625fd1d354ef3c820f86192d563776581bdb",
+          "local_evaluation_file_matches": true
+        },
+        {
+          "path": "KITCHEN_SCENE1_4_pick_up_the_bottle_and_put_it_down_the_plate_3_times_demo.hdf5",
+          "bytes": 36722688,
+          "sha256": "ee1f828a392cd32df2df35e26cc5ea84e21ba6dd4dcaf46ce760e66699319538",
+          "local_evaluation_file_matches": true
+        },
+        {
+          "path": "KITCHEN_SCENE1_5_lift_the_bowl_and_place_it_back_on_the_plate_5_times_demo.hdf5",
+          "bytes": 47346904,
+          "sha256": "77246ed847b37905fcd8fd236a6aa2b1cd520c351d6a08fc08f9d768fffae0cd",
+          "local_evaluation_file_matches": true
+        },
+        {
+          "path": "KITCHEN_SCENE1_6_pick_up_the_bowl_and_place_it_on_the_plate_7_times_demo.hdf5",
+          "bytes": 63032192,
+          "sha256": "0341d34d5da651db56b41d984e4b51954672cdbd8d1c6eb209197668ec4ba54f",
+          "local_evaluation_file_matches": true
+        },
+        {
+          "path": "KITCHEN_SCENE1_7_swap_the_2_bowls_on_their_plates_using_the_empty_plate_demo.hdf5",
+          "bytes": 48758920,
+          "sha256": "257f2a48d7c127c1abe45d0feea0f146e1a01165693be5f535fef3a2dd48d71c",
+          "local_evaluation_file_matches": true
+        },
+        {
+          "path": "KITCHEN_SCENE1_8_rotate_the_3_bowls_on_their_plates_from_left_to_right_using_the_empty_plate_demo.hdf5",
+          "bytes": 74236352,
+          "sha256": "77dcad3d4f04b36441a70dc95b4cd2131189c5ebfa105bf92ce5d2a8125a16af",
+          "local_evaluation_file_matches": true
+        },
+        {
+          "path": "KITCHEN_SCENE1_9_put_the_cream_cheese_in_the_nearest_basket_and_place_that_basket_in_the_center_demo.hdf5",
+          "bytes": 25979784,
+          "sha256": "16ddf346d85a647d3611cb37b2b68fd82b32e6d456359b332ed0268a4db5cf2a",
+          "local_evaluation_file_matches": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "selection": "First T9 held-out trial in the frozen evaluation plan, independent of outcome",
+  "task": 9,
+  "source": "KITCHEN_SCENE1_9_put_the_cream_cheese_in_the_nearest_basket_and_place_that_basket_in_the_center_demo.hdf5:demo_101",
+  "initial_state_sha256": "6a2bf1a0e0f284161fd0636bdad0d6b6c0c0118a3a00db6490790f4bce1aed4d",
+  "horizon": 390,
+  "frame_steps": [
+    0,
+    80,
+    150,
+    230,
+    300,
+    380
+  ],
+  "checkpoint_sha256": "6278b2c58081b0a481039b1b2bc76bd6c70b35335e0ab1c28bb591f0e61345c5",
+  "episode": "demo_101",
+  "seed": 9143,
+  "success": true,
+  "subgoals_completed": 2,
+  "subgoals_total": 2,
+  "overshot": false,
+  "frames": [
+    {
+      "step": 0,
+      "filename": "step_0000.png",
+      "original_frame": "frames/task_09_demo_101/step_0000.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 56126,
+      "sha256": "ca303de2ec674ea1522bb0c8dd206361739c67719c0b1276a25b8d599466b6fc"
+    },
+    {
+      "step": 80,
+      "filename": "step_0080.png",
+      "original_frame": "frames/task_09_demo_101/step_0080.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 54787,
+      "sha256": "56a2bb6e55d88d98723675a780ae18705809064bdb6013d451df688bf40c42d6"
+    },
+    {
+      "step": 150,
+      "filename": "step_0150.png",
+      "original_frame": "frames/task_09_demo_101/step_0150.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 56084,
+      "sha256": "229927eb212c8d1fe93adf90ece061f3102a138db93539ecd576a74ac485c0fa"
+    },
+    {
+      "step": 230,
+      "filename": "step_0230.png",
+      "original_frame": "frames/task_09_demo_101/step_0230.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 54782,
+      "sha256": "52160d66ed8fe2f6ea86014db39dab137abe9f8486ee61af5b5b75a3f2d78af2"
+    },
+    {
+      "step": 300,
+      "filename": "step_0300.png",
+      "original_frame": "frames/task_09_demo_101/step_0300.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 58387,
+      "sha256": "41050a4f925f0113f3e0cabd5e24c8ce3ce2246e78095c238442023c6c581f0e"
+    },
+    {
+      "step": 380,
+      "filename": "step_0380.png",
+      "original_frame": "frames/task_09_demo_101/step_0380.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 58269,
+      "sha256": "a173e6b5e2605843b06e98bf646974bb9022847ce45a8738a23c01074ef1abf6"
+    }
+  ]
+}

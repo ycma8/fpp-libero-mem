@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/libero-mem/libero-mem",
+  "revision": "0eee0defa4024e51511b6e15a79f30e9620209de",
+  "scope": "Every Python source file in the frozen simulator snapshot, including vendored robosuite and robomimic",
+  "upstream_python_files": 584,
+  "snapshot_python_files": 584,
+  "missing": [],
+  "extra": [],
+  "changed": [],
+  "all_python_files_match": true
+}
